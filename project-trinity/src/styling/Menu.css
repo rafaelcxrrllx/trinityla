@@ -47,7 +47,7 @@
   .rot-45deg {
     transform: rotate(-45deg);
     position: relative;
-    top: -10px;
+    top: -12px;
   }
   
   .hidden {

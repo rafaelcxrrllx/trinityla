@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-//   const [isMobile, setIsMobile] = useState(window.innerWidth <= 1024);
 
   const handleToggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -14,7 +13,8 @@ const Menu = () => {
     <div>
       <div className="hamburger-container" onClick={handleToggleMenu}>
         <motion.ul 
-            animate={menuOpen ? { y: '1vw' } : { y: '0vw' }}
+            animate={{ y: menuOpen ? 10: 0}}
+            transition={{ duration: .3 }}
             className="hamburger">
           <li className={menuOpen ? 'rot45deg' : ''}></li>
           <li className={menuOpen ? 'rot-45deg' : ''}></li>

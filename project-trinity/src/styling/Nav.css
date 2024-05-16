@@ -36,12 +36,9 @@
     color: black;
   }
 
-  #logo {
-    width: 70px;
-  }
 
   #emblem {
-    width: 100px;
+    width: 111px;
   }
 
   @media (min-width: 1025px) {
