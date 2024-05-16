@@ -1,0 +1,46 @@
+.hamburger-container {
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hamburger-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hamburger-menu li {
+    width: 35px;
+    height: 25px;
+    margin: 10px 0;
+    transition: 0.4s;
+  }
+  
+  
+  .hamburger li {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .rot45deg {
+    transform: rotate(45deg);
+  }
+  
+  .rot-45deg {
+    transform: rotate(-45deg);
+    position: relative;
+    top: -10px;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
