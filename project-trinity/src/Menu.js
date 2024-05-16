@@ -13,19 +13,24 @@ const Menu = () => {
     <div>
       <div className="hamburger-container" onClick={handleToggleMenu}>
         <motion.ul 
-            animate={{ y: menuOpen ? 10: 0}}
-            transition={{ duration: .3 }}
+          
             className="hamburger">
-          <li className={menuOpen ? 'rot45deg' : ''}></li>
-          <li className={menuOpen ? 'rot-45deg' : ''}></li>
-          <li className={menuOpen ? 'hidden' : ''}></li>
+          <motion.li 
+             animate={{ x: menuOpen ? 11: 0, y: menuOpen ? 5: 0, rotate: menuOpen ? 45: 0}}
+             transition={{ duration: 0 }}
+            ></motion.li>
+          <motion.li 
+          animate={{ x: menuOpen ? -11: 0, y: menuOpen ? -5: 0, rotate: menuOpen ? -45: 0}}
+          transition={{ duration: 0 }}
+            ></motion.li>
+          <motion.li ></motion.li>
         </motion.ul>
       </div>
       <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
         animate={menuOpen ? { height: 'auto', opacity: 1 } : { height: 0, opacity: 0 }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: .3 }}
         style={{ overflow: 'hidden' }}>
         {/* Menu content goes here */}
         <ul className="hamburger-menu">
