@@ -1,17 +1,26 @@
 .hamburger-container {
     cursor: pointer;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 12px;
   }
   
   .hamburger {
     list-style: none;
     padding: 0;
     margin: 0;
+    padding-top: 5px;
+
   }
 
   .hamburger-menu {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 20px;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+    padding-bottom: 10px;
+
   }
 
   .hamburger-menu li {
@@ -19,14 +28,15 @@
     height: 25px;
     margin: 10px 0;
     transition: 0.4s;
+    margin-left: 12px;
   }
   
   
   .hamburger li {
-    width: 35px;
-    height: 5px;
+    width: 33px;
+    height: 2px;
     background-color: #333;
-    margin: 6px 0;
+    margin: 10px 0;
     transition: 0.4s;
   }
   
@@ -42,5 +52,15 @@
   
   .hidden {
     opacity: 0;
+
+  }
+
+  @media (min-width: 1025px) {
+    .hamburger-container {
+    
+      display: none;
+    }
+
+
   }
   

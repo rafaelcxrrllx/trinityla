@@ -1,9 +1,11 @@
 import Menu from './Menu';
-import logo from './logo.svg';
+import Nav from './Nav';
+import logo from './assets/logo.svg';
 
 function Home() {
   return (
     <div className='home-container'>
+      <Nav/>
       <Menu/>
     </div>
   );
