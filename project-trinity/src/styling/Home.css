@@ -1,8 +1,71 @@
+
+
 .trinity-container {
     text-align: center;
     width: 100%;
 }
+
 .trinity-container img {
     text-align: center;
-    width: 100%;
+    width: 400px;
+}
+
+.wave-container img {
+    text-align: center;
+    width: 600px;
+}
+
+#hidden {
+    display: none;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+@media (max-width: 600px) {
+    .wave-container img{
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .wave-container {
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .wave-container img {
+        text-align: center;
+        width: 80%;
+    }
+
+    .trinity-container img {
+        width: 600px;
+    }
+}
+
+@media (min-width: 1025px) {
+
+    .wave-container {
+        text-align: center;
+        margin-top: 16px;
+    }
+
+    .wave-container {
+        display: block;
+        text-align: center;
+    }
+
+    .wave-container img {
+        text-align: center;
+        width: 50%;
+    }
+
+    .wave-container img {
+        text-align: center;
+        width: 60%;
+    }
+
 }
