@@ -1,7 +1,17 @@
-html {
+html, body {
+    height: 100%;
     margin: 0;
-    padding: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
 
 .border-line {
     text-decoration: solid;
@@ -10,4 +20,24 @@ html {
 
 body {
     text-align: center;
+}
+
+h1, h2 {
+    font-family: Playfair Display;
+    color: #0B2545;
+
+}
+
+h3 {
+    font-family: Sumana;
+    color: #0B2545;
+}
+
+p {
+    font: Karla;
+    color: #0B2545;
+}
+
+a:visited {
+    color: #0B2545; /* Link color after it has been visited */
 }

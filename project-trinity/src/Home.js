@@ -12,6 +12,7 @@ import Nav from './Nav';
 // Assets
 import hero from './assets/hero-shot-desktop.jpeg'
 import stars from './assets/stars.svg'
+import Footer from './Footer';
 
 
 function Home() {
@@ -38,6 +39,7 @@ function Home() {
         
         <img src={stars} id="stars"  alt="three stars"/>
       </div>
+      <Footer/>
     </div>
   );
 }

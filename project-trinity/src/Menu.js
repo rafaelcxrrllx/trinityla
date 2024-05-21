@@ -1,5 +1,11 @@
+// Global Styling
+import './styling/styles.css'
+
+// Local Styling
+import './styling/Menu.css'
+
+// Components
 import React, { useState, useEffect } from 'react';
-import './styling/Menu.css'; // Assuming you have a CSS file for the styles
 import { motion } from 'framer-motion';
 
 const Menu = () => {
