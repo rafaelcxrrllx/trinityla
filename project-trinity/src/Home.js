@@ -1,11 +1,10 @@
 import Carousel from './Carousel';
 import Menu from './Menu';
 import Nav from './Nav';
-import logo from './assets/logo.svg';
-import trinity from './assets/title.svg'
 import './styling/Home.css'
 import './styling/styles.css'
-import wave from './assets/wave.svg'
+import hero from './assets/hero-shot-desktop.jpeg'
+import stars from './assets/stars.svg'
 
 function Home() {
   return (
@@ -13,12 +12,19 @@ function Home() {
       <Nav/>
       <Menu/>
       <Carousel/>
+      <h1 className='slogan'>HEART OF GOD</h1>
       <div className='wave-container'>
-        <img src={wave}  alt="Trinity, Los Angeles"/>
+        <img src={hero}  alt="a picture of trinity and his bmw"/>
       </div>
       <div className='trinity-container'>
-      <img src={trinity} alt="Trinity, Los Angeles"/>
-      <p>Your Body is the Temple, Your Life is the Religion</p>
+        <h1 className="spaced">
+          TRINITY
+        </h1>
+        <h2 className="less-spaced">
+          Los Angeles
+        </h2>
+        <img src={stars} id="stars"  alt="three stars"/>
+      
       </div>
       
     </div>
