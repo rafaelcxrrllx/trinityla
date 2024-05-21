@@ -7,3 +7,7 @@ html {
     text-decoration: solid;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
 }
+
+body {
+    text-align: center;
+}

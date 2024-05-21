@@ -1,32 +1,43 @@
+// Global Styling
+import './styling/styles.css'
+
+// Local Styling
+import './styling/Home.css'
+
+// Components
 import Carousel from './Carousel';
 import Menu from './Menu';
 import Nav from './Nav';
-import './styling/Home.css'
-import './styling/styles.css'
+
+// Assets
 import hero from './assets/hero-shot-desktop.jpeg'
 import stars from './assets/stars.svg'
 
+
 function Home() {
+
   return (
+
     <div className='home-container'>
       <Nav/>
       <Menu/>
-      <Carousel/>
-      <h1 className='slogan'>HEART OF GOD</h1>
-      <div className='wave-container'>
-        <img src={hero}  alt="a picture of trinity and his bmw"/>
+      <div className='trinity-container'>
+        <h1 className='slogan'>𝐇𝐄𝐀𝐑𝐓 𝐎𝐅 𝐆𝐎𝐃</h1>
       </div>
+      <Carousel/>
+      <div className='hero-container'>
+        <img src={hero}  alt="a picture of trinity and his bmw"/>
+      </div> 
       <div className='trinity-container'>
         <h1 className="spaced">
-          TRINITY
+        ♱TRINITY♱
         </h1>
         <h2 className="less-spaced">
           Los Angeles
         </h2>
+        
         <img src={stars} id="stars"  alt="three stars"/>
-      
       </div>
-      
     </div>
   );
 }

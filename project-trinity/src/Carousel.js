@@ -23,6 +23,7 @@ const Carousel = () => {
   }, [images.length]);
 
   return (
+    <div className='carousel-container'>
     <div className="carousel">
       <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
@@ -34,6 +35,7 @@ const Carousel = () => {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 };

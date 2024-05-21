@@ -1,52 +1,49 @@
 
-
 .trinity-container {
     text-align: center;
     width: 100%;
+    padding-bottom: 16px;
+    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
 }
 
-.trinity-container img {
+.home-container {
     text-align: center;
-    width: 400px;
 }
 
-.wave-container img {
-    text-align: center;
-    width: 600px;
-}
-
-.wave-container {
+.hero-container {
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     padding-bottom: 16px;
 }
 
 .spaced {
     letter-spacing: 14px;
-    margin-bottom: 0px; 
-
+    margin-bottom: 7px;
 }
 
 .less-spaced {
     letter-spacing: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #stars {
     width: 144px;
 }
 
-#hidden {
-    display: none;
-    margin-left: 16px;
-    margin-right: 16px;
+.slogan {
+    word-spacing: 14px;
 }
 
+
 @media (max-width: 600px) {
-    .wave-container img{
+    .hero-container img{
         display: none;
     }
 
     .slogan {
-        display: none;
+        padding-top: 8px;
+        margin-bottom: 8px;
+        text-align: center;
     }
 
 }
@@ -54,38 +51,45 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    .wave-container {
+    .hero-container {
         text-align: center;
         margin-top: 16px;
     }
 
-    .wave-container img {
+    .hero-container img {
         text-align: center;
         width: 98%;
     }
 
-    .trinity-container img {
-        width: 600px;
+    .trinity-container {
+
+        box-shadow: none;
     }
 
     .slogan {
-       display: none;
+        position: absolute;
+        font-size: 50px;
+        left: 50px;
+        top: 100px;
+        color: white;
+        text-align: center;
+        mix-blend-mode: soft-light;
     }
 }
 
 @media (min-width: 1025px) {
 
-    .wave-container {
+    .hero-container {
         text-align: center;
         margin-top: 16px;
     }
 
-    .wave-container {
+    .hero-container {
         display: block;
         text-align: center;
     }
 
-    .wave-container img {
+    .hero-container img {
         text-align: center;
         width: 98%;
     }
@@ -93,9 +97,16 @@
     .slogan {
         position: absolute;
         font-size: 100px;
-        margin-left: 100px;
-        margin-top: 100px;
+        left: 100px;
+        top: 100px;
         color: white;
+        text-align: center;
+        mix-blend-mode: soft-light;
+    }
+
+    .trinity-container {
+
+        box-shadow: none;
     }
 
 }
