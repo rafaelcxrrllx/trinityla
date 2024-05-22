@@ -45,3 +45,8 @@ a:visited {
 Link {
     color: #0B2545;
 }
+
+.landing-page-link {
+    text-decoration: none;
+    display: inline-block;
+}

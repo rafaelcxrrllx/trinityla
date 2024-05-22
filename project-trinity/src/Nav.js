@@ -17,8 +17,7 @@ function Nav() {
   return (
     <nav className="navbar">
       <div className="navbar-emblem">
-      <Link id='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/> </Link>
-        
+      <Link className='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/> </Link>
       </div>
       <div className="nav-menu">
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>

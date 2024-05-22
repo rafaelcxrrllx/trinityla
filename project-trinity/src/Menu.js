@@ -7,6 +7,8 @@ import './styling/Menu.css'
 // Components
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -40,9 +42,9 @@ const Menu = () => {
         style={{ overflow: 'hidden' }}>
         {/* Menu content goes here */}
         <ul className="hamburger-menu">
-          <li>Shop</li>
-          <li>Contact</li>
-          <li>About</li>
+          <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
+          <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
+          <li><Link className='landing-page-link' to="/about"> About </Link></li>
         </ul>
       </motion.div>
     </div>
