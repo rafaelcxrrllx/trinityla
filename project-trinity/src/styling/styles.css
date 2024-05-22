@@ -41,3 +41,7 @@ p, li {
 a:visited {
     color: #0B2545; /* Link color after it has been visited */
 }
+
+Link {
+    color: #0B2545;
+}
