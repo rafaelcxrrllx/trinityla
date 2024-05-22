@@ -33,6 +33,7 @@
     word-spacing: 14px;
     padding-bottom: 0px;
     margin-top: 0px;
+    color: #134074;
 }
 
 
@@ -42,8 +43,9 @@
     }
 
     .slogan {
-        padding-top: 8px;
-        margin-bottom: 8px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-bottom: 4px;
         text-align: center;
     }
 

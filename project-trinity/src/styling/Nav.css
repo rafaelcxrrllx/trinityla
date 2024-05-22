@@ -51,10 +51,9 @@
     width: 100%;
 }
 
-
-
   #emblem {
     width: 50px;
+    padding-left: 16px;
   }
 
   @media (min-width: 1025px) {
@@ -71,14 +70,7 @@
 
       .nav-menu {
         display: flex;
-
         padding: 12px;
-      }
-
-      .nav-menu a{
-        margin-left: 20px;
-      }
-
-      
+      }      
     
   }
