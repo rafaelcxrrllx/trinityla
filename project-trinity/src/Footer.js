@@ -18,7 +18,7 @@ function Footer() {
 
     <div className='footer-container'>
         <div>
-            <a href='https://www.instagram.com/lettersfromtrinity/'><img src={instagram} alt="instagram logo"/></a>
+            <a href='https://www.instagram.com/trinitylosangeles/'><img src={instagram} alt="instagram logo"/></a>
         </div>
         <div>
             <p>
