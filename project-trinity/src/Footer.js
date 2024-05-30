@@ -16,16 +16,18 @@ function Footer() {
 
   return (
 
-    <div className='footer-container'>
-        <div>
-            <a href='https://www.instagram.com/trinitylosangeles/'><img src={instagram} alt="instagram logo"/></a>
-        </div>
-        <div>
-            <p>
-            © 2024 TRINITY
-            </p>
-        </div>
-    </div>
+    <footer>
+      <div className='footer-container'>
+          <div>
+              <a href='https://www.instagram.com/trinitylosangeles/'><img src={instagram} alt="instagram logo"/></a>
+          </div>
+          <div>
+              <p>
+              © 2024 TRINITY
+              </p>
+          </div>
+      </div>
+    </footer>
   );
 }
 
