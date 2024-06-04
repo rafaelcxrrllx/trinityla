@@ -13,7 +13,14 @@
     padding: 12px 12px 12px 12px;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
 
+}
 
+#size {
+    display: flex;
+}
+
+#size p {
+    margin-right: 32px;
 }
 
 

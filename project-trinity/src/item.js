@@ -36,6 +36,26 @@ function Item() {
                 $45
             </p>
         </div>
+        <div className='item-description'>
+            <p>
+                White
+            </p>
+           
+        </div>
+        <div id="size" className='item-description'>
+            <p>
+                S
+            </p>
+            <p>
+                M
+            </p>
+            <p>
+                L
+            </p>
+            <p>
+                XL
+            </p>
+        </div>
         <Footer/>
             
     </div>
