@@ -21,7 +21,6 @@ function Home() {
 
     <div className='home-container'>
       <Nav/>
-      <Menu/>
       <Carousel/>
       <div className='hero-container'>
         <img src={hero}  alt="a picture of trinity and his bmw"/>

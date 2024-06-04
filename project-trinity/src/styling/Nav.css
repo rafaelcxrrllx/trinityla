@@ -1,19 +1,22 @@
 nav {
   position: sticky;
+  top: 0;
 }
 
 .navbar {
     display: flex;
-    position: sticky;
-    /* justify-content: space-around; */
     align-items: center;
+    justify-content: space-between;
     background-color: #FFF;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
-    margin-top: 12px;
+    padding: 12px 0 12px 0px;
+    position: -webkit-sticky; /* For Safari */
+    top: 0;
+    align-items: flex-start;  
   }
   
   .navbar-left, .navbar-center, .navbar-emblem, .navbar-logo {
-    flex: 1;
+    flex: 1000;
     text-align: center;
   }
 
@@ -65,6 +68,12 @@ nav {
       padding-left: 0px;
     }
 
+    .navbar {
+      justify-content: space-between;
+      z-index: 1;
+
+    }
+
 }
 
   @media (min-width: 1025px) {
@@ -78,11 +87,17 @@ nav {
 
       .navbar-emblem {
         text-align: left;
+        float: left;
       }
 
       .nav-menu {
+        float: right;
         display: flex;
-        padding: 12px;
-      }      
+        padding: 16px;
+      }   
+      
+      .menu-container {
+        display: none;
+      }
     
   }

@@ -21,7 +21,6 @@ function About() {
 
     <div className='home-container'>
       <Nav/>
-      <Menu/>
       <h1>
         About
       </h1>

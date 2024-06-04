@@ -39,19 +39,6 @@ const Menu = () => {
             </motion.li>
         </motion.ul>
       </div>
-      <motion.div 
-        id="menu"
-        initial={{ height: 0, opacity: 0 }}
-        animate={menuOpen ? { height: 'auto', opacity: 1 } : { height: 0, opacity: 0 }}
-        transition={{ duration: .3 }}
-        style={{ overflow: 'hidden' }}>
-        {/* Menu content goes here */}
-        <ul className="hamburger-menu">
-          <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
-          <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
-          <li><Link className='landing-page-link' to="/about"> About </Link></li>
-        </ul>
-      </motion.div>
     </div>
   );
 };

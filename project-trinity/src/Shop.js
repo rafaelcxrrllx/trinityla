@@ -23,7 +23,6 @@ function Shop() {
 
     <div className='home-container'>
       <Nav/>
-      <Menu/>
       <p className='title'>
         Shop
       </p>

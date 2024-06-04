@@ -23,7 +23,6 @@ function Item() {
   return (
     <div>
         <Nav/>
-        <Menu/>
         <div className='item-container'>
           <div className='item-img'>
             <img src={heartofgod} alt="an image of a shirt with a heart design"/>

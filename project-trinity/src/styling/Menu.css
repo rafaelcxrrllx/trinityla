@@ -1,6 +1,6 @@
 .hamburger-container {
     cursor: pointer;
-    position: absolute;
+    position: relative;
     right: 0;
     top: 0;
     margin-top: 32px;
@@ -14,13 +14,18 @@
     
   }
 
+  #menu {
+    z-index: 1000;
+  }
+
   .hamburger-menu {
     list-style: none;
     padding: 0;
     margin-top: 20px;
     background: #FFF;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     padding-bottom: 10px;
+    left: 0;
+    margin-left: 24px;
 
   }
 
@@ -29,7 +34,8 @@
     height: 25px;
     margin: 10px 0;
     transition: 0.4s;
-    margin-left: 16px;
+    margin-left: -20px;
+
   }
   
   

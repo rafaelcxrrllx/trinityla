@@ -21,7 +21,6 @@ function Contact() {
 
     <div className='home-container'>
       <Nav/>
-      <Menu/>
       <h1>
         Contact
       </h1>
