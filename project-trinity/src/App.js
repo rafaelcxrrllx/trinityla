@@ -3,6 +3,7 @@ import Home from './Home';
 import Shop from './Shop';
 import Contact from './Contact';
 import About from './About';
+import Item from './item';
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
+      <Route path='/item' element={<Item/>}/>
     </Routes>
   </HashRouter>
   );

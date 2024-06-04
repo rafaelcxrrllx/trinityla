@@ -24,14 +24,19 @@ const Menu = () => {
           
             className="hamburger">
           <motion.li 
-             animate={{ x: menuOpen ? 11: 0, y: menuOpen ? 5: 0, rotate: menuOpen ? 45: 0}}
+             animate={{  y: menuOpen ? 5: 0, rotate: menuOpen ? 40: 0}}
              transition={{ duration: 0 }}
             ></motion.li>
           <motion.li 
-          animate={{ x: menuOpen ? -11: 0, y: menuOpen ? -5: 0, rotate: menuOpen ? -45: 0}}
+          animate={{y: menuOpen ? -5: 0, rotate: menuOpen ? -40: 0}}
           transition={{ duration: 0 }}
             ></motion.li>
-          <motion.li ></motion.li>
+          <motion.li 
+           animate={{ opacity: menuOpen ? 0: 1 }}
+           transition={{ duration: 0 }}
+           
+           >
+            </motion.li>
         </motion.ul>
       </div>
       <motion.div 

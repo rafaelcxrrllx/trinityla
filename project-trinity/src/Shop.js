@@ -14,6 +14,7 @@ import Footer from './Footer';
 // Assets
 import heartofgod from './assets/items/shirt1-front.svg'
 import stars from './assets/stars.svg'
+import { Link } from 'react-router-dom';
 
 
 function Shop() {
@@ -23,26 +24,28 @@ function Shop() {
     <div className='home-container'>
       <Nav/>
       <Menu/>
-      <h1>
+      <p className='title'>
         Shop
-      </h1>
+      </p>
       <div className='items'>
-        <div className='item-container'>
+      <Link id='item-link' to="/item">
+        <div className='item'>
           <div className='item-img'>
             <img src={heartofgod} alt="an image of a shirt with a heart design"/>
           </div>
         </div>
-        <div className='item-container'>
+      </Link>
+        <div className='item'>
           <div className='item-img'>
             <img src={heartofgod} alt="an image of a shirt with a heart design"/>
           </div>
         </div>
-        <div className='item-container'>
+        <div className='item'>
           <div className='item-img'>
             <img src={heartofgod} alt="an image of a shirt with a heart design"/>
           </div>
         </div>
-        <div className='item-container'>
+        <div className='item'>
           <div className='item-img'>
             <img src={heartofgod} alt="an image of a shirt with a heart design"/>
           </div>

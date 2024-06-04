@@ -24,7 +24,6 @@ function Nav() {
         <Link id='landing-page-link' className="hover-underline" to="/contact"> Contact </Link>
         <Link id='landing-page-link' className="hover-underline" to="/about"> About </Link>
       </div>
-     
     </nav>
   );
 }
