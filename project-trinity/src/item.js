@@ -14,6 +14,7 @@ import Footer from './Footer';
 import heartofgod from './assets/items/shirt1-front.svg';
 import shirt from './assets/shirt-size.jpeg';
 import CarouselSlide from './CarouselSlide';
+import arrow from './assets/icons/arrow.svg'
 
 
 function Item() {
@@ -92,9 +93,18 @@ function Item() {
         </div>
        
         <div id="details" className='item-description'>
+          <div className='arrow-container'>
+
+          
             <p onClick={toggleDetails}>
-                DETAILS
+                DETAILS  
             </p>
+            
+            <motion.img
+              animate={isDetailsVisible ? { rotate: 90 } : { rotate: 0 }}
+              transition={{ duration: 0 }} 
+              className="arrow" src={arrow}/>
+          </div>
             {isDetailsVisible && (
               <motion.div
               className="menu"
@@ -124,9 +134,15 @@ function Item() {
         </div>
 
         <div id="details" className='item-description'>
+        <div className='arrow-container'>
             <p onClick={toggleSize}>
                 SIZE GUIDE
             </p>
+            <motion.img
+              animate={isSizeVisible ? { rotate: 90 } : { rotate: 0 }}
+              transition={{ duration: 0 }} 
+              className="arrow" src={arrow}/>
+        </div>
             {isSizeVisible && (
               <motion.div
               className="menu"
@@ -188,9 +204,15 @@ function Item() {
         </div>
 
         <div id="details" className='item-description'>
+          <div className='arrow-container'>
             <p onClick={toggleShip}>
                 SHIPPING & RETURNS
             </p>
+            <motion.img
+              animate={isShipVisible ? { rotate: 90 } : { rotate: 0 }}
+              transition={{ duration: 0 }} 
+              className="arrow" src={arrow}/>
+        </div>
             {isShipVisible && (
               <motion.div
               className="menu"
