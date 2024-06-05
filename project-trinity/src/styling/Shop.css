@@ -38,14 +38,16 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-    .item img {
-        width: 80%;
-    }
+
     .items {
+        width: 50%;
         display: inline-flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        
     }
+
+
+
 
 }
 
@@ -54,8 +56,11 @@
     .item {
         display: inline-flex;
         flex-wrap: wrap;
+        width: 50%;
     }
-    .item img {
-        width: 80%;
-    }
+
+
+
+
+
 }

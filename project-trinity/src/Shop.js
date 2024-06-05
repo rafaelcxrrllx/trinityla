@@ -34,21 +34,7 @@ function Shop() {
           </div>
         </div>
       </Link>
-        <div className='item'>
-          <div className='item-img'>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
-          </div>
-        </div>
-        <div className='item'>
-          <div className='item-img'>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
-          </div>
-        </div>
-        <div className='item'>
-          <div className='item-img'>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
-          </div>
-        </div>
+        
       </div>
       <Footer/>
     </div>
