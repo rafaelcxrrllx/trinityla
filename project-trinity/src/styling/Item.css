@@ -1,23 +1,35 @@
 .item-container {
     display: inline-flex;
-    padding: 90px 20px 90px 20px;
     background-color: rgb(244, 244, 244);
-    
 }
 
 .item-img img {
     width: 100%;
 }
 
+.box {
+  box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+  margin-bottom: 20px;
+}
+
 .item-img {
   overflow-y: scroll;
+  display: block;
   white-space: nowrap;
+  
+}
+
+.item-img img {
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .item-description {
     text-align: left;
-    padding: 12px 12px 12px 12px;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+
 
 }
 
@@ -62,7 +74,7 @@
   }
 
   .shirt-size-container {
-    text-align: center;
+    text-align: left;
   }
 
   .buttons {
@@ -72,8 +84,8 @@
     position: sticky;
     bottom: 0;
     padding: 12px 6px 12px 6px;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
-
+    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+    z-index: 0;
   }
 
   .btn {
@@ -102,35 +114,29 @@
 
 @media (max-width: 600px) {
 
-  
+  .item-description {
+    text-align: left;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+  }
+
+  #shirt-size {
+    width: 80%;
+  }
+
+  .shirt-size-container {
+    text-align: center;
+  }
 }
 
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
-/* styles.css */
-.container {
-  display: flex; /* Use Flexbox */
-}
-
-.box {
-  width: 50%; /* Each box takes up 50% of the container */
-  padding: 20px;
-  box-sizing: border-box;
-  align-content: start;
-}
-
-.item-img {
-  align-content: start;
-}
-
-.item-description {
-  text-align: left;
-  padding: 12px 12px 12px 12px;
-  box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
-
-}
-
+  .item-description {
+    text-align: left;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+  }
 }
 
 
@@ -142,19 +148,58 @@
 
   .box {
     width: 50%; /* Each box takes up 50% of the container */
-    padding: 20px;
     box-sizing: border-box;
     align-content: start;
+    margin-left: 64px;
+
   }
 
   .item-img {
     align-content: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 100vh;
+    overflow: scroll;
+    scrollbar-width: none;
+
+  }
+
+  .item-img img {
+    display: block;
+    overflow-y: scroll;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+
   }
 
   .item-description {
     text-align: left;
     padding: 12px 12px 12px 12px;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
-
+    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
 }
+
+  .styled-table {
+    width: 50%;
+  }
+
+  #item-description {
+    padding-left: 25px;
+    padding-top: 25px;
+    margin-right: 25px;
+  }
+  
+  .item-container {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    margin-bottom: 100px;
+}
+
+  .buttons {
+    margin-top: 20px;
+  }
+
 }

@@ -13,6 +13,7 @@ import Menu from './Menu';
 import Footer from './Footer';
 import heartofgod from './assets/items/shirt1-front.svg';
 import shirt from './assets/shirt-size.jpeg';
+import CarouselSlide from './CarouselSlide';
 
 
 const images = [
@@ -51,15 +52,9 @@ function Item() {
         <Nav/>
         <div class="container">
           <div className='box'>
-        <div className='item-container'>
-          <div className='item-img'>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
+            <CarouselSlide/>
           </div>
-          </div>
-
-        </div>
-        <div className='box'>
+        <div id="item-description" className='box'>
         <div className='item-description'>
             <p>
                 HEART OF GOD TEE
@@ -140,6 +135,7 @@ function Item() {
             {isSizeVisible && (
               <motion.div
               className="menu"
+              id="shirt-sizes"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -150,42 +146,47 @@ function Item() {
                 </p>
                 <p>
                 </p>
-            <table class="styled-table">
-              <thead>
-                <tr>
-                  <th>SIZE (in)</th>
-                  <th>S</th>
-                  <th>M</th>
-                  <th>L</th>
-                  <th>XL</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>CHEST</td>
-                  <td>19.5</td>
-                  <td>21.5</td>
-                  <td>23.5</td>
-                  <td>25.5</td>
-                </tr>
-                <tr>
-                  <td>LENGTH</td>
-                  <td>28</td>
-                  <td>29</td>
-                  <td>30</td>
-                  <td>31</td>
-                </tr>
-                <tr>
-                  <td>SLEEVE</td>
-                  <td>9</td>
-                  <td>9.5</td>
-                  <td>10</td>
-                  <td>10.5</td>
-                </tr>
-              </tbody>
-            </table>
-            <div className='shirt-size-container'>
-              <img id="shirt-size" src={shirt} alt="shirt measurements"/>
+            <div className='table-container'>
+
+            
+              <table class="styled-table">
+                <thead>
+                  <tr>
+                    <th>SIZE (in)</th>
+                    <th>S</th>
+                    <th>M</th>
+                    <th>L</th>
+                    <th>XL</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>CHEST</td>
+                    <td>19.5</td>
+                    <td>21.5</td>
+                    <td>23.5</td>
+                    <td>25.5</td>
+                  </tr>
+                  <tr>
+                    <td>LENGTH</td>
+                    <td>28</td>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <td>SLEEVE</td>
+                    <td>9</td>
+                    <td>9.5</td>
+                    <td>10</td>
+                    <td>10.5</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div className='shirt-size-container'>
+                <img id="shirt-size" src={shirt} alt="shirt measurements"/>
+              </div>
             </div>
           </motion.div>
           )}
