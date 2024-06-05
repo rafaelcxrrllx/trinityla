@@ -16,11 +16,6 @@ import shirt from './assets/shirt-size.jpeg';
 import CarouselSlide from './CarouselSlide';
 
 
-const images = [
-    heartofgod,
-    heartofgod,
-  ];
-
 function Item() {
 
   const [isDetailsVisible, setIsDetailsVisible] = useState(false);

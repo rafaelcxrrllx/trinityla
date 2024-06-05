@@ -20,7 +20,7 @@ const CarouselSlide = () => {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carouselslide-container">
       <Slider {...settings}>
         <div>
           <img src={heartofgod} alt="Image 1" />
