@@ -147,7 +147,7 @@ function Contact() {
             name="message"
             className='text-entry'/>
         </div>
-        <motion.button onClick={handleHide} type="submit" className='send-btn'> 
+        <motion.button onClick={handleHide} type="submit" id="btn" className='send-btn'> 
             Send
         </motion.button> 
         </motion.form>

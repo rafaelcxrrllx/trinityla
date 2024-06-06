@@ -9,14 +9,16 @@ import heartofgod1back from './assets/items/shirt1-back.svg';
 
 const CarouselSlide = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 14000,
-    arrows: true
+    arrows: true,
+    vertical: true, // Add this line to enable vertical scrolling
+   
+
   };
 
   return (

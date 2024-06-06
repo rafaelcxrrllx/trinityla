@@ -1,0 +1,51 @@
+.about-container {
+    text-align: left;
+    margin-top: 5%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 200px 0px 200px 0px;
+}
+
+
+
+#about-logo {
+    width: 200px;
+    margin-right: 44px;
+
+}
+
+.about-description-container {
+    text-align: left;
+    margin-right: 100px;
+    line-height: 1.5;
+}
+
+.about-main-container {
+    margin-left: 10%;
+}
+
+  /* Small screens (phones) */
+  @media (max-width: 600px) {
+    .about-container {
+       display: block;
+       text-align: center;
+       margin: 10px 10px 10px 10px;
+    }
+
+    .about-description-container {
+        margin-left: 12px;
+        margin-right: 24px;
+    }
+
+    .about-main-container {
+        margin-left: 0px;
+    }
+
+    #about-logo {
+        width: 150px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+  }

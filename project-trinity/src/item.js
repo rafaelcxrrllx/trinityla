@@ -93,10 +93,10 @@ function Item() {
         </div>
        
         <div id="details" className='item-description'>
-          <div className='arrow-container'>
+          <div className='arrow-container' onClick={toggleDetails}>
 
           
-            <p onClick={toggleDetails}>
+            <p >
                 DETAILS  
             </p>
             
@@ -134,8 +134,8 @@ function Item() {
         </div>
 
         <div id="details" className='item-description'>
-        <div className='arrow-container'>
-            <p onClick={toggleSize}>
+        <div className='arrow-container' onClick={toggleSize}>
+            <p >
                 SIZE GUIDE
             </p>
             <motion.img
@@ -204,8 +204,8 @@ function Item() {
         </div>
 
         <div id="details" className='item-description'>
-          <div className='arrow-container'>
-            <p onClick={toggleShip}>
+          <div className='arrow-container' onClick={toggleShip}>
+            <p >
                 SHIPPING & RETURNS
             </p>
             <motion.img

@@ -18,6 +18,12 @@
 
 }
 
+.hover-image {
+    height: auto;
+    transition: 0.3s ease-in-out;
+
+  }
+
 @media (max-width: 600px) {
 
     .item {
@@ -53,14 +59,22 @@
 
 
 @media (min-width: 1025px) {
-    .item {
-        display: inline-flex;
+    .items {
         flex-wrap: wrap;
-        width: 50%;
+        width: 30%;
+        align-items: start;
     }
 
+    .item {
+        text-align: left;
+    }
 
+    .item img {
+        width: 100%;
+    }
 
-
+    .shop-item-img {
+        padding: 20px;
+    }
 
 }

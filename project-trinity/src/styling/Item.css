@@ -9,6 +9,15 @@
 
 .arrow-container {
   display: flex;
+  cursor: pointer;
+
+}
+
+#AddToBag:hover {
+  background-color:  #0B2545;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .arrow {
@@ -16,8 +25,7 @@
 }
 
 .box {
-  box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .item-img {
@@ -44,6 +52,7 @@
 
 #size {
     display: flex;
+    cursor: pointer;
 }
 
 #size p {
@@ -92,7 +101,7 @@
     color: #fff;
     position: sticky;
     bottom: 0;
-    padding: 12px 6px 12px 6px;
+    padding: 12px 6px 24px 6px;
     box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
     z-index: 0;
   }

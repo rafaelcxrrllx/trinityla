@@ -5,6 +5,7 @@ import './styling/styles.css'
 import './styling/Shop.css'
 
 // Components
+import React, { useState } from 'react';
 import Carousel from './Carousel';
 import Menu from './Menu';
 import Nav from './Nav';
@@ -12,12 +13,16 @@ import Footer from './Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-import heartofgod from './assets/items/shirt1-back.svg'
+import heartofgod1 from './assets/items/shirt1-front.svg'
+import heartofgod2 from './assets/items/shirt1-back.svg'
+
 import stars from './assets/stars.svg'
 import { Link } from 'react-router-dom';
 
 
 function Shop() {
+
+  const [imageSrc, setImageSrc] = useState(heartofgod1);
 
   return (
 
@@ -34,11 +39,19 @@ function Shop() {
       </p>
       <div className='items'>
       <Link id='item-link' to="/item">
+
         <div className='item'>
-          <div className='item-img'>
-            <img src={heartofgod} alt="an image of a shirt with a heart design"/>
+          <div className='shop-item-img'>
+          <img
+        src={imageSrc}
+        alt="hover"
+        onMouseEnter={() => setImageSrc(heartofgod2)}
+        onMouseLeave={() => setImageSrc(heartofgod1)}
+        className="hover-image"
+      />
           </div>
         </div>
+
       </Link>
         
       </div>

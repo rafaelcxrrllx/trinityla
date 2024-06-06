@@ -1,6 +1,6 @@
 
 // Global Styling
-import './styling/Nav.css';
+import './styling/styles.css';
 
 // Local Styling
 import './styling/Nav.css';
