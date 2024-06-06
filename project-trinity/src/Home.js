@@ -13,19 +13,25 @@ import Nav from './Nav';
 import hero from './assets/hero-shot-desktop.jpeg'
 import stars from './assets/stars.svg'
 import Footer from './Footer';
+import { motion } from 'framer-motion';
 
 
 function Home() {
 
   return (
-
-    <div className='home-container'>
+    <div>
       <Nav/>
+   
+    <motion.div initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+      animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+      transition={{ duration: 1 }}
+      className='home-container'>
+      
       <Carousel/>
       <div className='hero-container'>
         <img src={hero}  alt="a picture of trinity and his bmw"/>
       </div> 
-      {/* <div className='trinity-container'>
+      <div className='trinity-container'>
         <h1 className="spaced">
         ♱TRINITY♱
         </h1>
@@ -34,8 +40,9 @@ function Home() {
         </h2>
         
         <img src={stars} id="stars"  alt="three stars"/>
-      </div> */}
+      </div>
       <Footer/>
+    </motion.div>
     </div>
   );
 }

@@ -163,34 +163,34 @@ function Item() {
               <table class="styled-table">
                 <thead>
                   <tr>
-                    <th>SIZE (in)</th>
-                    <th>S</th>
-                    <th>M</th>
-                    <th>L</th>
-                    <th>XL</th>
+                    <th><p>Size (in)</p></th>
+                    <th><p>S</p></th>
+                    <th><p>M</p></th>
+                    <th><p>L</p></th>
+                    <th><p>XL</p></th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>CHEST</td>
-                    <td>19.5</td>
-                    <td>21.5</td>
-                    <td>23.5</td>
-                    <td>25.5</td>
+                    <td><p>CHEST</p></td>
+                    <td><p>19.5</p></td>
+                    <td><p>21.5</p></td>
+                    <td><p>23.5</p></td>
+                    <td><p>25.5</p></td>
                   </tr>
                   <tr>
-                    <td>LENGTH</td>
-                    <td>28</td>
-                    <td>29</td>
-                    <td>30</td>
-                    <td>31</td>
+                    <td><p>LENGTH</p></td>
+                    <td><p>28</p></td>
+                    <td><p>29</p></td>
+                    <td><p>30</p></td>
+                    <td><p>31</p></td>
                   </tr>
                   <tr>
-                    <td>SLEEVE</td>
-                    <td>9</td>
-                    <td>9.5</td>
-                    <td>10</td>
-                    <td>10.5</td>
+                    <td><p>SLEEVE</p></td>
+                    <td><p>9</p></td>
+                    <td><p>9.5</p></td>
+                    <td><p>10</p></td>
+                    <td><p>10.5</p></td>
                   </tr>
                 </tbody>
               </table>

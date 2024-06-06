@@ -1,0 +1,151 @@
+.text-entry {  
+    display: inline-block;
+    width: 100%;
+    padding: 16px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: black;
+    font-size: large;
+    
+    border-style: none;
+    border-color: #000;
+    border-style: solid;
+    background-color: white;
+}
+
+.contact-container {
+    background-color: #fff;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3%;
+    text-align: left;
+    padding-bottom: 7%;
+}
+
+.send-btn {
+    width: 50%;
+    height: 50px;
+    margin: 6px 6px 6px 6px;
+    border-radius: 0%;
+    border-width: 1px;
+}
+
+
+.message-confirmed-header {
+    position: absolute;
+    padding-left: 0%;
+    padding-right: 15%;
+    margin-top: 0%;
+}
+
+.message-confirmed-header button {
+        width: 25vw; 
+        padding: 16px 14px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 45px;
+        color: black;
+        font-size: large;
+        border-style: none;
+        border-color: #000;
+        border-style: solid;
+        background-color: white;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        transition: transform 0.3s ease-in-out;
+        display: flex;
+        width: fit-content;
+    
+}
+
+.message-confirmed-header button:hover {
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: #158CA4;
+}
+
+.message-confirmed-header h4{
+    color: #32353E;
+}
+
+
+.header h2 {
+    color: #158CA4;
+}
+
+.header h4 {
+    color: #32353E;
+}
+
+
+.contact {
+    display: flex;  
+    flex-direction: column;  
+}
+
+
+.contact input {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.phone input{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.message input{
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+  /* Small screens (phones) */
+  @media (max-width: 600px) {
+   
+    .contact-container {
+        background-color: #fff;
+        padding-left: 5%;
+        padding-right: 15%;
+        padding-top: 3%;
+        text-align: left;
+        padding-bottom: 7%;
+    }
+    .message-confirmed-header button {
+        width: 50vw; 
+    }
+
+    
+    .contact {
+        display: flex;  
+        flex-direction: column;  
+    }
+    
+    
+    .contact input {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .phone input{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .message input{
+        margin-top: 20px;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 50px;
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+  }

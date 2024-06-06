@@ -3,8 +3,8 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './styling/CarouselSlide.css'; // Optional: your custom styles
-import heartofgod from './assets/items/shirt1-front.svg';
-import shirt from './assets/shirt-size.jpeg';
+import heartofgod1front from './assets/items/shirt1-front.svg';
+import heartofgod1back from './assets/items/shirt1-back.svg';
 
 
 const CarouselSlide = () => {
@@ -23,14 +23,12 @@ const CarouselSlide = () => {
     <div className="carouselslide-container">
       <Slider {...settings}>
         <div>
-          <img src={heartofgod} alt="Image 1" />
+          <img src={heartofgod1front} alt="Image 1" />
         </div>
         <div>
-          <img src={heartofgod} alt="Image 2" />
+          <img src={heartofgod1back} alt="Image 2" />
         </div>
-        <div>
-          <img src={heartofgod} alt="Image 3" />
-        </div>
+        
         {/* Add more slides as needed */}
       </Slider>
     </div>

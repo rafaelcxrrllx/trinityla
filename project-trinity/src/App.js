@@ -5,10 +5,12 @@ import Contact from './Contact';
 import About from './About';
 import Item from './item';
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
     <HashRouter >
+    <ScrollToTop/>
     <Routes >
     <Route path='/' element={<Home/>}/> 
       <Route path='/shop' element={<Shop/>}/>
