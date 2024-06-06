@@ -38,23 +38,100 @@ function Shop() {
         Shop
       </p>
       <div className='items'>
+      
       <Link id='item-link' to="/item">
 
         <div className='item'>
           <div className='shop-item-img'>
           <img
-        src={imageSrc}
-        alt="hover"
-        onMouseEnter={() => setImageSrc(heartofgod2)}
-        onMouseLeave={() => setImageSrc(heartofgod1)}
-        className="hover-image"
-      />
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
           </div>
         </div>
+      </Link>
 
+      <Link id='item-link' to="/item">
+
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
+          </div>
+        </div>
       </Link>
         
+      <Link id='item-link' to="/item">
+
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
+          </div>
+        </div>
+      </Link>
       </div>
+      <div className='items'>
+      
+      <Link id='item-link' to="/item">
+
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
+          </div>
+        </div>
+      </Link>
+
+      <Link id='item-link' to="/item">
+
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
+          </div>
+        </div>
+      </Link>
+        
+      <Link id='item-link' to="/item">
+
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={imageSrc}
+          alt="hover"
+          onMouseEnter={() => setImageSrc(heartofgod2)}
+          onMouseLeave={() => setImageSrc(heartofgod1)}
+          className="hover-image"
+          />
+          </div>
+        </div>
+      </Link>
+      </div>
+      
       </motion.div>
       <Footer/>
     </div>

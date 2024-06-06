@@ -36,7 +36,7 @@
     }
 
     .item img {
-        width: 80%;
+        width: 100%;
     }
 }
 
@@ -44,14 +44,24 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
 
-
     .items {
-        width: 50%;
-        display: inline-flex;
-        flex-wrap: wrap;
-        
+        flex-wrap: nowrap;
+        width: 100%;
+        display: flex;
+        align-items: start;
     }
 
+    .item {
+        text-align: left;
+    }
+
+    .item img {
+        width: 100%;
+    }
+
+    .shop-item-img {
+        padding: 20px;
+    }
 
 
 
@@ -60,8 +70,8 @@
 
 @media (min-width: 1025px) {
     .items {
-        flex-wrap: wrap;
-        width: 30%;
+        width: 100%;
+        display: flex;
         align-items: start;
     }
 

@@ -23,7 +23,12 @@
 
 
 @media (max-width: 600px) {
-  
+
+  .carouselslide-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
 }
 
 

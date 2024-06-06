@@ -30,7 +30,12 @@ const CarouselSlide = () => {
         <div>
           <img src={heartofgod1back} alt="Image 2" />
         </div>
-        
+        <div>
+          <img src={heartofgod1back} alt="Image 1" />
+        </div>
+        <div>
+          <img src={heartofgod1front} alt="Image 1" />
+        </div>
         {/* Add more slides as needed */}
       </Slider>
     </div>
