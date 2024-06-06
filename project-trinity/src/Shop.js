@@ -13,8 +13,24 @@ import Footer from './Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-import heartofgod1 from './assets/items/shirt1-front.svg'
-import heartofgod2 from './assets/items/shirt1-back.svg'
+import HEARTOFGODFRONT from './assets/items/heartofgod-front.svg'
+import HEARTOFGODBACK from './assets/items/heartofgod-back.svg'
+
+import LOVELYBONESFRONT from './assets/items/lovelybones-front.svg'
+import LOVELYBONESBACK from './assets/items/lovelybones-back.svg'
+
+import TRINITYFRONT from './assets/items/trinity-front.svg'
+import TRINITYBACK from './assets/items/trinity-back.svg'
+
+import GOLDENFRONT from './assets/items/staygolden-front.svg'
+import GOLDENBACK from './assets/items/staygolden-back.svg'
+
+import ENERGYFRONT from './assets/items/energy-front.svg'
+import ENERGYBACK from './assets/items/energy-back.svg'
+
+import EMBLEMFRONT from './assets/items/emblem-front.svg'
+import EMBLEMBACK from './assets/items/emblem-back.svg'
+
 
 import stars from './assets/stars.svg'
 import { Link } from 'react-router-dom';
@@ -22,7 +38,14 @@ import { Link } from 'react-router-dom';
 
 function Shop() {
 
-  const [imageSrc, setImageSrc] = useState(heartofgod1);
+  const [HOGSRC, setHogSrc] = useState(HEARTOFGODFRONT);
+  const [LBSRC, setLBSrc] = useState(LOVELYBONESFRONT);
+  const [TRISRC, setTRISrc] = useState(TRINITYFRONT);
+  const [GLDSRC, setGLDSrc] = useState(GOLDENFRONT);
+  const [ENGSRC, setENGSrc] = useState(ENERGYFRONT);
+  const [EMSRC, setEMSrc] = useState(EMBLEMFRONT);
+
+
 
   return (
 
@@ -44,10 +67,10 @@ function Shop() {
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={HOGSRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setHogSrc(HEARTOFGODBACK)}
+          onMouseLeave={() => setHogSrc(HEARTOFGODFRONT)}
           className="hover-image"
           />
           </div>
@@ -59,10 +82,10 @@ function Shop() {
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={LBSRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setLBSrc(LOVELYBONESBACK)}
+          onMouseLeave={() => setLBSrc(LOVELYBONESFRONT)}
           className="hover-image"
           />
           </div>
@@ -74,10 +97,10 @@ function Shop() {
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={TRISRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setTRISrc(TRINITYBACK)}
+          onMouseLeave={() => setTRISrc(TRINITYFRONT)}
           className="hover-image"
           />
           </div>
@@ -91,10 +114,10 @@ function Shop() {
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={GLDSRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setGLDSrc(GOLDENBACK)}
+          onMouseLeave={() => setGLDSrc(GOLDENFRONT)}
           className="hover-image"
           />
           </div>
@@ -106,25 +129,25 @@ function Shop() {
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={ENGSRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setENGSrc(ENERGYBACK)}
+          onMouseLeave={() => setENGSrc(ENERGYFRONT)}
           className="hover-image"
           />
           </div>
         </div>
       </Link>
-        
+
       <Link id='item-link' to="/item">
 
         <div className='item'>
           <div className='shop-item-img'>
           <img
-          src={imageSrc}
+          src={EMSRC}
           alt="hover"
-          onMouseEnter={() => setImageSrc(heartofgod2)}
-          onMouseLeave={() => setImageSrc(heartofgod1)}
+          onMouseEnter={() => setEMSrc(EMBLEMBACK)}
+          onMouseLeave={() => setEMSrc(EMBLEMFRONT)}
           className="hover-image"
           />
           </div>
