@@ -16,6 +16,7 @@ const CarouselSlide = () => {
     autoplay: true,
     autoplaySpeed: 14000,
     arrows: true,
+    
     vertical: true, // Add this line to enable vertical scrolling
    
 

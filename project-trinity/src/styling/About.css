@@ -4,7 +4,7 @@
     display: flex;
     align-content: center;
     align-items: center;
-    margin: 200px 0px 200px 0px;
+    margin: 100px 0px 50px 0px;
 }
 
 
@@ -23,6 +23,13 @@
 
 .about-main-container {
     margin-left: 10%;
+    margin-right: 10%;
+}
+
+.statement-container {
+    text-align: left; 
+    line-height: 2;
+    margin-bottom: 100px;
 }
 
   /* Small screens (phones) */

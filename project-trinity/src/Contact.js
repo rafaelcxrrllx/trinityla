@@ -89,12 +89,12 @@ function Contact() {
                  animate={{ y: 0, opacity: isVisible ? 0 : 1 }} // Animate opacity to 1
                  transition={{ duration: 1 }}> Message has been sent. We will get back to you soon.</motion.h4>
              
-        <Link className="Link" to="/shop">
+        <Link id="btn" className="Link" to="/shop">
                 <motion.button
               initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
               animate={{ y: 0, opacity: isVisible ? 0 : 1 }} // Animate opacity to 1
               transition={{ duration: 1 }}
-                className='second-button'> 
+              id='btn'> 
             Keep Shopping
         </motion.button>
         </Link>

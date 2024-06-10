@@ -47,9 +47,9 @@ function About() {
     <div className='about-container'>
       <img src={logo} id="about-logo" alt="trinity logo"/>
       <div className='about-description-container'>
-    <h3>
+    <h1>
       trin·i·ty /ˈtrinədē/ 
-    </h3> 
+    </h1> 
      <p>
      noun
     </p>
@@ -66,6 +66,27 @@ function About() {
       "As the blood is the life of the flesh, it naturally follows that, as man is a TRINITY (body, or flesh, soul and spirit), the condition, or health of his body determines that of his soul."
     </p>
     </div>
+    </div>
+    <div className='statement-container'>
+    <h1>
+      Evoking Divinity To Amplify Human Consciousness
+    </h1>
+   
+    <p>
+        I am here to spread the gospel truth. 
+        The real story that astrology tells, that story concerns the understanding, purification, mastery and perfection of the human body and nothing else. 
+        The scriptures are allegories, parables and fables based on the human body, "fearfully and wonderfully made". 
+    </p>
+    <p>
+      To save our reality and enter paradise, we must save ourselves. But first, we know know ourselves. Ignorance is the real enemy. KNOW THYSELF.
+    </p>
+   
+    <p>
+    Loved Not Owned,
+    </p>
+    <p>
+    - Trinity 
+    </p>
     </div>
     </motion.div>
     

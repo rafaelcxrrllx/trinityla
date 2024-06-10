@@ -6,6 +6,11 @@
     margin: 0 auto;
   }
   
+
+  .slick-slide img:focus {
+    outline: none;
+  }
+  
   .slick-prev:before, .slick-next:before {
     color: rgb(80, 80, 80); /* Customize arrow color */
   }

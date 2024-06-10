@@ -59,21 +59,26 @@
     
 }
 
-.message-confirmed-header button:hover {
+#btn button:hover {
     color: white;
     border-style: solid;
     border-color: white;
-    background-color: #158CA4;
+    background-color:  #0B2545;
 }
+
+#btn {
+    width: 200px;
+    height: 50px;
+    margin: 6px 6px 6px 6px;
+    border-radius: 0%;
+    border-width: 1px;
+    text-decoration: none;
+  }
 
 .message-confirmed-header h4{
     color: #32353E;
 }
 
-
-.header h2 {
-    color: #158CA4;
-}
 
 .header h4 {
     color: #32353E;
