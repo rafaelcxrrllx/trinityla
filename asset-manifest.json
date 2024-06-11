@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.2d4cbd80.css",
-    "main.js": "/trinityla/static/js/main.bda08118.js",
+    "main.css": "/trinityla/static/css/main.b8e7aebf.css",
+    "main.js": "/trinityla/static/js/main.39f6d35b.js",
     "static/js/453.1d42ff05.chunk.js": "/trinityla/static/js/453.1d42ff05.chunk.js",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
@@ -11,6 +11,7 @@
     "static/media/hero-shot-3.jpeg": "/trinityla/static/media/hero-shot-3.fa11ea3c0741acb48c13.jpeg",
     "static/media/lovelybones-front.svg": "/trinityla/static/media/lovelybones-front.868b1f54bb422f22d0637b5505e9f87d.svg",
     "static/media/lovelybones-back.svg": "/trinityla/static/media/lovelybones-back.b946b2a84eb9d99c4aaa9c63e7c8b081.svg",
+    "static/media/gibranArt.jpeg": "/trinityla/static/media/gibranArt.fb7c4afabb0414899d5b.jpeg",
     "static/media/heartofgod-front.svg": "/trinityla/static/media/heartofgod-front.da44afc1890359c451f7b7d5ba078bb1.svg",
     "static/media/shirt1-front.svg": "/trinityla/static/media/shirt1-front.9cbdb39699e72de989793352d4b15d14.svg",
     "static/media/staygolden-back.svg": "/trinityla/static/media/staygolden-back.582d02848995efccc6a65e62c68581cd.svg",
@@ -32,12 +33,12 @@
     "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.c77194ecee250be5252e5003e364c7ce.svg",
     "index.html": "/trinityla/index.html",
-    "main.2d4cbd80.css.map": "/trinityla/static/css/main.2d4cbd80.css.map",
-    "main.bda08118.js.map": "/trinityla/static/js/main.bda08118.js.map",
+    "main.b8e7aebf.css.map": "/trinityla/static/css/main.b8e7aebf.css.map",
+    "main.39f6d35b.js.map": "/trinityla/static/js/main.39f6d35b.js.map",
     "453.1d42ff05.chunk.js.map": "/trinityla/static/js/453.1d42ff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d4cbd80.css",
-    "static/js/main.bda08118.js"
+    "static/css/main.b8e7aebf.css",
+    "static/js/main.39f6d35b.js"
   ]
 }
