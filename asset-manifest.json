@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.eb6274e8.css",
+    "main.css": "/trinityla/static/css/main.803816c4.css",
     "main.js": "/trinityla/static/js/main.90438990.js",
     "static/js/453.1d42ff05.chunk.js": "/trinityla/static/js/453.1d42ff05.chunk.js",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
@@ -32,12 +32,12 @@
     "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.c77194ecee250be5252e5003e364c7ce.svg",
     "index.html": "/trinityla/index.html",
-    "main.eb6274e8.css.map": "/trinityla/static/css/main.eb6274e8.css.map",
+    "main.803816c4.css.map": "/trinityla/static/css/main.803816c4.css.map",
     "main.90438990.js.map": "/trinityla/static/js/main.90438990.js.map",
     "453.1d42ff05.chunk.js.map": "/trinityla/static/js/453.1d42ff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb6274e8.css",
+    "static/css/main.803816c4.css",
     "static/js/main.90438990.js"
   ]
 }
