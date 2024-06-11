@@ -1,22 +1,22 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Local Styling
-import './styling/Item.css'
+import '../styling/Item.css'
 
 // Components
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import Nav from './Nav';
-import Footer from './Footer';
-import shirt from './assets/shirt-size.jpeg';
-import arrow from './assets/icons/arrow.svg'
-import backArrow from './assets/icons/arrow-back.svg'
-import CarouselSlideTwo from './CarouselSlideTwo';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import shirt from '../assets/shirt-size.jpeg';
+import arrow from '../assets/icons/arrow.svg'
+import backArrow from '../assets/icons/arrow-back.svg'
+import CarouselSlideThree from '../carousels/CarouselSlideThree';
 
 
-function ItemTwo() {
+function ItemThree() {
 
   const [isDetailsVisible, setIsDetailsVisible] = useState(false);
 
@@ -50,11 +50,11 @@ function ItemTwo() {
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 1 }}>
-        <div className='back-container'>
+        <div className='back-container' >
           <img className="arrow" src={backArrow}/>
             <p>
               Back to Shop
-            </p>   
+            </p>      
         </div>
       </motion.div>
     </Link>
@@ -64,16 +64,16 @@ function ItemTwo() {
     transition={{ duration: 1 }}
     class="container">
       <div className='box'>
-        <CarouselSlideTwo/>
+        <CarouselSlideThree/>
       </div>
       <div id="item-description" className='box'>
         <div className='item-description'>
-          <p>
-            LOVELY BONES TEE
-          </p>
-          <p>
-            $45
-          </p>
+            <p>
+              TRINITY TEE
+            </p>
+            <p>
+              $45
+            </p>
         </div>
         <div className='item-description'>
           <p>
@@ -244,4 +244,4 @@ function ItemTwo() {
   );
 };
 
-export default ItemTwo;
+export default ItemThree;

@@ -1,36 +1,36 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Local Styling
-import './styling/Shop.css'
+import '../styling/Shop.css'
 
 // Components
 import React, { useState } from 'react';
-import Nav from './Nav';
-import Footer from './Footer';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-import HEARTOFGODFRONT from './assets/items/heartofgod-front.svg'
-import HEARTOFGODBACK from './assets/items/heartofgod-back.svg'
+import HEARTOFGODFRONT from '../assets/items/heartofgod-front.svg'
+import HEARTOFGODBACK from '../assets/items/heartofgod-back.svg'
 
-import LOVELYBONESFRONT from './assets/items/lovelybones-front.svg'
-import LOVELYBONESBACK from './assets/items/lovelybones-back.svg'
+import LOVELYBONESFRONT from '../assets/items/lovelybones-front.svg'
+import LOVELYBONESBACK from '../assets/items/lovelybones-back.svg'
 
-import TRINITYFRONT from './assets/items/trinity-front.svg'
-import TRINITYBACK from './assets/items/trinity-back.svg'
+import TRINITYFRONT from '../assets/items/trinity-front.svg'
+import TRINITYBACK from '../assets/items/trinity-back.svg'
 
-import GOLDENFRONT from './assets/items/staygolden-front.svg'
-import GOLDENBACK from './assets/items/staygolden-back.svg'
+import GOLDENFRONT from '../assets/items/staygolden-front.svg'
+import GOLDENBACK from '../assets/items/staygolden-back.svg'
 
-import ENERGYFRONT from './assets/items/energy-front.svg'
-import ENERGYBACK from './assets/items/energy-back.svg'
+import ENERGYFRONT from '../assets/items/energy-front.svg'
+import ENERGYBACK from '../assets/items/energy-back.svg'
 
-import EMBLEMFRONT from './assets/items/emblem-front.svg'
-import EMBLEMBACK from './assets/items/emblem-back.svg'
+import EMBLEMFRONT from '../assets/items/emblem-front.svg'
+import EMBLEMBACK from '../assets/items/emblem-back.svg'
 
 
-import stars from './assets/stars.svg'
+import stars from '../assets/stars.svg'
 import { Link } from 'react-router-dom';
 
 

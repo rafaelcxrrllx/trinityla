@@ -1,19 +1,19 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Local Styling
-import './styling/Item.css'
+import '../styling/Item.css'
 
 // Components
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import Nav from './Nav';
-import Footer from './Footer';
-import shirt from './assets/shirt-size.jpeg';
-import CarouselSlide from './CarouselSlide';
-import arrow from './assets/icons/arrow.svg'
-import backArrow from './assets/icons/arrow-back.svg'
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
+import shirt from '../assets/shirt-size.jpeg';
+import CarouselSlide from '../carousels/CarouselSlide';
+import arrow from '../assets/icons/arrow.svg'
+import backArrow from '../assets/icons/arrow-back.svg'
 
 
 function ItemOne() {

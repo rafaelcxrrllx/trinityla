@@ -1,6 +1,6 @@
-import './styling/Blog.css';
-import Nav from './Nav';
-import Footer from './Footer';
+import '../styling/Blog.css';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';

@@ -1,6 +1,6 @@
-import './styling/Contact.css';
-import Nav from './Nav';
-import Footer from './Footer';
+import '../styling/Contact.css';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';

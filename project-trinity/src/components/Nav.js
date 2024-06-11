@@ -1,17 +1,17 @@
 
 // Global Styling
-import './styling/styles.css';
+import '../styling/styles.css';
 
 // Local Styling
-import './styling/Nav.css';
-import './styling/Menu.css';
+import '../styling/Nav.css';
+import '../styling/Menu.css';
 
 
 // Components
 import React, { useState, useEffect } from 'react';
 
 // Assets
-import logo from './assets/logo.svg'
+import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

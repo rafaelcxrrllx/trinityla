@@ -1,11 +1,11 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Local Styling
-import './styling/Footer.css'
+import '../styling/Footer.css'
 
 // Assets
-import instagram from './assets/instagram.svg';
+import instagram from '../assets/instagram.svg';
 
 
 

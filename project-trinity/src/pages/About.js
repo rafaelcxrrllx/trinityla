@@ -1,16 +1,16 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Local Styling
-import './styling/About.css'
+import '../styling/About.css'
 
 // Components
-import Nav from './Nav';
-import Footer from './Footer';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-import logo from './assets/logo.svg'
+import logo from '../assets/logo.svg'
 
 
 function About() {

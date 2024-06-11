@@ -1,11 +1,11 @@
-import './styling/Genesis.css';
-import Nav from './Nav';
-import Footer from './Footer';
+import '../styling/Genesis.css';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import backArrow from './assets/icons/arrow-back.svg'
-import zodiac from './assets/zodiac.jpg'
+import backArrow from '../assets/icons/arrow-back.svg'
+import zodiac from '../assets/zodiac.jpg'
 function Genesis() {
 
 

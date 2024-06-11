@@ -1,16 +1,16 @@
 // Global Styling
-import './styling/styles.css'
+import '../styling/styles.css'
 
 // Styling
-import './styling/Carousel.css';
+import '../styling/Carousel.css';
 
 // Components
 import React, { useState, useEffect } from 'react';
 
 // Assets
-import img1 from './assets/hero-shot.jpeg'
-import img2 from './assets/hero-shot-2.jpeg'
-import img3 from './assets/hero-shot-3.jpeg'
+import img1 from '../assets/hero-shot.jpeg'
+import img2 from '../assets/hero-shot-2.jpeg'
+import img3 from '../assets/hero-shot-3.jpeg'
 
 
 const Carousel = () => {

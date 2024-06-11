@@ -1,13 +1,13 @@
 import './styling/App.css';
-import Home from './Home';
-import Shop from './Shop';
-import Contact from './Contact';
-import About from './About';
-import Item from './item';
-import ItemTwo from './itemTwo';
-import ItemThree from './itemThree';
-import Blog from './Blog';
-import Genesis from './Genesis';
+import Home from './pages/Home';
+import Shop from './pages/Shop';
+import Contact from './pages/Contact';
+import About from './pages/About';
+import Item from './items/item';
+import ItemTwo from './items/itemTwo';
+import ItemThree from './items/itemThree';
+import Blog from './pages/Blog';
+import Genesis from './blogs/Genesis';
 
 
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';

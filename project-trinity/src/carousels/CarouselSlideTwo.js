@@ -2,12 +2,12 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './styling/CarouselSlide.css'; // Optional: your custom styles
-import TRINITYFRONT from './assets/items/trinity-front.svg';
-import TRINITYBACK from './assets/items/trinity-back.svg';
+import '../styling/CarouselSlide.css'; // Optional: your custom styles
+import LOVELYBONESFRONT from '../assets/items/lovelybones-front.svg';
+import LOVELYBONESBACK from '../assets/items/lovelybones-back.svg';
 
 
-const CarouselSlideThree = () => {
+const CarouselSlideTwo = () => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -26,14 +26,14 @@ const CarouselSlideThree = () => {
     <div className="carouselslide-container">
       <Slider {...settings}>
         <div>
-          <img src={TRINITYFRONT} alt="Image 1" />
+          <img src={LOVELYBONESFRONT} alt="Image 1" />
         </div>
         <div>
-          <img src={TRINITYBACK} alt="Image 2" />
+          <img src={LOVELYBONESBACK} alt="Image 1" />
         </div>
       </Slider>
     </div>
   );
 };
 
-export default CarouselSlideThree;
+export default CarouselSlideTwo;
