@@ -62,14 +62,14 @@ function Genesis() {
                                 this other person is physically a person or an entity, it doesnt matter to me. I am an extension
                                 of God, as long as my heart is just and pure, none of my actions will be made for others. 
                                 I choose me. I want to help the world, not feed into its corrupt system imposed by man. 
-                                As a soon graduating college student, I begin to ask myself. 
+                                As a soon graduating college student, this thought haunts my mind. 
                             </p>
                             <p>
                                 I do not know what the future has waiting for me, but I know that I am manifesting a beautiful reality with me in it. 
-                                I will have everything I dream of, as long as I stay connected with my higher-self. A king and his horse. No matter who
+                                I will have everything I dream of, as long as I stay connected with my higher self. A king and his horse. No matter who
                                 or what comes in my path, I know that I am a golden star. No one can take that away from me. I may become heavy and dark
                                 , but my true self will always be there. Waiting for me to call his name and let him in. I am only a vehicle for the soul. 
-                                My light will never deminish and I will never stop growing and working for my higher-self. 
+                                My light will never deminish and I will never stop growing and working for my higher self. 
                             </p>
                     
             
@@ -91,7 +91,7 @@ function Genesis() {
                                 the cyclical traumas that no longer need to be passed down. I am grateful for being a part of this experience. 
                             </p>
                             <p>
-                                'trinity' is the embodiment of my higher self. I don't want fame or fortune. I just want to change the world. To get rid of all ways I was 
+                                An embodiment of my higher self. I don't want fame or fortune. I just want to change the world. To get rid of all ways I was 
                                 programmed to think that do not serve me, and truly surrender. I am grateful for my breathe, eyes, and all organs, limbs, 
                                 textures that make up my body. I am divinity, living in my temple. I must no longer tarnish myself. I deserve the best. 
                             </p>
