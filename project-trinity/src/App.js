@@ -6,6 +6,7 @@ import About from './About';
 import Item from './item';
 import ItemTwo from './itemTwo';
 import ItemThree from './itemThree';
+import Blog from './Blog';
 
 
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
@@ -19,6 +20,7 @@ function App() {
     <Route path='/' element={<Home/>}/> 
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/home' element={<Home/>}/>
+      <Route path='/blog' element={<Blog/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/shop/heartofgod' element={<Item/>}/>

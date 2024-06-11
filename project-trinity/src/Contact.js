@@ -68,7 +68,7 @@ function Contact() {
 
        
             <p className='title'>
-                CONTACT 
+                Contact 
             </p>
         </motion.div>
 

@@ -35,14 +35,17 @@ const handleToggleMenu = () => {
         style={{ overflow: 'hidden', positio: 'absolute' }}>
         <ul className="hamburger-menu">
           <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
+          <li><Link className='landing-page-link' to="/blog"> Blog </Link></li>
           <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
           <li><Link className='landing-page-link' to="/about"> About </Link></li>
+          
         </ul>
       </motion.div>
       </div>
       
       <div className="nav-menu">
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>
+        <Link id='landing-page-link' className="hover-underline" to="/blog"> Blog </Link>
         <Link id='landing-page-link' className="hover-underline" to="/contact"> Contact </Link>
         <Link id='landing-page-link' className="hover-underline" to="/about"> About </Link>
       </div>

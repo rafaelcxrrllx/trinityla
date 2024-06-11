@@ -9,7 +9,6 @@ import instagram from './assets/instagram.svg';
 
 // Assets
 import hero from './assets/hero-shot-desktop.jpeg'
-import stars from './assets/stars.svg'
 
 
 function Footer() {

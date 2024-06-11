@@ -13,7 +13,6 @@ import {motion} from 'framer-motion'
 
 // Assets
 import heartofgod from './assets/items/shirt1-back.svg'
-import stars from './assets/stars.svg'
 import logo from './assets/logo.svg'
 import { Link } from 'react-router-dom';
 

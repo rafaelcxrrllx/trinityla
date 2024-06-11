@@ -58,7 +58,7 @@ function Shop() {
       transition={{ duration: 1 }}
       >
       <p className='title'>
-        SHOP
+        Shop
       </p>
       <div className='items'>
       
