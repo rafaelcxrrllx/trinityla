@@ -31,8 +31,6 @@ const CarouselSlideThree = () => {
         <div>
           <img src={TRINITYBACK} alt="Image 2" />
         </div>
-       
-        {/* Add more slides as needed */}
       </Slider>
     </div>
   );

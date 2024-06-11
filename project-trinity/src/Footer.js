@@ -4,11 +4,9 @@ import './styling/styles.css'
 // Local Styling
 import './styling/Footer.css'
 
-// Components
+// Assets
 import instagram from './assets/instagram.svg';
 
-// Assets
-import hero from './assets/hero-shot-desktop.jpeg'
 
 
 function Footer() {

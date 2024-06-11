@@ -8,56 +8,47 @@ import { Link } from 'react-router-dom';
 
 function Blog() {
 
-
-    return (
-
+return (
 
     <div>
-        <Nav/>
-        <motion.div
-            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-            transition={{ duration: 1 }}>
-
+    <Nav/>
+    <motion.div
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}>
        
-            <p className='title'>
-                Blog 
-            </p>
-        </motion.div>
-        <motion.div
-            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-            transition={{ duration: 1 }}>
+        <p className='title'>
+            Blog 
+        </p>
+    </motion.div>
+
+    <motion.div
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}>
         <div className='blog-main-container'>
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
-
             <Link id='item-link' to="/blog/genesis">
-
-            <div className='blog-container'>
-                <div className='chapter-container'>
-                <p>
-                    Chapter One
-                </p>
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        Chapter One
+                    </p>
+                    </div>
+                    <h2>
+                        Genesis
+                    </h2>
+                    <p>
+                        11 June, 2024
+                    </p>
                 </div>
-                <h2>
-                    Genesis
-                </h2>
-               
-                <p>
-                    11 June, 2024
-                </p>
-            </div>
             </Link>
-            
         </div>
-
-        </motion.div>
-
+    </motion.div>
     <Footer/>
     </div>
-
   );
 }
 

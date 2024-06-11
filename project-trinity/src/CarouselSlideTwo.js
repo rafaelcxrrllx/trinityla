@@ -31,8 +31,6 @@ const CarouselSlideTwo = () => {
         <div>
           <img src={LOVELYBONESBACK} alt="Image 1" />
         </div>
-       
-        {/* Add more slides as needed */}
       </Slider>
     </div>
   );

@@ -6,7 +6,6 @@ import './styling/Home.css'
 
 // Components
 import Carousel from './Carousel';
-import Menu from './Menu';
 import Nav from './Nav';
 
 // Assets
@@ -20,13 +19,12 @@ function Home() {
 
   return (
     <div>
-      <Nav/>
+    <Nav/>
    
-    <motion.div initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+      <motion.div initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 1 }}
       className='home-container'>
-      
       <Carousel/>
       <div className='hero-container'>
         <img src={hero}  alt="a picture of trinity and his bmw"/>
@@ -38,11 +36,10 @@ function Home() {
         <h2 className="less-spaced">
           Los Angeles
         </h2>
-        
         <img src={stars} id="stars"  alt="three stars"/>
       </div>
-      <Footer/>
     </motion.div>
+    <Footer/>
     </div>
   );
 }

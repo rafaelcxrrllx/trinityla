@@ -6,8 +6,6 @@ import './styling/Shop.css'
 
 // Components
 import React, { useState } from 'react';
-import Carousel from './Carousel';
-import Menu from './Menu';
 import Nav from './Nav';
 import Footer from './Footer';
 import {motion} from 'framer-motion'
@@ -49,21 +47,17 @@ function Shop() {
 
   return (
 
-    <div 
-    className='home-container'>
-      <Nav/>
+    <div className='home-container'>
+    <Nav/>
     <motion.div
-      initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-      animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-      transition={{ duration: 1 }}
-      >
-      <p className='title'>
-        Shop
-      </p>
-      <div className='items'>
-      
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}>
+    <p className='title'>
+      Shop
+    </p>
+    <div className='items'>
       <Link id='item-link' to="/shop/heartofgod">
-
         <div className='item'>
           <div className='shop-item-img'>
           <img
@@ -71,14 +65,12 @@ function Shop() {
           alt="hover"
           onMouseEnter={() => setHogSrc(HEARTOFGODBACK)}
           onMouseLeave={() => setHogSrc(HEARTOFGODFRONT)}
-          className="hover-image"
-          />
+          className="hover-image"/>
           </div>
         </div>
       </Link>
 
       <Link id='item-link' to="/shop/lovelybones">
-
         <div className='item'>
           <div className='shop-item-img'>
           <img
@@ -86,14 +78,12 @@ function Shop() {
           alt="hover"
           onMouseEnter={() => setLBSrc(LOVELYBONESBACK)}
           onMouseLeave={() => setLBSrc(LOVELYBONESFRONT)}
-          className="hover-image"
-          />
+          className="hover-image"/>
           </div>
         </div>
       </Link>
         
       <Link id='item-link' to="/shop/trinity">
-
         <div className='item'>
           <div className='shop-item-img'>
           <img
@@ -101,8 +91,7 @@ function Shop() {
           alt="hover"
           onMouseEnter={() => setTRISrc(TRINITYBACK)}
           onMouseLeave={() => setTRISrc(TRINITYFRONT)}
-          className="hover-image"
-          />
+          className="hover-image"/>
           </div>
         </div>
       </Link>
@@ -157,7 +146,7 @@ function Shop() {
       </div> */}
       
       </motion.div>
-      <Footer/>
+    <Footer/>
     </div>
   );
 }

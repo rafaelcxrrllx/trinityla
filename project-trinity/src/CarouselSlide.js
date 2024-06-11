@@ -31,8 +31,6 @@ const CarouselSlide = () => {
         <div>
           <img src={heartofgod1back} alt="Image 2" />
         </div>
-       
-        {/* Add more slides as needed */}
       </Slider>
     </div>
   );

@@ -26,7 +26,7 @@ const handleToggleMenu = () => {
   return (
     <nav className="navbar">
       <div className="navbar-emblem">
-        <Link className='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/> </Link>
+        <Link className='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/></Link>
         <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
@@ -37,12 +37,10 @@ const handleToggleMenu = () => {
           <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
           <li><Link className='landing-page-link' to="/blog"> Blog </Link></li>
           <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
-          <li><Link className='landing-page-link' to="/about"> About </Link></li>
-          
+          <li><Link className='landing-page-link' to="/about"> About </Link></li> 
         </ul>
       </motion.div>
       </div>
-      
       <div className="nav-menu">
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>
         <Link id='landing-page-link' className="hover-underline" to="/blog"> Blog </Link>
@@ -50,30 +48,23 @@ const handleToggleMenu = () => {
         <Link id='landing-page-link' className="hover-underline" to="/about"> About </Link>
       </div>
       <div className='menu-container'>
-      <div>
-      <div className="hamburger-container" onClick={handleToggleMenu}>
-        <motion.ul 
-          
+        <div>
+          <div className="hamburger-container" onClick={handleToggleMenu}>
+            <motion.ul 
             className="hamburger">
-          <motion.li 
-             animate={{  y: menuOpen ? 5: 0, rotate: menuOpen ? 40: 0}}
-             transition={{ duration: 0 }}
-            ></motion.li>
-          <motion.li 
-          animate={{y: menuOpen ? -5: 0, rotate: menuOpen ? -40: 0}}
-          transition={{ duration: 0 }}
-            ></motion.li>
-          <motion.li 
-           animate={{ opacity: menuOpen ? 0: 1 }}
-           transition={{ duration: 0 }}
-           
-           >
-            </motion.li>
-        </motion.ul>
-
-   
-      </div>
-    </div>
+              <motion.li 
+                animate={{  y: menuOpen ? 5: 0, rotate: menuOpen ? 40: 0}}
+                transition={{ duration: 0 }}></motion.li>
+              <motion.li 
+                animate={{y: menuOpen ? -5: 0, rotate: menuOpen ? -40: 0}}
+                transition={{ duration: 0 }}></motion.li>
+              <motion.li 
+              animate={{ opacity: menuOpen ? 0: 1 }}
+              transition={{ duration: 0 }}>
+              </motion.li>
+            </motion.ul>
+          </div>
+        </div>
       </div>
     </nav>
   );
