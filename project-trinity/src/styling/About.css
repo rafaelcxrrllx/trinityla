@@ -45,6 +45,11 @@
         margin-right: 24px;
     }
 
+    .statement-container {
+        margin-left: 12px;
+        margin-right: 24px;
+    }
+
     .about-main-container {
         margin-left: 0px;
     }
@@ -54,5 +59,7 @@
         margin-right: 0px;
         margin-top: 20px;
     }
+
+
 
   }
