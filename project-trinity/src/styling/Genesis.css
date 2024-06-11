@@ -4,11 +4,11 @@
 }
 
 .blog-back-container {
-    text-align: left;
-    margin-top: 12px;
-    margin-left: 0px;
-    padding-bottom: 12px;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+        text-align: left;
+        margin-top: 12px;
+        margin-left: 0px;
+        padding-bottom: 12px;
+        box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
   
 }
 
@@ -31,11 +31,11 @@
 }
 
 .quote {
+    padding: 20px;
     background-color: white;
     border-left: 5px solid #3498db; /* Adds a side stroke to the left */
     margin: 0px;
     font-size: 18px;
-    padding-left: 20px;
 }
 
 .blog-img {

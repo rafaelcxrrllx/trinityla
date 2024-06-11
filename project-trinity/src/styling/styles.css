@@ -46,21 +46,18 @@ p, li {
 }
 
 a:visited {
-    color: #0B2545; 
+    color: #0B2545; /* Link color after it has been visited */
 }
 
 Link {
     color: #0B2545;
 }
 
-/* .landing-page-link {
+.landing-page-link {
     color: #0B2545;
-  } */
-.link.light {
-    color: #fff;
-}
+  }
 
-/* .landing-page-link {
+.landing-page-link {
     text-decoration: none;
     display: inline-block;
-} */
+}
