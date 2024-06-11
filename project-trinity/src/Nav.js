@@ -4,6 +4,8 @@ import './styling/styles.css';
 
 // Local Styling
 import './styling/Nav.css';
+import './styling/Menu.css';
+
 
 // Components
 import React, { useState, useEffect } from 'react';

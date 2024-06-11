@@ -30,6 +30,7 @@ return (
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
+            
             <Link id='item-link' to="/blog/genesis">
                 <div className='blog-container'>
                     <div className='chapter-container'>
