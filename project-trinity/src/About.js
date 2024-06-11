@@ -77,9 +77,6 @@ function About() {
         The real story that astrology tells, that story concerns the understanding, purification, mastery and perfection of the human body and nothing else. 
         The scriptures are allegories, parables and fables based on the human body, "fearfully and wonderfully made". 
     </p>
-    <p>
-      To save our reality and enter paradise, we must save ourselves. But first, we know know ourselves. Ignorance is the real enemy. KNOW THYSELF.
-    </p>
    
     <p>
     Loved Not Owned,
