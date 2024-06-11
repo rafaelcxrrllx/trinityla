@@ -30,6 +30,10 @@ return (
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
+            <p>
+                A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
+                I hope to make atleast one entry a week. Enjoy. 
+            </p>
             
             <Link id='item-link' to="/blog/genesis">
                 <div className='blog-container'>
@@ -39,7 +43,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        Genesis
+                        Genesis: The Beginning and The End
                     </h2>
                     <p>
                         11 June, 2024

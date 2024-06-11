@@ -22,6 +22,8 @@
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 50px;
+
 }
 
 .title-container {
@@ -33,7 +35,7 @@
 .quote {
     padding: 20px;
     background-color: white;
-    border-left: 5px solid #3498db; /* Adds a side stroke to the left */
+    border-left: 5px solid #8DA9C4;
     margin: 0px;
     font-size: 18px;
 }
