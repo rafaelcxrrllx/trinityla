@@ -7,6 +7,7 @@ import Item from './item';
 import ItemTwo from './itemTwo';
 import ItemThree from './itemThree';
 import Blog from './Blog';
+import Genesis from './Genesis';
 
 
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
@@ -21,6 +22,7 @@ function App() {
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/blog' element={<Blog/>}/>
+      <Route path='/blog/genesis' element={<Genesis/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/shop/heartofgod' element={<Item/>}/>

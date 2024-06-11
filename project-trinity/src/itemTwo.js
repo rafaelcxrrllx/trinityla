@@ -59,7 +59,7 @@ function ItemTwo() {
           <div className='back-container' >
           <img className="arrow" src={backArrow}/>
               <p>
-                  BACK TO SHOP
+                  Back to Shop
               </p>
               
           </div>

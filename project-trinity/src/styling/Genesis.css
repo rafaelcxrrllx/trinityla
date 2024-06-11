@@ -1,0 +1,77 @@
+.genesis-main-container {
+    text-align: left;
+    margin-left: 24px;
+}
+
+.blog-back-container {
+        text-align: left;
+        margin-top: 12px;
+        margin-left: 0px;
+        padding-bottom: 12px;
+        box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+  
+}
+
+.start-letter {
+    font-size: 50px;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.blog-text-container {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.title-container {
+    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+    padding-top: 12px;
+    padding-bottom: 1px;
+}
+
+.quote {
+    padding: 20px;
+    background-color: white;
+    border-left: 5px solid #3498db; /* Adds a side stroke to the left */
+    margin: 0px;
+    font-size: 18px;
+}
+
+.blog-img {
+    text-align: center;
+}
+
+
+  /* Small screens (phones) */
+  @media (max-width: 600px) {
+
+    .blog-text-container {
+        text-align: left;
+        margin-left: 24px;
+        margin-right: 50px;
+        line-height: 2;
+    }
+    
+  }
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .blog-text-container {
+        text-align: left;
+        margin-left: 0px;
+        margin-right: 50px;
+        line-height: 2;
+    }
+  }
+  
+  
+@media (min-width: 1025px) {
+
+    .blog-text-container {
+        text-align: left;
+        line-height: 2;
+    }
+
+}  

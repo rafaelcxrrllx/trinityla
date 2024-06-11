@@ -24,10 +24,16 @@ function Blog() {
                 Blog 
             </p>
         </motion.div>
+        <motion.div
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}>
         <div className='blog-main-container'>
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
+
+            <Link id='item-link' to="/blog/genesis">
 
             <div className='blog-container'>
                 <div className='chapter-container'>
@@ -43,10 +49,11 @@ function Blog() {
                     11 June, 2024
                 </p>
             </div>
+            </Link>
             
         </div>
 
-   
+        </motion.div>
 
     <Footer/>
     </div>
