@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/trinityla/static/css/main.eb6274e8.css",
+    "main.js": "/trinityla/static/js/main.90438990.js",
+    "static/js/453.1d42ff05.chunk.js": "/trinityla/static/js/453.1d42ff05.chunk.js",
+    "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
+    "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
+    "static/media/hero-shot.jpeg": "/trinityla/static/media/hero-shot.2d612d63ad2d6af13427.jpeg",
+    "static/media/hero-shot-desktop.jpeg": "/trinityla/static/media/hero-shot-desktop.b99a98b962ebb93e5caa.jpeg",
+    "static/media/hero-shot-2.jpeg": "/trinityla/static/media/hero-shot-2.f04100aefe405a0fa1bf.jpeg",
+    "static/media/hero-shot-3.jpeg": "/trinityla/static/media/hero-shot-3.fa11ea3c0741acb48c13.jpeg",
+    "static/media/lovelybones-front.svg": "/trinityla/static/media/lovelybones-front.868b1f54bb422f22d0637b5505e9f87d.svg",
+    "static/media/lovelybones-back.svg": "/trinityla/static/media/lovelybones-back.b946b2a84eb9d99c4aaa9c63e7c8b081.svg",
+    "static/media/heartofgod-front.svg": "/trinityla/static/media/heartofgod-front.da44afc1890359c451f7b7d5ba078bb1.svg",
+    "static/media/shirt1-front.svg": "/trinityla/static/media/shirt1-front.9cbdb39699e72de989793352d4b15d14.svg",
+    "static/media/staygolden-back.svg": "/trinityla/static/media/staygolden-back.582d02848995efccc6a65e62c68581cd.svg",
+    "static/media/staygolden-front.svg": "/trinityla/static/media/staygolden-front.2ae24d02e784eb0d1eb729dbe8e8ce0a.svg",
+    "static/media/emblem-back.svg": "/trinityla/static/media/emblem-back.1775fbe110a6b83f806a0b60107ebc48.svg",
+    "static/media/energy-back.svg": "/trinityla/static/media/energy-back.9f228c23bec8c5ad06f290ba0865e3ec.svg",
+    "static/media/energy-front.svg": "/trinityla/static/media/energy-front.5176588c846fb09b58402c090f674a5c.svg",
+    "static/media/emblem-front.svg": "/trinityla/static/media/emblem-front.39645e65cc578eb61183dc88c7ce88b0.svg",
+    "static/media/trinity-front.svg": "/trinityla/static/media/trinity-front.4cb8d226c16dc61301072df55920c4e9.svg",
+    "static/media/shirt-size.jpeg": "/trinityla/static/media/shirt-size.3f39ee5c83993b2b378e.jpeg",
+    "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
+    "static/media/logo.svg": "/trinityla/static/media/logo.878f6498a4bd01cec129635ee4dc9342.svg",
+    "static/media/slick.svg": "/trinityla/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/trinityla/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/instagram.svg": "/trinityla/static/media/instagram.045b18876699a52f8b34fa4a10027b3b.svg",
+    "static/media/slick.ttf": "/trinityla/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/trinityla/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/stars.svg": "/trinityla/static/media/stars.925ab0986765158e64ccfeea08a7588b.svg",
+    "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
+    "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.c77194ecee250be5252e5003e364c7ce.svg",
+    "index.html": "/trinityla/index.html",
+    "main.eb6274e8.css.map": "/trinityla/static/css/main.eb6274e8.css.map",
+    "main.90438990.js.map": "/trinityla/static/js/main.90438990.js.map",
+    "453.1d42ff05.chunk.js.map": "/trinityla/static/js/453.1d42ff05.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb6274e8.css",
+    "static/js/main.90438990.js"
+  ]
+}
