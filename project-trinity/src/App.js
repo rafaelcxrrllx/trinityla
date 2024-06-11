@@ -28,8 +28,6 @@ function App() {
       <Route path='/shop/heartofgod' element={<Item/>}/>
       <Route path='/shop/lovelybones' element={<ItemTwo/>}/>
       <Route path='/shop/trinity' element={<ItemThree/>}/>
-
-
     </Routes>
   </HashRouter>
   );

@@ -7,16 +7,23 @@ import './styling/Nav.css';
 
 // Components
 import React, { useState, useEffect } from 'react';
+import { useTheme } from './ThemeContext';
 
 // Assets
 import logo from './assets/logo.svg'
+import logoDark from './assets/logo-dark.svg'
+
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import Menu from './Menu';
+import sunImg from './assets/icons/sun.svg';  // Path to your sun image
+import moonImg from './assets/icons/moon.svg'; // Path to your moon image
 
 function Nav() {
 
 
 const [menuOpen, setMenuOpen] = useState(false);
+const { theme, toggleTheme } = useTheme();
 
 const handleToggleMenu = () => {
   setMenuOpen(!menuOpen);
@@ -24,9 +31,13 @@ const handleToggleMenu = () => {
 
 
   return (
-    <nav className="navbar">
+
+    <nav  className={`navbar ${theme}`}>
       <div className="navbar-emblem">
-        <Link className='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/></Link>
+        <Link className='landing-page-link' to="/home"> 
+          <img id="emblem" src={theme === 'light' ? logo : logoDark} 
+          alt={theme === 'light' ? 'Moon' : 'Sun'}/>
+        </Link>
         <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
@@ -34,14 +45,24 @@ const handleToggleMenu = () => {
         transition={{ duration: .3 }}
         style={{ overflow: 'hidden', positio: 'absolute' }}>
         <ul className="hamburger-menu">
-          <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
+          <li  className={`link ${theme}`}><Link className='landing-page-link' to="/shop"> Shop </Link></li>
           <li><Link className='landing-page-link' to="/blog"> Blog </Link></li>
           <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
           <li><Link className='landing-page-link' to="/about"> About </Link></li> 
         </ul>
       </motion.div>
       </div>
+
       <div className="nav-menu">
+        <div>   
+          <button id="toggle" className="btn" onClick={toggleTheme}>
+              <img 
+                  src={theme === 'light' ? moonImg : sunImg} 
+                  alt={theme === 'light' ? 'Moon' : 'Sun'} 
+                  className="theme-icon"
+              />
+          </button>
+        </div>
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>
         <Link id='landing-page-link' className="hover-underline" to="/blog"> Blog </Link>
         <Link id='landing-page-link' className="hover-underline" to="/contact"> Contact </Link>
