@@ -17,8 +17,10 @@ import CarouselSlide from './CarouselSlide';
 import arrow from './assets/icons/arrow.svg'
 import backArrow from './assets/icons/arrow-back.svg'
 
+import CarouselSlideThree from './CarouselSlideThree';
 
-function ItemOne() {
+
+function ItemThree() {
 
   const [isDetailsVisible, setIsDetailsVisible] = useState(false);
 
@@ -54,7 +56,7 @@ function ItemOne() {
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
             transition={{ duration: 1 }}>
 
-          <div className='back-container'>
+          <div className='back-container' >
           <img className="arrow" src={backArrow}/>
               <p>
                   BACK TO SHOP
@@ -69,12 +71,12 @@ function ItemOne() {
           transition={{ duration: 1 }}
           class="container">
           <div className='box'>
-            <CarouselSlide/>
+            <CarouselSlideThree/>
           </div>
         <div id="item-description" className='box'>
         <div className='item-description'>
             <p>
-                HEART OF GOD TEE
+                TRINITY TEE
             </p>
             <p>
                 $45
@@ -265,4 +267,4 @@ function ItemOne() {
   );
 };
 
-export default ItemOne;
+export default ItemThree;

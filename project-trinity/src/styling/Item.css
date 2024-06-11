@@ -13,6 +13,23 @@
 
 }
 
+.back-container {
+  display: flex;
+  cursor: pointer;
+  margin-left: 12px;
+}
+
+#item-link {
+  text-decoration: none;
+
+}
+
+
+
+.back-container img {
+  margin-right: 10px;
+}
+
 #AddToBag:hover {
   background-color:  #0B2545;
   color: #fff;

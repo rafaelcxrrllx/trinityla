@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './styling/CarouselSlide.css'; // Optional: your custom styles
-import heartofgod1front from './assets/items/shirt1-front.svg';
-import heartofgod1back from './assets/items/shirt1-back.svg';
+import LOVELYBONESFRONT from './assets/items/lovelybones-front.svg';
+import LOVELYBONESBACK from './assets/items/lovelybones-back.svg';
 
 
-const CarouselSlide = () => {
+const CarouselSlideTwo = () => {
   const settings = {
     infinite: true,
     speed: 500,
@@ -26,10 +26,10 @@ const CarouselSlide = () => {
     <div className="carouselslide-container">
       <Slider {...settings}>
         <div>
-          <img src={heartofgod1front} alt="Image 1" />
+          <img src={LOVELYBONESFRONT} alt="Image 1" />
         </div>
         <div>
-          <img src={heartofgod1back} alt="Image 2" />
+          <img src={LOVELYBONESBACK} alt="Image 1" />
         </div>
        
         {/* Add more slides as needed */}
@@ -38,4 +38,4 @@ const CarouselSlide = () => {
   );
 };
 
-export default CarouselSlide;
+export default CarouselSlideTwo;

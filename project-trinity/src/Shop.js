@@ -58,11 +58,11 @@ function Shop() {
       transition={{ duration: 1 }}
       >
       <p className='title'>
-        Shop
+        SHOP
       </p>
       <div className='items'>
       
-      <Link id='item-link' to="/item">
+      <Link id='item-link' to="/shop/heartofgod">
 
         <div className='item'>
           <div className='shop-item-img'>
@@ -77,7 +77,7 @@ function Shop() {
         </div>
       </Link>
 
-      <Link id='item-link' to="/item">
+      <Link id='item-link' to="/shop/lovelybones">
 
         <div className='item'>
           <div className='shop-item-img'>
@@ -92,7 +92,7 @@ function Shop() {
         </div>
       </Link>
         
-      <Link id='item-link' to="/item">
+      <Link id='item-link' to="/shop/trinity">
 
         <div className='item'>
           <div className='shop-item-img'>
@@ -107,7 +107,8 @@ function Shop() {
         </div>
       </Link>
       </div>
-      <div className='items'>
+
+      {/* <div className='items'>
       
       <Link id='item-link' to="/item">
 
@@ -153,7 +154,7 @@ function Shop() {
           </div>
         </div>
       </Link>
-      </div>
+      </div> */}
       
       </motion.div>
       <Footer/>
