@@ -8,6 +8,7 @@ import ItemTwo from './items/itemTwo';
 import ItemThree from './items/itemThree';
 import Blog from './pages/Blog';
 import Genesis from './blogs/Genesis';
+import Mercury from './blogs/Mercury';
 
 
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
@@ -23,6 +24,7 @@ function App() {
       <Route path='/home' element={<Home/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/blog/genesis' element={<Genesis/>}/>
+      <Route path='/blog/mercury' element={<Mercury/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/shop/heartofgod' element={<Item/>}/>

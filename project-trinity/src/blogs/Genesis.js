@@ -34,6 +34,9 @@ function Genesis() {
         className="blog-back-container">
             <div className='genesis-main-container'>
                 <div className='title-container'>
+                    <p>
+                        11 June, 2024
+                    </p>
                     <h1 id='title'>
                         Genesis: The Beginning and The End
                     </h1>

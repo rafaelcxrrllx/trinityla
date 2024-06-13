@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import illuminated from '../assets/illuminated.jpg'
 
 
 function Blog() {
@@ -30,9 +31,15 @@ return (
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
+            <div className='blog-img'>
+                <img src={illuminated}  alt="zodiac wheel"/>
+                <p>
+                    St. Jerome in His Study, 1514
+                </p>
+            </div>
             <p>
                 A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
-                I hope to make atleast one entry a week. Enjoy. 
+                 Enjoy. 
             </p>
             
             <Link id='item-link' to="/blog/genesis">
@@ -50,6 +57,22 @@ return (
                     </p>
                 </div>
             </Link>
+            <Link id='item-link' to="/blog/mercury">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        Chapter Two
+                    </p>
+                    </div>
+                    <h2>
+                        Mercury: The Messenger of the Gods
+                    </h2>
+                    <p>
+                        12 June, 2024
+                    </p>
+                </div>
+            </Link>
+            
         </div>
     </motion.div>
     <Footer/>
