@@ -7,9 +7,11 @@ import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg'
 import fullmetal from '../assets/fullmetal.jpeg'
 import philosopherstone from '../assets/philosopherstone.jpeg'
-import philosopherstonetwo from '../assets/philosopherstonetwo.jpeg'
+import philosopherstonetwo from '../assets/philosopherstonetwo.jpg'
 import oroboros from '../assets/oroboros.jpeg'
 import edward from '../assets/edward.jpeg'
+import dooroftruth from '../assets/doorone.jpeg'
+import tree from '../assets/treeoftruth.svg'
 
 function Mercury() {
 
@@ -258,6 +260,32 @@ function Mercury() {
                             </div>
 
                             <h2>
+                                The Two Gates
+                            </h2>
+                            <div className='blog-img'>
+                                <img src={dooroftruth}  alt="zodiac wheel"/>
+                                <p>
+                                Gate of Truth, FullMetal Alchemist: Brotherhood
+                                </p>
+                            </div>
+                            <div className='blog-img'>
+                                <img src={tree}  alt="zodiac wheel"/>
+                                <p>
+                                George Ripley's Marrow of Alchemy
+                                </p>
+                            </div>
+                           
+                            <p>
+                               I might go deep into these images above in an upcoming blog, 
+                               but for now I will leave them here for reference. The first Gate is
+                               the Gate of Truth: the source of alchemical knowledge and the entrance to God's domain, where no mortals are meant to tread.
+                               The second gate is depicted from George Ripley's Marrow of Alchemy. This door 
+                               appears behind Al's body. 
+                            </p>
+            
+                            
+
+                            <h2>
                                 Conclusion
                             </h2>
                             <p>
@@ -358,7 +386,6 @@ function Mercury() {
                                 passions, that is truly the birth and death of the son of man. 
 
                             </p>
-            
                             
                        
                             <p>
