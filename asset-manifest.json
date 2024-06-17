@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.b8e7aebf.css",
-    "main.js": "/trinityla/static/js/main.709bd578.js",
+    "main.css": "/trinityla/static/css/main.a8d93498.css",
+    "main.js": "/trinityla/static/js/main.1cae88aa.js",
     "static/js/453.1d42ff05.chunk.js": "/trinityla/static/js/453.1d42ff05.chunk.js",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
@@ -20,13 +20,18 @@
     "static/media/staygolden-front.svg": "/trinityla/static/media/staygolden-front.2ae24d02e784eb0d1eb729dbe8e8ce0a.svg",
     "static/media/moses.webp": "/trinityla/static/media/moses.794ffa609e4cb6354986.webp",
     "static/media/mercury-two.jpeg": "/trinityla/static/media/mercury-two.e8cfd39b0c24b2916f17.jpeg",
+    "static/media/philosopherstone.jpeg": "/trinityla/static/media/philosopherstone.37bc94488651e8429e8c.jpeg",
     "static/media/emblem-back.svg": "/trinityla/static/media/emblem-back.1775fbe110a6b83f806a0b60107ebc48.svg",
+    "static/media/philosopherstonetwo.jpeg": "/trinityla/static/media/philosopherstonetwo.eada1f2da3f0c6f89395.jpeg",
     "static/media/energy-back.svg": "/trinityla/static/media/energy-back.9f228c23bec8c5ad06f290ba0865e3ec.svg",
+    "static/media/edward.jpeg": "/trinityla/static/media/edward.3bb00d38caea72f708c2.jpeg",
     "static/media/energy-front.svg": "/trinityla/static/media/energy-front.5176588c846fb09b58402c090f674a5c.svg",
     "static/media/emblem-front.svg": "/trinityla/static/media/emblem-front.39645e65cc578eb61183dc88c7ce88b0.svg",
     "static/media/trinity-front.svg": "/trinityla/static/media/trinity-front.4cb8d226c16dc61301072df55920c4e9.svg",
+    "static/media/fullmetal.jpeg": "/trinityla/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
     "static/media/shirt-size.jpeg": "/trinityla/static/media/shirt-size.3f39ee5c83993b2b378e.jpeg",
     "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
+    "static/media/oroboros.jpeg": "/trinityla/static/media/oroboros.f9dd99941ba531052947.jpeg",
     "static/media/logo.svg": "/trinityla/static/media/logo.878f6498a4bd01cec129635ee4dc9342.svg",
     "static/media/slick.svg": "/trinityla/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/trinityla/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -37,12 +42,12 @@
     "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.c77194ecee250be5252e5003e364c7ce.svg",
     "index.html": "/trinityla/index.html",
-    "main.b8e7aebf.css.map": "/trinityla/static/css/main.b8e7aebf.css.map",
-    "main.709bd578.js.map": "/trinityla/static/js/main.709bd578.js.map",
+    "main.a8d93498.css.map": "/trinityla/static/css/main.a8d93498.css.map",
+    "main.1cae88aa.js.map": "/trinityla/static/js/main.1cae88aa.js.map",
     "453.1d42ff05.chunk.js.map": "/trinityla/static/js/453.1d42ff05.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8e7aebf.css",
-    "static/js/main.709bd578.js"
+    "static/css/main.a8d93498.css",
+    "static/js/main.1cae88aa.js"
   ]
 }
