@@ -72,6 +72,21 @@ return (
                     </p>
                 </div>
             </Link>
+            <Link id='item-link' to="/blog/fullmetal">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        Chapter Three
+                    </p>
+                    </div>
+                    <h2>
+                        FullMetal: The Law of Equivalent Exchange
+                    </h2>
+                    <p>
+                        16 June, 2024
+                    </p>
+                </div>
+            </Link>
             
         </div>
     </motion.div>
