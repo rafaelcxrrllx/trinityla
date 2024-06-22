@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg'
 import gibran from '../assets/gibranArt.jpeg'
+
 function Genesis() {
 
 

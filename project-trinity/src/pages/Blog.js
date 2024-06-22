@@ -46,7 +46,7 @@ return (
                 <div className='blog-container'>
                     <div className='chapter-container'>
                     <p>
-                        Chapter One
+                        I
                     </p>
                     </div>
                     <h2>
@@ -61,7 +61,7 @@ return (
                 <div className='blog-container'>
                     <div className='chapter-container'>
                     <p>
-                        Chapter Two
+                        II
                     </p>
                     </div>
                     <h2>
@@ -76,7 +76,7 @@ return (
                 <div className='blog-container'>
                     <div className='chapter-container'>
                     <p>
-                        Chapter Three
+                        III
                     </p>
                     </div>
                     <h2>
@@ -84,6 +84,36 @@ return (
                     </h2>
                     <p>
                         16 June, 2024
+                    </p>
+                </div>
+            </Link>
+            <Link id='item-link' to="/blog/theholymountain">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        IV
+                    </p>
+                    </div>
+                    <h2>
+                        Part One: The Holy Mountain (La Montaña Sagrada)
+                    </h2>
+                    <p>
+                        20 June, 2024
+                    </p>
+                </div>
+            </Link>
+            <Link id='item-link' to="/blog/cellsaltsintro">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        V
+                    </p>
+                    </div>
+                    <h2>
+                        The Cell Salts of Salvation: Summary
+                    </h2>
+                    <p>
+                        22 June, 2024
                     </p>
                 </div>
             </Link>

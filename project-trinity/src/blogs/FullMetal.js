@@ -13,7 +13,7 @@ import edward from '../assets/edward.jpeg'
 import dooroftruth from '../assets/doorone.jpeg'
 import tree from '../assets/treeoftruth.svg'
 
-function Mercury() {
+function FullMetal() {
 
 
     return (
@@ -400,4 +400,4 @@ function Mercury() {
   );
 }
 
-export default Mercury;
+export default FullMetal;
