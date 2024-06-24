@@ -4,14 +4,16 @@ import Footer from '../components/Footer';
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import illuminated from '../assets/illuminated.jpg'
-
-
+import BlogCarousel from '../carousels/BlogCarousel';
+import astrology from '../assets/astrology-desktop.jpg'
 function Blog() {
 
 return (
 
-    <div>
+    <motion.div
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}>
     <Nav/>
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
@@ -22,7 +24,8 @@ return (
             Blog 
         </p>
     </motion.div>
-
+    <BlogCarousel/>
+      
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
     animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -31,12 +34,8 @@ return (
             <h1 id='title'>
                 Here Lies the Unspoke Gospel
             </h1>
-            <div className='blog-img'>
-                <img src={illuminated}  alt="zodiac wheel"/>
-                <p>
-                    St. Jerome in His Study, 1514
-                </p>
-            </div>
+            
+           
             <p>
                 A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
                  Enjoy. 
@@ -95,7 +94,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        Part One: The Holy Mountain (La Montaña Sagrada)
+                        The Holy Mountain: La Montaña Sagrada
                     </h2>
                     <p>
                         20 June, 2024
@@ -121,7 +120,7 @@ return (
         </div>
     </motion.div>
     <Footer/>
-    </div>
+    </motion.div>
   );
 }
 

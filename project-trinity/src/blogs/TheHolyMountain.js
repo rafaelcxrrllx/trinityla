@@ -21,6 +21,7 @@ import gold from '../assets/gold.jpg'
 import thirdEye from '../assets/thirdEye.jpg'
 import solarPlexus from '../assets/solarPlexus.jpeg'
 import throatChakra from '../assets/throatChakra.jpg'
+import holymountain from '../assets/holymountain.jpg'
 
 function TheHolyMountain() {
 
@@ -43,6 +44,13 @@ function TheHolyMountain() {
                 </div>
             </motion.div>
         </Link>
+        <motion.div 
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className='blog-img-container'>
+            <img src={holymountain}  alt="Images from The Holy Mountain (1973)"/>
+        </motion.div> 
         <motion.div
         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -54,7 +62,7 @@ function TheHolyMountain() {
                         20 June, 2024
                     </p>
                     <h1 id='title'>
-                    Part One: The Holy Mountain (La Montaña Sagrada)
+                    The Holy Mountain (La Montaña Sagrada)
                     </h1>
                     
                 </div>
@@ -109,7 +117,7 @@ function TheHolyMountain() {
                                 The Protagonist
                             </h2>
                             <div className='blog-img'>
-                                <img src={animalMan}  alt="zodiac wheel"/>
+                                <img src={animalMan}  alt="The Protagonist, The Holy Mountainl"/>
                                 <p>
                                     The Protagonist, The Holy Mountain
                                 </p>
@@ -124,7 +132,7 @@ function TheHolyMountain() {
                             </p>
 
                             <div className='blog-img'>
-                                <img src={theFool}  alt="zodiac wheel"/>
+                                <img src={theFool}  alt="The Fool, The Holy Mountain"/>
                                 <p>
                                     The Fool, The Holy Mountain
                                 </p>
@@ -143,7 +151,7 @@ function TheHolyMountain() {
                             </h2>
 
                             <div className='blog-img'>
-                                <img src={theLostBoys}  alt="zodiac wheel"/>
+                                <img src={theLostBoys}  alt="The Lost Boys, The Holy Mountain"/>
                                 <p>
                                     The Lost Boys, The Holy Mountain
                                 </p>
@@ -172,7 +180,7 @@ function TheHolyMountain() {
                                 The Self
                             </h2>
                             <div className='blog-img'>
-                                <img src={selfOne}  alt="zodiac wheel"/>
+                                <img src={selfOne}  alt="Christ-like Figures, The Holy Mountain"/>
                                 <p>
                                     Christ-like Figures, The Holy Mountain
                                 </p>
@@ -187,7 +195,7 @@ function TheHolyMountain() {
                                 up and sees what was done. 
                             </p>
                             <div className='blog-img'>
-                                <img src={selfTwo}  alt="zodiac wheel"/>
+                                <img src={selfTwo}  alt="Christ-like Figures (Destroyed), The Holy Mountain"/>
                                 <p>
                                     Christ-like Figures (Destroyed), The Holy Mountain
                                 </p>
@@ -209,7 +217,7 @@ function TheHolyMountain() {
                                 The Woman and The Chimp
                             </h2>
                             <div className='blog-img'>
-                                <img src={womanNChimp}  alt="zodiac wheel"/>
+                                <img src={womanNChimp}  alt="The Woman and The Protagonist, The Holy Mountain"/>
                                 <p>
                                     The Woman and The Protagonist, The Holy Mountain
                                 </p>
@@ -230,7 +238,7 @@ function TheHolyMountain() {
                                 The Release of Self
                             </h2>
                             <div className='blog-img'>
-                                <img src={christRelease}  alt="zodiac wheel"/>
+                                <img src={christRelease}  alt="Release of Self Image,  The Holy Mountain"/>
                                 <p>
                                     Release of Self Image,  The Holy Mountain
                                 </p>
@@ -248,7 +256,7 @@ function TheHolyMountain() {
                                 The Tower
                             </h2>
                             <div className='blog-img'>
-                                <img src={tower}  alt="zodiac wheel"/>
+                                <img src={tower}  alt="The Tower,  The Holy Mountain"/>
                                 <p>
                                     The Tower,  The Holy Mountain
                                 </p>
@@ -260,7 +268,7 @@ function TheHolyMountain() {
                             </p>
 
                             <div className='blog-img'>
-                                <img src={gold}  alt="zodiac wheel"/>
+                                <img src={gold}  alt="Gold from the Tower,  The Holy Mountain"/>
                                 <p>
                                     Gold from the Tower,  The Holy Mountain
                                 </p>
@@ -327,7 +335,7 @@ function TheHolyMountain() {
                                 Inside The Tower
                             </h2>
                             <div className='blog-img'>
-                                <img src={insideTower}  alt="zodiac wheel"/>
+                                <img src={insideTower}  alt="Inside The Tower,  The Holy Mountain"/>
                                 <p>
                                     Inside The Tower,  The Holy Mountain
                                 </p>
@@ -347,7 +355,7 @@ function TheHolyMountain() {
                                 The Goat Man
                             </h2>
                             <div className='blog-img'>
-                                <img src={goatMan}  alt="zodiac wheel"/>
+                                <img src={goatMan}  alt="The Goat Man,  The Holy Mountain"/>
                                 <p>
                                     The Goat Man,  The Holy Mountain
                                 </p>
@@ -368,7 +376,7 @@ function TheHolyMountain() {
                                 The Baptism
                             </h2>
                             <div className='blog-img'>
-                                <img src={hippo}  alt="zodiac wheel"/>
+                                <img src={hippo}  alt="The Crystal Palace,  The Holy Mountain"/>
                                 <p>
                                     The Crystal Palace,  The Holy Mountain
                                 </p>
@@ -392,7 +400,7 @@ function TheHolyMountain() {
                                 The Great Work
                             </h2>
                             <div className='blog-img'>
-                                <img src={alchemy}  alt="zodiac wheel"/>
+                                <img src={alchemy}  alt="The Great Work,  The Holy Mountain"/>
                                 <p>
                                     The Great Work,  The Holy Mountain
                                 </p>
@@ -417,7 +425,7 @@ function TheHolyMountain() {
                                 The Spinning Room
                             </h2>
                             <div className='blog-img'>
-                                <img src={throatChakra}  alt="zodiac wheel"/>
+                                <img src={throatChakra}  alt="The Spinning Room,  The Holy Mountain"/>
                                 <p>
                                     The Spinning Room,  The Holy Mountain
                                 </p>
@@ -428,7 +436,7 @@ function TheHolyMountain() {
                                two of them walk clockwise around the symbol that appears on the floor. 
                             </p>
                             <div className='blog-img'>
-                                <img src={thirdEye}  alt="zodiac wheel"/>
+                                <img src={thirdEye}  alt="Third Eye Chakra,  The Holy Mountain"/>
                                 <p>
                                     Third Eye Chakra,  The Holy Mountain
                                 </p>
@@ -441,7 +449,7 @@ function TheHolyMountain() {
                                The Solar Plexus Chakra
                             </p>
                             <div className='blog-img'>
-                                <img src={solarPlexus}  alt="zodiac wheel"/>
+                                <img src={solarPlexus}  alt="Solar Plexus Chakra,  The Holy Mountain"/>
                                 <p>
                                     Solar Plexus Chakra,  The Holy Mountain
                                 </p>

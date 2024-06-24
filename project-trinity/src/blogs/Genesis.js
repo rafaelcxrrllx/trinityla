@@ -14,6 +14,7 @@ function Genesis() {
 
     <div>
     <Nav/>
+    
         <Link id='item-link' to="/blog">
             <motion.div
             initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
@@ -28,6 +29,13 @@ function Genesis() {
                 </div>
             </motion.div>
         </Link>
+        <motion.div 
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className='blog-img-container'>
+            <img src={gibran}  alt="Art by Khalil Gibran"/>
+        </motion.div> 
         <motion.div
         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -56,7 +64,8 @@ function Genesis() {
                                 But are these imposed onto us or do we choose them in free-spirit?
                             </p>
                             <div className='blog-img'>
-                                <img src={gibran}  alt="zodiac wheel"/>
+                                <img src={gibran}  alt="A hand with an eyeball placed centered on the palm facing forward. A group of angel-like
+                                beings sworm around the hand in unison forming a circle"/>
                                 <p>
                                     Art by Khalil Gibran, 1923
                                 </p>

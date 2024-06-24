@@ -12,6 +12,7 @@ import oroboros from '../assets/oroboros.jpeg'
 import edward from '../assets/edward.jpeg'
 import dooroftruth from '../assets/doorone.jpeg'
 import tree from '../assets/treeoftruth.svg'
+import fullmetalAlchemist from '../assets/fullmetalAlchemist.jpeg'
 
 function FullMetal() {
 
@@ -34,11 +35,18 @@ function FullMetal() {
                 </div>
             </motion.div>
         </Link>
+        <motion.div 
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className='blog-img-container'>
+            <img src={fullmetalAlchemist}  alt="Art by Khalil Gibran"/>
+        </motion.div> 
         <motion.div
-        initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-        animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-        transition={{ duration: 1 }}
-        className="blog-back-container">
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className="blog-back-container">
             <div className='genesis-main-container'>
                 <div className='title-container'>
                     <p>
@@ -162,7 +170,7 @@ function FullMetal() {
                             </div>
                             
                             <div className='blog-img'>
-                                <img src={philosopherstone}  alt="zodiac wheel"/>
+                                <img src={philosopherstone}  alt="Birth of the Philosopher's Stone, 1745 depicts an alchemist in a dimly lit laboratory, intensely focused on a glowing stone amidst shelves of ancient books and bubbling potions, capturing the mystical moment of alchemical discovery"/>
                                 <p>
                                     Birth of the Philosopher's Stone, 1745
                                 </p>
@@ -227,7 +235,7 @@ function FullMetal() {
                                The Perfect Being
                             </h2>
                             <div className='blog-img'>
-                                <img src={philosopherstonetwo}  alt="zodiac wheel"/>
+                                <img src={philosopherstonetwo}  alt="Hermetic Vase, Unkown Artist"/>
                                 <p>
                                 Hermetic Vase, Unkown Artist
                                 </p>
@@ -263,13 +271,13 @@ function FullMetal() {
                                 The Two Gates
                             </h2>
                             <div className='blog-img'>
-                                <img src={dooroftruth}  alt="zodiac wheel"/>
+                                <img src={dooroftruth}  alt="Gate of Truth, FullMetal Alchemist: Brotherhood"/>
                                 <p>
                                 Gate of Truth, FullMetal Alchemist: Brotherhood
                                 </p>
                             </div>
                             <div className='blog-img'>
-                                <img src={tree}  alt="zodiac wheel"/>
+                                <img src={tree}  alt=" George Ripley's Marrow of Alchemy"/>
                                 <p>
                                 George Ripley's Marrow of Alchemy
                                 </p>
@@ -340,7 +348,7 @@ function FullMetal() {
                             <div className='blog-img'>
                                 <img src={edward}  alt="zodiac wheel"/>
                                 <p>
-                                Edward Elric
+                                Edward Elric, FullMetal Alchemist: Brotherhood
                                 </p>
                             </div>
             
@@ -359,9 +367,9 @@ function FullMetal() {
                                 the Homuculus. 
                             </p>
                             <div className='blog-img'>
-                                <img src={oroboros}  alt="zodiac wheel"/>
+                                <img src={oroboros}  alt="Oroboros, FullMetal Alchemist: Brotherhood"/>
                                 <p>
-                                Oroboros
+                                Oroboros, FullMetal Alchemist: Brotherhood  
                                 </p>
                             </div>
                            
