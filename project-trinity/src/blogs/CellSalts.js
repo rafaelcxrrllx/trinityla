@@ -97,7 +97,7 @@ function CellSalts() {
                             <p>
                                (Only Aries and Taurus work. I am still building the remaining Zodiac Cards)
                             </p>
-
+                    
                             <Zodiac/>
 
                             

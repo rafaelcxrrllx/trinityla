@@ -99,14 +99,19 @@
     display: none;
   }
 
+  .card {
+    width: 300px;
+    margin-left: -25px;
+  }
+
   .slice span img {
     width: 24px;
   }
 
   .zodiac-wheel {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     border-radius: 50%;
     background-color: #00ff00;
     overflow: hidden;
