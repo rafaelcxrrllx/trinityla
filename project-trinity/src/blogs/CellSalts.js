@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg'
 import cellsalts from '../assets/cellsalts.jpeg'
+import Zodiac from '../components/Zodiac';
 
 
 function CellSalts() {
@@ -92,54 +93,10 @@ function CellSalts() {
                                 28 1/2 days. He was not a person, he is a symbol, the symbol of the Celestial Man. 
                                 The perfect man. The new man. 
                             </p>
-                            <h2>
-                                ♈️ Aries - Kali Phos (Potassium Phosphate)
-                            </h2>
-                           
-                            <p>
-                                Potassium Phosphate is the vehicle of consciousness.
-                                It is the material or mother of light, for it contacts and links up with the 
-                                invisible fire in Nature, and harnesses it within the human body. 
-                                Potassium is the carrier of fire. Feeding the gray matter of our brain 
-                                and the Spirit in that brain. “Dead stones to Philosophical Stones”
-                            </p>
-                            <div className='quote'>
-                                <p>
-                                “the casket which holds holds the light, and link us up with God and Nature”
-                                </p>
-                                <p>
-                                    - Dr. George W. Carey, The Cell Salts of Salvation
-                                </p>
-                            </div>
-                            <p>
-                                Food Sources: White beans, cucumbers, cauliflower, pumpkin, orange juice, bananas, potatoes, tomatoes,
-                                dates, figs, olives, apples, almonds, peanuts, lentils, nearly all fruits and vegetables, ginger.
-                            </p>
 
-                            <h2>
-                                ♉️ Taurus - Natrium Sulph (Sulphate of Sodium)                            
-                            </h2>
-                           
-                            <p>
-                                The story which Taurus gives us is relative to motion, work, doing. 
-                                Therefore in order that such may result, it is self evident that there is in 
-                                Nature a certain substance that creates motion (which is energy manifesting). 
-                                Natrium or sodium is said to be a reducing agent. In other words it steps down chemical 
-                                action and lowers the rate of vibration.
-                            </p>
-                            <div className='quote'>
-                                <p>
-                                    “The meaning of the period which constitutes Taurus (May - the doing, or moving month) and the cerebellum (the motor, the brain which acts)”
-                                </p>
-                                <p>
-                                    - Dr. George W. Carey, The Cell Salts of Salvation
-                                </p>
-                            </div>
-                            <p>
-                                FOOD SOURCES: Lentils, spinach, oats, garlic, parsley, celery, dandelion, chillies, horseradish, broccoli,
-                                cabbage, brussels sprouts, kale, onions, red beets, pumpkin, green peppers, cucumber, bananas, apples
-                            </p>
+                            <Zodiac/>
 
+                            
                             <h2>
                                 ♊️ Gemini - Kali Mur (Potassium Chloride)                            
                             </h2>
