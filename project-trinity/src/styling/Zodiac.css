@@ -1,7 +1,9 @@
 
 
   .zodiac-main-container {
-    padding-bottom: 20%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+
     text-align: center;
   }
 
@@ -79,18 +81,18 @@
 
 
 
-.aries  { transform: rotate(30deg)   rotate(0deg);  background-color: #DE3163  ; }
-.taurus  { transform: rotate(60deg)  rotate(0deg);  background-color: #EB2524; }
-.gemini  { transform: rotate(90deg)  rotate(0deg);  background-color: #EA7F25; }
-.cancer  { transform: rotate(120deg)  rotate(0deg);  background-color: #F6E83D; }
-.leo  { transform: rotate(150deg) rotate(0deg);  background-color: #F8DE23; }
-.virgo  { transform: rotate(180deg) rotate(0deg);  background-color: #B5B321; }
-.libra  { transform: rotate(210deg) rotate(0deg);  background-color: #5E9C1F; }
-.scorpio  { transform: rotate(240deg) rotate(0deg);  background-color: #418847; }
-.sagittarius  { transform: rotate(270deg) rotate(0deg);  background-color: #0D98BA; }
-.capricorn { transform: rotate(300deg) rotate(0deg);  background-color: #4d7bc2; }
-.aquarius { transform: rotate(330deg) rotate(0deg);  background-color: #8F649A; }
-.pisces { transform: rotate(360deg) rotate(0deg);  background-color: #A8265A; }
+.aries  { transform: rotate(360deg)   rotate(0deg);  background-color: #DE3163  ; }
+.taurus  { transform: rotate(330deg)  rotate(0deg);  background-color: #EB2524; }
+.gemini  { transform: rotate(300deg)  rotate(0deg);  background-color: #EA7F25; }
+.cancer  { transform: rotate(270deg)  rotate(0deg);  background-color: #F6E83D; }
+.leo  { transform: rotate(240deg) rotate(0deg);  background-color: #F8DE23; }
+.virgo  { transform: rotate(210deg) rotate(0deg);  background-color: #B5B321; }
+.libra  { transform: rotate(180deg) rotate(0deg);  background-color: #5E9C1F; }
+.scorpio  { transform: rotate(150deg) rotate(0deg);  background-color: #418847; }
+.sagittarius  { transform: rotate(120deg) rotate(0deg);  background-color: #0D98BA; }
+.capricorn { transform: rotate(90deg) rotate(0deg);  background-color: #4d7bc2; }
+.aquarius { transform: rotate(60deg) rotate(0deg);  background-color: #8F649A; }
+.pisces { transform: rotate(30deg) rotate(0deg);  background-color: #A8265A; }
 
 @media (max-width: 600px) {
   .desktop-card{
@@ -108,7 +110,6 @@
     border-radius: 50%;
     background-color: #00ff00;
     overflow: hidden;
-    transform: rotate(195deg); /* Adjust rotation for better alignment */
 }
 
 
@@ -129,7 +130,6 @@
     border-radius: 50%;
     background-color: #00ff00;
     overflow: hidden;
-    transform: rotate(195deg); /* Adjust rotation for better alignment */
 }
 
 }

@@ -93,6 +93,10 @@ function CellSalts() {
                                 28 1/2 days. He was not a person, he is a symbol, the symbol of the Celestial Man. 
                                 The perfect man. The new man. 
                             </p>
+                            <p>Please select a Zodiac to read more:</p>
+                            <p>
+                               (Only Aries and Taurus work. I am still building the remaining Zodiac Cards)
+                            </p>
 
                             <Zodiac/>
 

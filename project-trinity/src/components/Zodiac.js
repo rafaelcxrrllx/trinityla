@@ -16,6 +16,7 @@ import sagittarius from '../assets/zodiacs/sagittarius.svg'
 import capricorn from '../assets/zodiacs/capricorn.svg'
 import aquarius from '../assets/zodiacs/aquarius.svg'
 import pisces from '../assets/zodiacs/pisces.svg'
+import man from '../assets/zodiacs/man.svg'
 import { motion } from 'framer-motion';
 
 function Zodiac() {
@@ -37,23 +38,34 @@ function Zodiac() {
         
 
         {visibleDiv === 'Aries' && (
-        <div style={{ margin: '0px', padding: '20px' }}>
+        <motion.div 
+          style={{ margin: '0px', padding: '20px' }}
+          initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+          animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+          transition={{ duration: 1 }}>
           <img className="desktop-card" src={ariesdesktop} alt="aries description" />
           <img className="card" src={ariesCard} alt="aries description" />
 
-        </div>
+        </motion.div>
       )}
       {visibleDiv === 'Taurus' && (
-        <div style={{ margin: '0px', padding: '20px' }}>
+        <motion.div 
+          initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+          animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+          transition={{ duration: 1 }}
+          style={{ margin: '0px', padding: '20px' }}>
           <img className="desktop-card" src={taurusdesktop} alt="taurus description" />
           <img className="card" src={taurusCard} alt="taurus description" />
 
-        </div>
+        </motion.div>
       )}
      
       <div className='zodiac-wheel-container'>
         
-        <div class="zodiac-wheel">
+        <motion.div 
+          animate={{ rotate: 360 }}
+          transition={{ duration: 144, repeat: Infinity, ease: 'linear' }}
+          class="zodiac-wheel">
           <div onClick={handleAriesClick} class="slice aries"><span><img  src={aries} alt="aries"/></span></div>
           <div onClick={handleTaurusClick} class="slice taurus"><span><img src={taurus} alt="taurus"/></span></div>
           <div class="slice gemini"><span><img src={gemini} alt="gemini"/></span></div>
@@ -66,13 +78,11 @@ function Zodiac() {
           <div class="slice capricorn"><span><img src={capricorn} alt="capricorn"/></span></div>
           <div class="slice aquarius"><span><img src={aquarius} alt="aquarius"/></span></div>
           <div class="slice pisces"><span><img src={pisces} alt="pisces"/></span></div>
-        </div>
+        </motion.div>
       </div>
+      
+
     
-    
-      <div>
-       
-      </div>
       </div>
 		
 
