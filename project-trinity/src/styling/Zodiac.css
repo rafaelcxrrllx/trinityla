@@ -19,7 +19,6 @@
 
   .title-container {
     padding: 5px;
-    padding-top: 20%;
   }
 
 
@@ -74,7 +73,8 @@
 }
 
 .desktop-card {
-  width: 100%;
+  width: 160%;
+  margin-left: -190px;
 
 }
 
@@ -141,6 +141,13 @@
 @media (min-width: 1025px) {
   .card {
     display: none;
+  }
+
+
+  .desktop-card {
+    width: 160%;
+    margin-left: -31%;
+
   }
 
 }
