@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.6f4a9262.css",
-    "main.js": "/trinityla/static/js/main.fe95fb71.js",
+    "main.css": "/trinityla/static/css/main.f415c5a5.css",
+    "main.js": "/trinityla/static/js/main.3b131272.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
@@ -23,8 +23,10 @@
     "static/media/womanNChimp.jpg": "/trinityla/static/media/womanNChimp.c30e501448d78b61adfa.jpg",
     "static/media/selfOne.jpg": "/trinityla/static/media/selfOne.234449f3fe0eb15b6168.jpg",
     "static/media/taurus-card.svg": "/trinityla/static/media/taurus-card.8f2ea9d8425a2739915f22dfe7c88eb3.svg",
+    "static/media/gemini-card.svg": "/trinityla/static/media/gemini-card.8cf5e760c357b81c52d9106cffca10ff.svg",
     "static/media/taurus-card-desktop.svg": "/trinityla/static/media/taurus-card-desktop.020502ead55699c5ce8235cbfb9b9592.svg",
     "static/media/selfTwo.jpg": "/trinityla/static/media/selfTwo.a044c3cf477251ebe582.jpg",
+    "static/media/gemini-card-desktop.svg": "/trinityla/static/media/gemini-card-desktop.54a622781f833f2f6f139f23d7bd7d52.svg",
     "static/media/theLostBoys.jpg": "/trinityla/static/media/theLostBoys.68e3d1ad8afe72100ce9.jpg",
     "static/media/staygolden-front.svg": "/trinityla/static/media/staygolden-front.2ae24d02e784eb0d1eb729dbe8e8ce0a.svg",
     "static/media/aries-card.svg": "/trinityla/static/media/aries-card.e6424cd50de2c706987b0d9d2064f4dc.svg",
@@ -83,12 +85,12 @@
     "static/media/aries.svg": "/trinityla/static/media/aries.2269b11890d30d3a036a8841b46b61ad.svg",
     "static/media/aquarius.svg": "/trinityla/static/media/aquarius.b5bc173e5c117dc0e5a469fd61e1085e.svg",
     "static/media/sagittarius.svg": "/trinityla/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
-    "main.6f4a9262.css.map": "/trinityla/static/css/main.6f4a9262.css.map",
-    "main.fe95fb71.js.map": "/trinityla/static/js/main.fe95fb71.js.map",
+    "main.f415c5a5.css.map": "/trinityla/static/css/main.f415c5a5.css.map",
+    "main.3b131272.js.map": "/trinityla/static/js/main.3b131272.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f4a9262.css",
-    "static/js/main.fe95fb71.js"
+    "static/css/main.f415c5a5.css",
+    "static/js/main.3b131272.js"
   ]
 }
