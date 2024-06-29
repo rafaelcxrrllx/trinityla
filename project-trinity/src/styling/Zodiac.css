@@ -33,7 +33,7 @@
     transform: rotate(195deg); /* Adjust rotation for better alignment */
 }
 
-.zodiac-wheel div {
+.zodiac-wheel {
   cursor: pointer;
 }
 
