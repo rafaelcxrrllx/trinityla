@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trinityla/static/css/main.1f90e438.css",
-    "main.js": "/trinityla/static/js/main.c610bb8a.js",
+    "main.js": "/trinityla/static/js/main.4a1d566b.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
@@ -54,13 +54,19 @@
     "static/media/goatMan.jpg": "/trinityla/static/media/goatMan.e020dd34a8492f862bf7.jpg",
     "static/media/tower.jpg": "/trinityla/static/media/tower.e8d5387a6e06b54c5ff8.jpg",
     "static/media/throatChakra.jpg": "/trinityla/static/media/throatChakra.fc44eeea1d625dadc69a.jpg",
+    "static/media/emf-three.png": "/trinityla/static/media/emf-three.e829c15bf3f6c638e685.png",
     "static/media/alchemy.jpg": "/trinityla/static/media/alchemy.b65957339caaad57363b.jpg",
+    "static/media/emf-one.png": "/trinityla/static/media/emf-one.6373a10f338f8dcc5078.png",
     "static/media/insideTower.jpg": "/trinityla/static/media/insideTower.ec39987f02e9aa173804.jpg",
     "static/media/moses.webp": "/trinityla/static/media/moses.794ffa609e4cb6354986.webp",
+    "static/media/emf-many.png": "/trinityla/static/media/emf-many.9d884ae63903d5fcf8c5.png",
     "static/media/mercury-two.jpeg": "/trinityla/static/media/mercury-two.e8cfd39b0c24b2916f17.jpeg",
+    "static/media/emf-two.png": "/trinityla/static/media/emf-two.862566cc82e65aee1964.png",
     "static/media/astrology-desktop.jpg": "/trinityla/static/media/astrology-desktop.f06ff27371fb9531f55a.jpg",
     "static/media/treeoftruth.svg": "/trinityla/static/media/treeoftruth.6f6a2a4b92315e50e9726d1a8289c2d3.svg",
+    "static/media/emf.png": "/trinityla/static/media/emf.3fed4463426b2d46f347.png",
     "static/media/philosopherstone.jpeg": "/trinityla/static/media/philosopherstone.37bc94488651e8429e8c.jpeg",
+    "static/media/emf-la.png": "/trinityla/static/media/emf-la.7af67959244ec1009e91.png",
     "static/media/emblem-back.svg": "/trinityla/static/media/emblem-back.1775fbe110a6b83f806a0b60107ebc48.svg",
     "static/media/energy-back.svg": "/trinityla/static/media/energy-back.9f228c23bec8c5ad06f290ba0865e3ec.svg",
     "static/media/fullmetalAlchemist.jpeg": "/trinityla/static/media/fullmetalAlchemist.935500264edc376b5378.jpeg",
@@ -79,6 +85,7 @@
     "static/media/fullmetal.jpeg": "/trinityla/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
     "static/media/shirt-size.jpeg": "/trinityla/static/media/shirt-size.3f39ee5c83993b2b378e.jpeg",
     "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
+    "static/media/emf-model.png": "/trinityla/static/media/emf-model.0dc39ae7766a065a07be.png",
     "static/media/oroboros.jpeg": "/trinityla/static/media/oroboros.f9dd99941ba531052947.jpeg",
     "static/media/man.svg": "/trinityla/static/media/man.638bab3fa11d8fbe6aca9e47376e51bd.svg",
     "static/media/logo.svg": "/trinityla/static/media/logo.878f6498a4bd01cec129635ee4dc9342.svg",
@@ -104,11 +111,11 @@
     "static/media/aquarius.svg": "/trinityla/static/media/aquarius.b5bc173e5c117dc0e5a469fd61e1085e.svg",
     "static/media/sagittarius.svg": "/trinityla/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
     "main.1f90e438.css.map": "/trinityla/static/css/main.1f90e438.css.map",
-    "main.c610bb8a.js.map": "/trinityla/static/js/main.c610bb8a.js.map",
+    "main.4a1d566b.js.map": "/trinityla/static/js/main.4a1d566b.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f90e438.css",
-    "static/js/main.c610bb8a.js"
+    "static/js/main.4a1d566b.js"
   ]
 }
