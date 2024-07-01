@@ -6,6 +6,8 @@ import About from './pages/About';
 import Item from './items/item';
 import ItemTwo from './items/itemTwo';
 import ItemThree from './items/itemThree';
+import ItemFour from './items/itemFour';
+
 import Blog from './pages/Blog';
 import Genesis from './blogs/Genesis';
 import Mercury from './blogs/Mercury';
@@ -35,6 +37,8 @@ function App() {
       <Route path='/shop/heartofgod' element={<Item/>}/>
       <Route path='/shop/lovelybones' element={<ItemTwo/>}/>
       <Route path='/shop/trinity' element={<ItemThree/>}/>
+      <Route path='/shop/emfblkr' element={<ItemFour/>}/>
+
 
 
     </Routes>

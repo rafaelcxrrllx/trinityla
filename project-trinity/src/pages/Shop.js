@@ -29,6 +29,9 @@ import ENERGYBACK from '../assets/items/energy-back.svg'
 import EMBLEMFRONT from '../assets/items/emblem-front.svg'
 import EMBLEMBACK from '../assets/items/emblem-back.svg'
 
+import EMFONE from '../assets/items/emf-one.png'
+import EMFTWO from '../assets/items/emf-two.png'
+
 
 import stars from '../assets/stars.svg'
 import { Link } from 'react-router-dom';
@@ -42,6 +45,7 @@ function Shop() {
   const [GLDSRC, setGLDSrc] = useState(GOLDENFRONT);
   const [ENGSRC, setENGSrc] = useState(ENERGYFRONT);
   const [EMSRC, setEMSrc] = useState(EMBLEMFRONT);
+  const [EMFSRC, setEMFSrc] = useState(EMFONE);
 
 
 
@@ -57,18 +61,18 @@ function Shop() {
       Shop
     </p>
     <div className='items'>
-      <Link id='item-link' to="/shop/heartofgod">
-        <div className='item'>
-          <div className='shop-item-img'>
-          <img
-          src={HOGSRC}
-          alt="hover"
-          onMouseEnter={() => setHogSrc(HEARTOFGODBACK)}
-          onMouseLeave={() => setHogSrc(HEARTOFGODFRONT)}
-          className="hover-image"/>
+    <Link id='item-link' to="/shop/emfblkr">
+          <div className='item'>
+            <div className='shop-item-img'>
+            <img
+            src={EMFSRC}
+            alt="hover"
+            onMouseEnter={() => setEMFSrc(EMFTWO)}
+            onMouseLeave={() => setEMFSrc(EMFONE)}
+            className="hover-image"/>
+            </div>
           </div>
-        </div>
-      </Link>
+        </Link>
 
       <Link id='item-link' to="/shop/lovelybones">
         <div className='item'>
@@ -95,7 +99,51 @@ function Shop() {
           </div>
         </div>
       </Link>
+
       </div>
+      
+      <div className='items'>
+
+      <Link id='item-link' to="/shop/heartofgod">
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={HOGSRC}
+          alt="hover"
+          onMouseEnter={() => setHogSrc(HEARTOFGODBACK)}
+          onMouseLeave={() => setHogSrc(HEARTOFGODFRONT)}
+          className="hover-image"/>
+          </div>
+        </div>
+      </Link>
+
+        <Link id='item-link' to="/shop/trinity">
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={ENGSRC}
+          alt="hover"
+          onMouseEnter={() => setENGSrc(ENERGYBACK)}
+          onMouseLeave={() => setENGSrc(ENERGYFRONT)}
+          className="hover-image"/>
+          </div>
+        </div>
+      </Link>
+      <Link id='item-link' to="/shop/trinity">
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={GLDSRC}
+          alt="hover"
+          onMouseEnter={() => setGLDSrc(GOLDENBACK)}
+          onMouseLeave={() => setGLDSrc(GOLDENFRONT)}
+          className="hover-image"/>
+          </div>
+        </div>
+      </Link>
+        
+       
+        </div>
 
       {/* <div className='items'>
       
