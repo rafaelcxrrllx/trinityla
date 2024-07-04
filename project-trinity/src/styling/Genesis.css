@@ -12,6 +12,10 @@
   
 }
 
+li {
+    list-style: none;
+}
+
 .start-letter {
     font-size: 50px;
     line-height: 1;
