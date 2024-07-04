@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.1f90e438.css",
-    "main.js": "/trinityla/static/js/main.4a1d566b.js",
+    "main.css": "/trinityla/static/css/main.47f3ad16.css",
+    "main.js": "/trinityla/static/js/main.d3766783.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
+    "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/trinityla/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
+    "static/media/Ressurection.jpg": "/trinityla/static/media/Ressurection.0fa44262d9ad17970fa9.jpg",
     "static/media/illuminated.jpg": "/trinityla/static/media/illuminated.62a5eaea562d99017970.jpg",
     "static/media/hero-shot.jpeg": "/trinityla/static/media/hero-shot.2d612d63ad2d6af13427.jpeg",
     "static/media/hero-shot-desktop.jpeg": "/trinityla/static/media/hero-shot-desktop.b99a98b962ebb93e5caa.jpeg",
@@ -48,6 +50,7 @@
     "static/media/selfOne.jpg": "/trinityla/static/media/selfOne.234449f3fe0eb15b6168.jpg",
     "static/media/selfTwo.jpg": "/trinityla/static/media/selfTwo.a044c3cf477251ebe582.jpg",
     "static/media/theLostBoys.jpg": "/trinityla/static/media/theLostBoys.68e3d1ad8afe72100ce9.jpg",
+    "static/media/sunofgod.jpg": "/trinityla/static/media/sunofgod.320d82d4eefc190dec17.jpg",
     "static/media/staygolden-front.svg": "/trinityla/static/media/staygolden-front.2ae24d02e784eb0d1eb729dbe8e8ce0a.svg",
     "static/media/philosopherstonetwo.jpg": "/trinityla/static/media/philosopherstonetwo.9f5007cba7f3f2d38d56.jpg",
     "static/media/gold.jpg": "/trinityla/static/media/gold.cfa9780f385268743cc7.jpg",
@@ -65,6 +68,8 @@
     "static/media/astrology-desktop.jpg": "/trinityla/static/media/astrology-desktop.f06ff27371fb9531f55a.jpg",
     "static/media/treeoftruth.svg": "/trinityla/static/media/treeoftruth.6f6a2a4b92315e50e9726d1a8289c2d3.svg",
     "static/media/emf.png": "/trinityla/static/media/emf.3fed4463426b2d46f347.png",
+    "static/media/sacred-heart.jpg": "/trinityla/static/media/sacred-heart.7ad7573435ca3bf8ff89.jpg",
+    "static/media/crucifixion.webp": "/trinityla/static/media/crucifixion.d57761f0b4332e289744.webp",
     "static/media/philosopherstone.jpeg": "/trinityla/static/media/philosopherstone.37bc94488651e8429e8c.jpeg",
     "static/media/emf-la.png": "/trinityla/static/media/emf-la.7af67959244ec1009e91.png",
     "static/media/emblem-back.svg": "/trinityla/static/media/emblem-back.1775fbe110a6b83f806a0b60107ebc48.svg",
@@ -75,6 +80,9 @@
     "static/media/animalman.jpeg": "/trinityla/static/media/animalman.6288afb971236f59b707.jpeg",
     "static/media/solarPlexus.jpeg": "/trinityla/static/media/solarPlexus.8752adc881ef1f51c630.jpeg",
     "static/media/edward.jpeg": "/trinityla/static/media/edward.3bb00d38caea72f708c2.jpeg",
+    "static/media/jesus.jpeg": "/trinityla/static/media/jesus.6bc84b14131ee7992b49.jpeg",
+    "static/media/denial.jpg": "/trinityla/static/media/denial.0a2a1fb22faac8087ab9.jpg",
+    "static/media/ladder.jpeg": "/trinityla/static/media/ladder.18809a2b3bc464eabae8.jpeg",
     "static/media/cellsalts.jpeg": "/trinityla/static/media/cellsalts.c1767d180faef1ad98ff.jpeg",
     "static/media/energy-front.svg": "/trinityla/static/media/energy-front.5176588c846fb09b58402c090f674a5c.svg",
     "static/media/astrology.jpeg": "/trinityla/static/media/astrology.99fe9ca84a4a2e4381e4.jpeg",
@@ -84,6 +92,7 @@
     "static/media/doorone.jpeg": "/trinityla/static/media/doorone.39be65bedb614a79270f.jpeg",
     "static/media/fullmetal.jpeg": "/trinityla/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
     "static/media/shirt-size.jpeg": "/trinityla/static/media/shirt-size.3f39ee5c83993b2b378e.jpeg",
+    "static/media/holyparents.jpg": "/trinityla/static/media/holyparents.a77b04c44a44526ce9c7.jpg",
     "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
     "static/media/emf-model.png": "/trinityla/static/media/emf-model.0dc39ae7766a065a07be.png",
     "static/media/oroboros.jpeg": "/trinityla/static/media/oroboros.f9dd99941ba531052947.jpeg",
@@ -110,12 +119,12 @@
     "static/media/aries.svg": "/trinityla/static/media/aries.2269b11890d30d3a036a8841b46b61ad.svg",
     "static/media/aquarius.svg": "/trinityla/static/media/aquarius.b5bc173e5c117dc0e5a469fd61e1085e.svg",
     "static/media/sagittarius.svg": "/trinityla/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
-    "main.1f90e438.css.map": "/trinityla/static/css/main.1f90e438.css.map",
-    "main.4a1d566b.js.map": "/trinityla/static/js/main.4a1d566b.js.map",
+    "main.47f3ad16.css.map": "/trinityla/static/css/main.47f3ad16.css.map",
+    "main.d3766783.js.map": "/trinityla/static/js/main.d3766783.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f90e438.css",
-    "static/js/main.4a1d566b.js"
+    "static/css/main.47f3ad16.css",
+    "static/js/main.d3766783.js"
   ]
 }
