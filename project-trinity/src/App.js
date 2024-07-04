@@ -13,7 +13,7 @@ import Genesis from './blogs/Genesis';
 import Mercury from './blogs/Mercury';
 import FullMetal from './blogs/FullMetal';
 import HolyMount from './blogs/TheHolyMountain';
-
+import TheAntiChrist from './blogs/AntiChrist'
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import CellSalts from './blogs/CellSalts';
@@ -32,6 +32,7 @@ function App() {
       <Route path='/blog/fullmetal' element={<FullMetal/>}/>
       <Route path='/blog/theholymountain' element={<HolyMount/>}/>
       <Route path='/blog/cellsaltsintro' element={<CellSalts/>}/>
+      <Route path='/blog/theantichrist' element={<TheAntiChrist/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/shop/heartofgod' element={<Item/>}/>

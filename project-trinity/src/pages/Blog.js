@@ -49,7 +49,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        Genesis: The Beginning and The End
+                        Genesis
                     </h2>
                     <p>
                         11 June, 2024
@@ -64,7 +64,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        Mercury: The Messenger of the Gods
+                        The Messenger of the Gods
                     </h2>
                     <p>
                         12 June, 2024
@@ -79,7 +79,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        FullMetal: The Law of Equivalent Exchange
+                        The Law of Equivalent Exchange
                     </h2>
                     <p>
                         16 June, 2024
@@ -94,7 +94,7 @@ return (
                     </p>
                     </div>
                     <h2>
-                        The Holy Mountain: La Montaña Sagrada
+                        The Holy Mountain
                     </h2>
                     <p>
                         20 June, 2024
@@ -109,10 +109,25 @@ return (
                     </p>
                     </div>
                     <h2>
-                        The Cell Salts of Salvation: Summary
+                        The Cell Salts of Salvation
                     </h2>
                     <p>
                         22 June, 2024
+                    </p>
+                </div>
+            </Link>
+            <Link id='item-link' to="/blog/theantichrist">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        VI
+                    </p>
+                    </div>
+                    <h2>
+                       The Anti-Christ
+                    </h2>
+                    <p>
+                        2 July, 2024
                     </p>
                 </div>
             </Link>
