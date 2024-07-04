@@ -211,7 +211,7 @@ function AntiChrist() {
                                 Christ is a substance, an oil, contained especially in the spinal 
                                 cord, blood, and all parts of the body. 
                            
-                                Christ is a Greek word meaning <i>oiled</i>, or <i>anointed</i>a highly refined 
+                                Christ is a Greek word meaning <i>oiled</i>, or <i>anointed</i> a highly refined 
                                 oil, the  <i>esse</i> or sum total of a perfect physical mechanism. 
                                 Jesus is the NEW MAN in man. when he becomes Christ. Oil is the manifestation of energy. 
                                 The degree of its purification is what makes it of the nature of the real 
@@ -391,7 +391,7 @@ function AntiChrist() {
                                 </p>
                             </div>
                             <p>
-                                IHS, pronouned 'Yes', is the affirmation of the Sun of Genesisod. 
+                                IHS, pronouned 'Yes', is the affirmation of the Sun of God. 
                                 The same way we nod our head up and down to positively affirm one another, 
                                 the sun goes up and down everyday affirming us the light of the world. The 
                                 vatican is a giant sundial which keeps track of the equinoxes, solstices, and 
