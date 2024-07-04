@@ -53,7 +53,7 @@ function AntiChrist() {
             <div className='genesis-main-container'>
                 <div className='title-container'>
                     <p>
-                        2 July, 2024
+                        4 July, 2024
                     </p>
                     <h1 id='title'>
                         The Anti-Christ: Summary

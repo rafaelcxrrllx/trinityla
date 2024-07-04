@@ -40,6 +40,87 @@ return (
                 A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
                  Enjoy. 
             </p>
+
+            <Link id='item-link' to="/blog/theantichrist">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        VI
+                    </p>
+                    </div>
+                    <h2>
+                       The Anti-Christ
+                    </h2>
+                    <p>
+                        4 July, 2024
+                    </p>
+                </div>
+            </Link>
+
+            <Link id='item-link' to="/blog/cellsaltsintro">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        V
+                    </p>
+                    </div>
+                    <h2>
+                        The Cell Salts of Salvation
+                    </h2>
+                    <p>
+                        22 June, 2024
+                    </p>
+                </div>
+            </Link>
+
+            <Link id='item-link' to="/blog/theholymountain">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        IV
+                    </p>
+                    </div>
+                    <h2>
+                        The Holy Mountain
+                    </h2>
+                    <p>
+                        20 June, 2024
+                    </p>
+                </div>
+            </Link>
+
+            <Link id='item-link' to="/blog/fullmetal">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        III
+                    </p>
+                    </div>
+                    <h2>
+                        The Law of Equivalent Exchange
+                    </h2>
+                    <p>
+                        16 June, 2024
+                    </p>
+                </div>
+            </Link>
+
+            <Link id='item-link' to="/blog/mercury">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        II
+                    </p>
+                    </div>
+                    <h2>
+                        The Messenger of the Gods
+                    </h2>
+                    <p>
+                        12 June, 2024
+                    </p>
+                </div>
+            </Link>
+
             
             <Link id='item-link' to="/blog/genesis">
                 <div className='blog-container'>
@@ -56,81 +137,11 @@ return (
                     </p>
                 </div>
             </Link>
-            <Link id='item-link' to="/blog/mercury">
-                <div className='blog-container'>
-                    <div className='chapter-container'>
-                    <p>
-                        II
-                    </p>
-                    </div>
-                    <h2>
-                        The Messenger of the Gods
-                    </h2>
-                    <p>
-                        12 June, 2024
-                    </p>
-                </div>
-            </Link>
-            <Link id='item-link' to="/blog/fullmetal">
-                <div className='blog-container'>
-                    <div className='chapter-container'>
-                    <p>
-                        III
-                    </p>
-                    </div>
-                    <h2>
-                        The Law of Equivalent Exchange
-                    </h2>
-                    <p>
-                        16 June, 2024
-                    </p>
-                </div>
-            </Link>
-            <Link id='item-link' to="/blog/theholymountain">
-                <div className='blog-container'>
-                    <div className='chapter-container'>
-                    <p>
-                        IV
-                    </p>
-                    </div>
-                    <h2>
-                        The Holy Mountain
-                    </h2>
-                    <p>
-                        20 June, 2024
-                    </p>
-                </div>
-            </Link>
-            <Link id='item-link' to="/blog/cellsaltsintro">
-                <div className='blog-container'>
-                    <div className='chapter-container'>
-                    <p>
-                        V
-                    </p>
-                    </div>
-                    <h2>
-                        The Cell Salts of Salvation
-                    </h2>
-                    <p>
-                        22 June, 2024
-                    </p>
-                </div>
-            </Link>
-            <Link id='item-link' to="/blog/theantichrist">
-                <div className='blog-container'>
-                    <div className='chapter-container'>
-                    <p>
-                        VI
-                    </p>
-                    </div>
-                    <h2>
-                       The Anti-Christ
-                    </h2>
-                    <p>
-                        2 July, 2024
-                    </p>
-                </div>
-            </Link>
+           
+            
+            
+            
+            
             
         </div>
     </motion.div>
