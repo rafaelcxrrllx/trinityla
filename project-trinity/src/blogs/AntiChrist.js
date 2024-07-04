@@ -13,6 +13,8 @@ import crucifixion from '../assets/crucifixion.webp'
 import ressurection from '../assets/Ressurection.jpg'
 import sunofgod from '../assets/sunofgod.jpg'
 import seed from '../assets/seed.JPG'
+import ladder from '../assets/ladder.jpeg'
+import denial from '../assets/denial.jpg'
 
 
 function AntiChrist() {
@@ -497,6 +499,12 @@ function AntiChrist() {
                                 Jacob's Ladder has 33 steps, representing the 33 vertebraes in our spine. 
                                 Interpret this the same way as Jesus's Crucifixion at 33. 
                             </p>
+                            <div className='blog-img'>
+                                <img src={ladder}  alt="Jacob's Ladder"/>
+                                <p>
+                                    The Seed of a Vispero Tree, 2024
+                                </p>
+                            </div>
                             <p>
                                 To sin means to fall short, to waste, to not complete the circle. 
                                 Jesus if saved and 'cast upon the waters (circulation)' reaches the 
@@ -621,6 +629,12 @@ function AntiChrist() {
                                 to the genitals, hence where we get the modern slang 'cock' from. The Cock 
                                 crowed three times, causing Peter to break down and weep. 
                             </p>
+                            <div className='blog-img'>
+                                <img src={denial}  alt="The Denial of jesus"/>
+                                <p>
+                                    The Denial of Jesus
+                                </p>
+                            </div>
                             <p>
                                 I think this is one of the most powerful verses in the Bible. Peter 
                                 breaking down and weeping sends chills down my spine. Peter is 
@@ -697,9 +711,9 @@ function AntiChrist() {
                             </div>
                             <br/>
                             <div className='blog-img'>
-                                <img src={seed}  alt="The Seed of a Vispero Tree"/>
+                                <img src={seed}  alt="Note to Self"/>
                                 <p>
-                                    The Seed of a Vispero Tree, 2024
+                                    Note To Self, 2024
                                 </p>
                             </div>
                             <p>
