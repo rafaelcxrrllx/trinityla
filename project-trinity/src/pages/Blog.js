@@ -5,7 +5,8 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import BlogCarousel from '../carousels/BlogCarousel';
-import astrology from '../assets/astrology-desktop.jpg'
+import blogCover from '../assets/desktop-cards/blog-cover.svg';
+
 function Blog() {
 
 return (
@@ -25,15 +26,19 @@ return (
         </p>
     </motion.div>
     <BlogCarousel/>
+    <motion.div className="desktop-cover"
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}>
+        <img src={blogCover} />
+    </motion.div>
       
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
     animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
     transition={{ duration: 1 }}>
         <div className='blog-main-container'>
-            <h1 id='title'>
-                Here Lies the Unspoke Gospel
-            </h1>
+            
             
            
             <p>
