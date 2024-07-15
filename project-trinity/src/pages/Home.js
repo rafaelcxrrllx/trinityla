@@ -13,7 +13,7 @@ import hero from '../assets/hero-shot-desktop.jpeg'
 import stars from '../assets/stars.svg'
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
-
+import logo from '../assets/logo.svg'
 
 function Home() {
 
@@ -26,17 +26,20 @@ function Home() {
       transition={{ duration: 1 }}
       className='home-container'>
       <Carousel/>
+      
       <div className='hero-container'>
-        <img src={hero}  alt="a picture of trinity and his bmw"/>
+        <img src={hero} alt="a picture of trinity and his bmw"/>
       </div> 
+      <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
       <div className='trinity-container'>
-        <h1 className="spaced">
-        ♱TRINITY♱
-        </h1>
+        <img src={stars} id="stars"  alt="three stars"/>
         <h2 className="less-spaced">
           Los Angeles
         </h2>
-        <img src={stars} id="stars"  alt="three stars"/>
+        <h1 className="spaced">
+        ♱TRINITY♱
+        </h1>
+        
       </div>
     </motion.div>
     <Footer/>

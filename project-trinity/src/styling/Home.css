@@ -21,6 +21,21 @@
     margin-bottom: 7px;
 }
 
+.spinning-logo {
+    animation: spin 7s infinite linear;
+    transform-style: preserve-3d;
+    padding-top: 24px;
+}
+
+@keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
+
 .less-spaced {
     letter-spacing: 7px;
     margin-top: 0px;

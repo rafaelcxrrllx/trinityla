@@ -28,7 +28,7 @@ const handleToggleMenu = () => {
   return (
     <nav className="navbar">
       <div className="navbar-emblem">
-        <Link className='landing-page-link' to="/home"> <img id="emblem" src={logo} alt="emblem of trinity la"/></Link>
+        <Link className='landing-page-link' to="/home"> <img  id="emblem" src={logo} alt="emblem of trinity la"/></Link>
         <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
