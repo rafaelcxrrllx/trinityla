@@ -60,7 +60,7 @@ function About() {
           Los Angeles
         </h2>
         <h1 className="spaced">
-          ♱ TRINITY ♱
+          ♱TRINITY♱
         </h1>
     </div>
         <div className='about-description-container'>
