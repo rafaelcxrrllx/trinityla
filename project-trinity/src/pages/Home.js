@@ -35,7 +35,7 @@ function Home() {
               <p className='home-title'>Rafael Carrillo</p>
               
               <div id="mobile-flour" className='flourescent'></div>
-              <p className='subtitle'><i>UXUI Designer / Fall-Stack Developer </i>based out of <b>Los Angeles California.</b></p>
+              <p className='subtitle'><i>UXUI Designer / Full-Stack Developer </i>based out of <b>Los Angeles California.</b></p>
               </div>
           </div>
       </div>
@@ -44,18 +44,7 @@ function Home() {
 
       
             
-    {/* <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
-    <div className='container'>
-      <div className='trinity-container'>
-        <img src={stars} id="stars"  alt="three stars"/>
-        <h2 className="less-spaced">
-          Los Angeles
-        </h2>
-        <h1 className="spaced">
-          ♱ TRINITY ♱
-        </h1>
-      </div>     
-    </div> */}
+
 
     </motion.div>
     <Footer/>

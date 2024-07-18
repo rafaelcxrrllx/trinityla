@@ -9,6 +9,7 @@
 
 
 
+
 #about-logo {
     width: 200px;
     margin-right: 44px;
@@ -18,12 +19,18 @@
 .about-description-container {
     text-align: left;
     margin-right: 100px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .about-main-container {
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.flourescent-about {
+    height: 25px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
 }
 
 .statement-container {
@@ -51,7 +58,7 @@
     }
 
     .about-main-container {
-        margin-left: 0px;
+        margin-left: 32px;
     }
 
     #about-logo {

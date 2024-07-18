@@ -11,6 +11,8 @@ import {motion} from 'framer-motion'
 
 // Assets
 import logo from '../assets/logo.svg'
+import stars from '../assets/stars.svg'
+
 
 
 function About() {
@@ -33,13 +35,39 @@ function About() {
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 1 }}
       className='about-main-container'>
-      
-        <div className='about-container'>
-          <img src={logo} id="about-logo" alt="trinity logo"/>
+      <br/>
+      <br/>
+      <br/>
+      <div id="about-flour" className='flourescent-about'></div>
+
+    
+      <div className='about-description-container'>
+
+      <p> Rafael Carrillo AKA Trinity was born and raised in Los Angeles California and is 
+        a aspiring entrepreneur in Design / Development. Growing up in South Central LA, 
+        Rafael grew up with a passion for art and technology. Rafael graduated from the University of 
+        California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024.
+        Combining his artistic skills with human-centered design, Rafael reimagines how
+        apps, sites, and real-world objects can be designed and delivered for the best human experience. 
+        </p>
+      </div>
+        
+      <div id="about-flour" className='flourescent-about'></div>
+              <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
+    <div >
+        <img src={stars} id="stars"  alt="three stars"/>
+        <h2 className="less-spaced">
+          Los Angeles
+        </h2>
+        <h1 className="spaced">
+          ♱ TRINITY ♱
+        </h1>
+    </div>
         <div className='about-description-container'>
           <h1>
             trin·i·ty /ˈtrinədē/ 
           </h1> 
+
           <p>
             noun
           </p>
@@ -55,7 +83,6 @@ function About() {
           <p>
             "As the blood is the life of the flesh, it naturally follows that, as man is a TRINITY (body, or flesh, soul and spirit), the condition, or health of his body determines that of his soul."
           </p>
-        </div>
       </div>
       <div className='statement-container'>
         <h1>
