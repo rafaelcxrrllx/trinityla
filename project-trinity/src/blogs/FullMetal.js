@@ -8,7 +8,7 @@ import backArrow from '../assets/icons/arrow-back.svg'
 import fullmetal from '../assets/fullmetal.jpeg'
 import philosopherstone from '../assets/philosopherstone.jpeg'
 import philosopherstonetwo from '../assets/philosopherstonetwo.jpg'
-import oroboros from '../assets/oroboros.jpeg'
+import oroboros from '../assets/oroboros.svg'
 import edward from '../assets/edward.jpeg'
 import dooroftruth from '../assets/doorone.jpeg'
 import tree from '../assets/treeoftruth.svg'
@@ -276,12 +276,13 @@ function FullMetal() {
                                 Gate of Truth, FullMetal Alchemist: Brotherhood
                                 </p>
                             </div>
-                            <div className='blog-img'>
+                            <div id="white-background" className='blog-img'>
                                 <img src={tree}  alt=" George Ripley's Marrow of Alchemy"/>
-                                <p>
+                               
+                            </div>
+                            <p className='credit'>
                                 George Ripley's Marrow of Alchemy
                                 </p>
-                            </div>
                            
                             <p>
                                I might go deep into these images above in an upcoming blog, 
@@ -369,7 +370,7 @@ function FullMetal() {
                             <div className='blog-img'>
                                 <img src={oroboros}  alt="Oroboros, FullMetal Alchemist: Brotherhood"/>
                                 <p>
-                                Oroboros, FullMetal Alchemist: Brotherhood  
+                                Homuculus Stamp: Oroboros, FullMetal Alchemist: Brotherhood  
                                 </p>
                             </div>
                            

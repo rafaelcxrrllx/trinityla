@@ -3,7 +3,7 @@
     position: relative;
     right: 0;
     top: 0;
-    margin-top: 32px;
+    margin-top: 36px;
     margin-right: 12px;
   }
   
@@ -22,7 +22,6 @@
     list-style: none;
     padding: 0;
     margin-top: 20px;
-    background: #FFF;
     padding-bottom: 10px;
     left: 0;
     margin-left: 24px;
@@ -40,9 +39,9 @@
   
   
   .hamburger li {
-    width: 24px;
+    width: 40px;
     height: 2px;
-    background-color: #333;
+    background-color: #fff;
     margin: 7px 0;
     border-radius: 10px;
     transition: 0.4s;

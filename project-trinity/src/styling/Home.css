@@ -7,6 +7,7 @@
 
 
 
+
 .home-container {
     text-align: center;
 }
@@ -24,7 +25,7 @@
 .spinning-logo {
     animation: spin 7s infinite linear;
     transform-style: preserve-3d;
-    padding-top: 24px;
+    padding-top: 50px;
 }
 
 @keyframes spin {
@@ -54,79 +55,117 @@
 }
 
 
-@media (max-width: 600px) {
-    .hero-container img{
-        display: none;
-    }
+.flourescent {
+    height: 25px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
+}
 
-    .slogan {
-        padding-top: 16px;
-        padding-bottom: 16px;
-        margin-bottom: 4px;
-        text-align: center;
-    }
+.row {
+    padding: 32px;
+}
+
+.home {
+    padding: 32px
+}
+
+.home-title {
+    font-size: 32px;
+    padding-top: 32px;
+}
+
+.subtitle {
+    font-size: 26px;
+
+}
+
+.container {
+    padding-top: 32px;
+    
+}
+
+
+
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+   #desktop-flour {
+    display: none;
+   }
+
+
 
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
-
-    .hero-container {
-        text-align: center;
-        margin-top: 16px;
+    .row {
+        display: flex;
     }
 
-    .hero-container img {
-        text-align: center;
-        width: 98%;
+    .col {
+        display: block;
+        width: 50%;
     }
 
-    .trinity-container {
-
-        box-shadow: none;
+    #hero {
+        width: 100%;
     }
 
-    .slogan {
-        position: absolute;
-        font-size: 50px;
-        left: 50px;
-        top: 150px;
-        color: white;
-        text-align: center;
-        mix-blend-mode: soft-light;
+    #mobile-flour {
+        display: none;
     }
-}
 
+    .subtitle {
+        padding-left: 32px;
+        padding-right: 32px;
+        line-height: 1.5;
+    }
+  }
+  
+  
 @media (min-width: 1025px) {
 
-    .hero-container {
-        text-align: center;
-        margin-top: 16px;
+    .row {
+        display: flex;
     }
 
-    .hero-container {
+    .col {
         display: block;
-        text-align: center;
+        width: 50%;
+
     }
 
-    .hero-container img {
-        text-align: center;
-        width: 98%;
+    .col-container {
+        padding-right: 64px;
     }
 
-    .slogan {
-        position: absolute;
-        font-size: 100px;
-        left: 100px;
-        top: 200px;
-        color: white;
-        text-align: center;
-        mix-blend-mode: soft-light;
+    #hero {
+        width: 50%;
+        float: right;
     }
 
-    .trinity-container {
-
-        box-shadow: none;
+    #mobile-flour {
+        display: none;
     }
 
-}
+    .subtitle {
+        padding-left: 64px;
+        padding-right: 64px;
+        line-height: 1.5;
+    }
+
+    #desktop-flour {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+
+    
+}  
+

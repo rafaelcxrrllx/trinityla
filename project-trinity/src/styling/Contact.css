@@ -9,13 +9,13 @@
     font-size: large;
     
     border-style: none;
-    border-color: #000;
+    border-color: #fff;
     border-style: solid;
-    background-color: white;
+    background-color: #fff;
 }
 
 .contact-container {
-    background-color: #fff;
+    background-color: #070F19;
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 3%;
@@ -45,12 +45,12 @@
         justify-content: center;
         align-items: center;
         border-radius: 45px;
-        color: black;
+        color: #fff;
         font-size: large;
         border-style: none;
-        border-color: #000;
+        border-color: #fff;
         border-style: solid;
-        background-color: white;
+        background-color: #070F19;
         margin-bottom: 20px;
         margin-top: 30px;
         transition: transform 0.3s ease-in-out;
@@ -63,7 +63,7 @@
     color: white;
     border-style: solid;
     border-color: white;
-    background-color:  #0B2545;
+    background-color:  #070F19;
 }
 
 #btn {
@@ -76,12 +76,12 @@
   }
 
 .message-confirmed-header h4{
-    color: #32353E;
+    color: #fff;
 }
 
 
 .header h4 {
-    color: #32353E;
+    color: #fff;
 }
 
 

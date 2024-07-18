@@ -1,6 +1,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    background-color: #070F19;
 }
 
 body {
@@ -19,10 +20,13 @@ body {
 }
 
 #btn:hover {
-    background-color:  #0B2545;
+    background-color:  #070F19;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 3px;
   }
 
 body {
@@ -31,30 +35,30 @@ body {
 
 h1, h2 {
     font-family: Playfair Display;
-    color: #0B2545;
+    color: #fff;
 
 }
 
 h3, h4 {
     font-family: Sumana;
-    color: #0B2545;
+    color: #fff;
 }
 
 p, li {
     font-family: Karla;
-    color: #0B2545;
+    color: #fff;
 }
 
 a:visited {
-    color: #0B2545; /* Link color after it has been visited */
+    color: #fff; /* Link color after it has been visited */
 }
 
 Link {
-    color: #0B2545;
+    color: #fff;
 }
 
 .landing-page-link {
-    color: #0B2545;
+    color: #fff;
   }
 
 .landing-page-link {

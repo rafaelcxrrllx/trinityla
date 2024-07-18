@@ -8,9 +8,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #FFF;
+    background-color: #070F19;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
-    padding: 12px 0 12px 0px;
+    padding: 12px 32px 12px 32px;
     position: -webkit-sticky; /* For Safari */
     top: 0;
     align-items: flex-start;  
@@ -36,7 +36,7 @@ nav {
     text-decoration: none;
     padding: 14px 12px;
     display: block;
-    color: #0B2545;
+    color: #fff;
   }
 
   
@@ -52,7 +52,7 @@ nav {
     height: 1px;
     bottom: 0;
     left: 0;
-    background-color: black; /* Adjust the color as needed */
+    background-color: #fff; /* Adjust the color as needed */
     visibility: hidden;
 }
 
@@ -62,7 +62,7 @@ nav {
 }
 
 .landing-page-link {
-  color: #0B2545;
+  color: #fff;
 }
 
   #emblem {

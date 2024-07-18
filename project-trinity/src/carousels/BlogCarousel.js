@@ -2,7 +2,7 @@
 import '../styling/styles.css'
 
 // Styling
-import '../styling/Carousel.css';
+import '../styling/BlogCarousel.css';
 
 // Components
 import React, { useState, useEffect } from 'react';
@@ -32,7 +32,7 @@ const BlogCarousel = () => {
 
   return (
     <div className='carousel-container'>
-    <div className="carousel">
+    <div className="blog-carousel">
       <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
           <img
