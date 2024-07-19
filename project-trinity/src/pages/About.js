@@ -89,7 +89,9 @@ function About() {
           Evoking Divinity To Amplify Human Consciousness
         </h1>
         <p>
-          I am here to spread the gospel truth. 
+        <span className='start-letter'>
+                                I
+                            </span> am here to spread the gospel truth. 
           The real story that astrology tells, that story concerns the understanding, purification, mastery and perfection of the human body and nothing else. 
           The scriptures are allegories, parables and fables based on the human body, "fearfully and wonderfully made". 
         </p>
