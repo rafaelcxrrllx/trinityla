@@ -12,7 +12,7 @@ import {motion} from 'framer-motion'
 // Assets
 import logo from '../assets/logo.svg'
 import stars from '../assets/stars.svg'
-
+import sign from '../assets/signature.svg'
 
 
 function About() {
@@ -43,7 +43,9 @@ function About() {
     
       <div className='about-description-container'>
 
-      <p> Rafael Carrillo AKA Trinity was born and raised in Los Angeles California and is 
+      <p> <span className='start-letter'>
+                                R
+                            </span>afael Carrillo AKA Trinity was born and raised in Los Angeles California and is 
         an aspiring entrepreneur in Design / Development. Growing up in South Central LA, 
         Rafael had a passion for art and technology. Rafael graduated from the University of 
         California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024. 
@@ -51,8 +53,9 @@ function About() {
         apps, sites, and real-world objects can be designed and delivered for the best human experience. 
         </p>
       </div>
-        
       <div id="about-flour" className='flourescent-about'></div>
+
+        
               <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
     <div >
         <img src={stars} id="stars"  alt="three stars"/>
@@ -64,15 +67,12 @@ function About() {
         </h1>
     </div>
         <div className='about-description-container'>
-          <h1>
-            trin·i·ty /ˈtrinədē/ 
-          </h1> 
-
+      
           <p>
-            noun
+          trin·i·ty /ˈtrinədē/ noun
           </p>
           <p>
-            the state of being three.
+            <i>the state of being three.</i>
           </p>
           <p>
             "The divine mind reasserts itself in its endeavors to fructify the divine mother, so that she may become big with the divine child, This constitutes the TRINITY." 
@@ -84,7 +84,7 @@ function About() {
             "As the blood is the life of the flesh, it naturally follows that, as man is a TRINITY (body, or flesh, soul and spirit), the condition, or health of his body determines that of his soul."
           </p>
       </div>
-      <div className='statement-container'>
+      <div className='about-description-container'>
         <h1>
           Evoking Divinity To Amplify Human Consciousness
         </h1>
@@ -96,9 +96,7 @@ function About() {
         <p>
           Loved Not Owned,
         </p>
-        <p>
-          - Trinity 
-        </p>
+        <img id="emblem" src={sign} alt="signature of trinity"/>
       </div>
     </motion.div>  
     <Footer/>

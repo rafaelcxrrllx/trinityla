@@ -68,7 +68,7 @@ useEffect(() => {
 
         <motion.ul 
           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-          animate={menuOpen ? { y: 0, opacity:  1 }: {y: '1vw', opacity: 0} } // Animate opacity to 1
+          animate={menuOpen ? { y: 0, opacity:  1 }: {y: '3vw', opacity: 0} } // Animate opacity to 1
           transition={{ duration: 1 }}
           className="hamburger-menu">
         {/* <li><Link className='landing-page-link' to="/portfolio"> Portfolio </Link></li>
