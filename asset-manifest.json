@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.d6e065c4.css",
-    "main.js": "/trinityla/static/js/main.3a47314a.js",
+    "main.css": "/trinityla/static/css/main.27046230.css",
+    "main.js": "/trinityla/static/js/main.413a51a5.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
     "static/media/blog-cover.svg": "/trinityla/static/media/blog-cover.5cdf5d49654bb9e87fa35322bc2bf12f.svg",
@@ -58,7 +58,6 @@
     "static/media/throatChakra.jpg": "/trinityla/static/media/throatChakra.fc44eeea1d625dadc69a.jpg",
     "static/media/emf-three.png": "/trinityla/static/media/emf-three.e829c15bf3f6c638e685.png",
     "static/media/alchemy.jpg": "/trinityla/static/media/alchemy.b65957339caaad57363b.jpg",
-    "static/media/signature.svg": "/trinityla/static/media/signature.6c843c62bf4d34ee5d510f77c4ea2511.svg",
     "static/media/emf-one.png": "/trinityla/static/media/emf-one.6373a10f338f8dcc5078.png",
     "static/media/insideTower.jpg": "/trinityla/static/media/insideTower.ec39987f02e9aa173804.jpg",
     "static/media/moses.webp": "/trinityla/static/media/moses.794ffa609e4cb6354986.webp",
@@ -94,6 +93,7 @@
     "static/media/holyparents.jpg": "/trinityla/static/media/holyparents.a77b04c44a44526ce9c7.jpg",
     "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
     "static/media/emf-model.png": "/trinityla/static/media/emf-model.08334f1ad834473a1ba8.png",
+    "static/media/signature.svg": "/trinityla/static/media/signature.9b82f14391fdc7fc0ddcbb08b978b4f3.svg",
     "static/media/man.svg": "/trinityla/static/media/man.638bab3fa11d8fbe6aca9e47376e51bd.svg",
     "static/media/oroboros.svg": "/trinityla/static/media/oroboros.5523d363665c0e383fc1383ce9ca0f0b.svg",
     "static/media/logo.svg": "/trinityla/static/media/logo.b0b720cdb1ff90635f53eed732d5a45b.svg",
@@ -106,7 +106,6 @@
     "static/media/stars.svg": "/trinityla/static/media/stars.6bd49a4f83eff124f288ca73e4f46d82.svg",
     "static/media/virgo.svg": "/trinityla/static/media/virgo.30b1d2d8a4d639d1faf057b339ed9b97.svg",
     "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
-    "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.c77194ecee250be5252e5003e364c7ce.svg",
     "static/media/scorpio.svg": "/trinityla/static/media/scorpio.d5871e88ec5383fac48d51309bcbf621.svg",
     "static/media/capricorn.svg": "/trinityla/static/media/capricorn.f3c2032d86559d9c20160b4c0b108710.svg",
     "static/media/taurus.svg": "/trinityla/static/media/taurus.e17ddc73a254987b5552fb0956a0bed0.svg",
@@ -118,12 +117,14 @@
     "static/media/aries.svg": "/trinityla/static/media/aries.2269b11890d30d3a036a8841b46b61ad.svg",
     "static/media/aquarius.svg": "/trinityla/static/media/aquarius.b5bc173e5c117dc0e5a469fd61e1085e.svg",
     "static/media/sagittarius.svg": "/trinityla/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
-    "main.d6e065c4.css.map": "/trinityla/static/css/main.d6e065c4.css.map",
-    "main.3a47314a.js.map": "/trinityla/static/js/main.3a47314a.js.map",
+    "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
+    "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
+    "main.27046230.css.map": "/trinityla/static/css/main.27046230.css.map",
+    "main.413a51a5.js.map": "/trinityla/static/js/main.413a51a5.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6e065c4.css",
-    "static/js/main.3a47314a.js"
+    "static/css/main.27046230.css",
+    "static/js/main.413a51a5.js"
   ]
 }
