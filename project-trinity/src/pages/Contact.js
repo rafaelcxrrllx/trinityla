@@ -136,6 +136,7 @@ return (
                 onChange={handlePhone}
                 placeholder="Phone Number"
                 name="from_phone"
+                
                 className='text-entry'/>
             </div>
 
