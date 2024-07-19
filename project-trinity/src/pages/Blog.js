@@ -7,14 +7,14 @@ import { Link } from 'react-router-dom';
 import BlogCarousel from '../carousels/BlogCarousel';
 import blogCover from '../assets/desktop-cards/blog-cover.svg';
 
+// Global Styling
+import '../styling/styles.css'
+
 function Blog() {
 
 return (
 
-    <motion.div
-    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-    transition={{ duration: 1 }}>
+    <div> 
     <Nav/>
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
@@ -141,17 +141,12 @@ return (
                         11 June, 2024
                     </p>
                 </div>
-            </Link>
-           
-            
-            
-            
-            
+            </Link>       
             
         </div>
     </motion.div>
     <Footer/>
-    </motion.div>
+    </div>
   );
 }
 
