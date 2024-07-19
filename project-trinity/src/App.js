@@ -17,6 +17,7 @@ import TheAntiChrist from './blogs/AntiChrist'
 import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 import CellSalts from './blogs/CellSalts';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     <Routes >
     <Route path='/' element={<Home/>}/> 
       <Route path='/shop' element={<Shop/>}/>
+      <Route path='/portfolio' element={<Portfolio/>}/>
       <Route path='/home' element={<Home/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/blog/genesis' element={<Genesis/>}/>

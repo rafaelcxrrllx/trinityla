@@ -5,12 +5,16 @@ nav {
 
 }
 
+body.menu-open {
+  overflow: hidden;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #070F19;
-    box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+    /* box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10); */
     padding: 12px 32px 12px 32px;
     position: -webkit-sticky; /* For Safari */
     top: 0;
@@ -61,6 +65,14 @@ nav {
 .hover-underline:hover::after {
     visibility: visible;
     width: 100%;
+}
+
+.flourescent-nav {
+    height: 25px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
+    width: 100%;
+    display: block;
 }
 
 .landing-page-link {

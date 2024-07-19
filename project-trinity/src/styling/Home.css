@@ -12,9 +12,18 @@
     text-align: center;
 }
 
+#home {
+    margin-top: -33px;
+}
+
 .hero-container {
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     padding-bottom: 16px;
+}
+
+#recent-work-title {
+    margin-top: 24px;
+    font-size: 16px;
 }
 
 .spaced {
@@ -61,6 +70,8 @@
     background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
 }
 
+
+
 .row {
     padding: 32px;
 }
@@ -92,6 +103,10 @@
    #desktop-flour {
     display: none;
    }
+
+   .home-title {
+    padding-top: 0px;
+}
 
 
 
@@ -151,16 +166,21 @@
     }
 
     .subtitle {
-        padding-left: 64px;
-        padding-right: 64px;
+        padding-left: 10px;
+        padding-right: 100px;
         line-height: 1.5;
     }
 
     #desktop-flour {
         width: 90%;
         margin-left: 5%;
+        margin-bottom: 44px;
     }
 
+    .home-title {
+        padding-left: 10px;
+        padding-right: 100px;
+    }
 
 
 

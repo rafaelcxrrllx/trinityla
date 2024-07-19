@@ -10,14 +10,12 @@ import React, { useState, useEffect } from 'react';
 // Assets
 import img1 from '../assets/hero-shot.jpeg'
 import img2 from '../assets/hero-shot-2.jpeg'
-import img3 from '../assets/hero-shot-3.jpeg'
 
 
 const Carousel = () => {
   const images = [
    img1,
    img2,
-   img3
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

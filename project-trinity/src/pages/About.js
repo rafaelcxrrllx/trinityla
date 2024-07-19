@@ -44,10 +44,10 @@ function About() {
       <div className='about-description-container'>
 
       <p> Rafael Carrillo AKA Trinity was born and raised in Los Angeles California and is 
-        a aspiring entrepreneur in Design / Development. Growing up in South Central LA, 
-        Rafael grew up with a passion for art and technology. Rafael graduated from the University of 
-        California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024.
-        Combining his artistic skills with human-centered design, Rafael reimagines how
+        an aspiring entrepreneur in Design / Development. Growing up in South Central LA, 
+        Rafael had a passion for art and technology. Rafael graduated from the University of 
+        California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024. 
+        Combining his unique artistic skills with human-centered design, Rafael reimagines how
         apps, sites, and real-world objects can be designed and delivered for the best human experience. 
         </p>
       </div>

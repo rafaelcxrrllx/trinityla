@@ -2,7 +2,7 @@
 import '../styling/styles.css'
 
 // Local Styling
-import '../styling/Home.css'
+import '../styling/Portfolio.css'
 
 // Components
 import Carousel from '../carousels/Carousel';
@@ -16,18 +16,16 @@ import { motion } from 'framer-motion';
 import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom';
 
-function Home() {
+function Portfolio() {
 
   return (
     <div>
     <Nav/>
    
-      <motion.div 
-      initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+      <motion.div initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 1 }}
-      className='home-container'
-      id="home">
+      className='home-container'>
       
       <div id="desktop-row" className='row'>
           <div className='col'>
@@ -38,8 +36,7 @@ function Home() {
               <p className='home-title'>Rafael Carrillo</p>
               
               <div id="mobile-flour" className='flourescent'></div>
-              <p className='subtitle'><i>UXUI Designer / Full-Stack Developer </i>based out of <b>Los Angeles California.</b></p>
-              
+              <p className='subtitle'>Hi</p>
               </div>
           </div>
       </div>
@@ -61,4 +58,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Portfolio;
