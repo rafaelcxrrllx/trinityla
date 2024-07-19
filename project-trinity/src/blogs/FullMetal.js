@@ -13,7 +13,7 @@ import edward from '../assets/edward.jpeg'
 import dooroftruth from '../assets/doorone.jpeg'
 import tree from '../assets/treeoftruth.svg'
 import fullmetalAlchemist from '../assets/fullmetalAlchemist.jpeg'
-
+import rightArrow from '../assets/icons/arrow-right.svg'
 function FullMetal() {
 
 
@@ -404,6 +404,41 @@ function FullMetal() {
                     </div>
             </div>
         </motion.div>
+        <div className='blog-link-container'>
+
+        <Link id='item-link' to="/blog/mercury">
+            <motion.div
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className="blog-prev-container">
+                <div className='back-container'>
+                    <img className="arrow" src={backArrow}/>
+                    <p>
+                        Chapter II
+                    </p> 
+                </div>
+            </motion.div>
+        </Link>
+        
+        
+        <Link id='item-link' to="/blog/theholymountain">
+            <motion.div
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className="blog-next-container">
+                <div className='back-container'>
+                    
+                    <p>
+                        Chapter IV
+                    </p> 
+                    <img className="arrow" src={rightArrow}/>
+                </div>
+            </motion.div>
+        </Link>
+    </div>
+
     <Footer/>
     </div>
   );

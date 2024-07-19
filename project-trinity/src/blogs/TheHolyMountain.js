@@ -22,6 +22,7 @@ import thirdEye from '../assets/thirdEye.jpg'
 import solarPlexus from '../assets/solarPlexus.jpeg'
 import throatChakra from '../assets/throatChakra.jpg'
 import holymountain from '../assets/holymountain.jpg'
+import rightArrow from '../assets/icons/arrow-right.svg'
 
 function TheHolyMountain() {
 
@@ -501,6 +502,42 @@ function TheHolyMountain() {
                     </div>
             </div>
         </motion.div>
+
+        <div className='blog-link-container'>
+
+    <Link id='item-link' to="/blog/fullmetal">
+            <motion.div
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className="blog-prev-container">
+                <div className='back-container'>
+                    <img className="arrow" src={backArrow}/>
+                    <p>
+                        Chapter III
+                    </p> 
+                </div>
+            </motion.div>
+        </Link>
+        
+        
+        <Link id='item-link' to="/blog/cellsaltsintro">
+            <motion.div
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+            transition={{ duration: 1 }}
+            className="blog-next-container">
+                <div className='back-container'>
+                    
+                    <p>
+                        Chapter V
+                    </p> 
+                    <img className="arrow" src={rightArrow}/>
+                </div>
+            </motion.div>
+        </Link>
+    </div>
+
     <Footer/>
     </div>
   );

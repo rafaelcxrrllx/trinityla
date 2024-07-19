@@ -16,7 +16,7 @@
 .back-container {
   display: flex;
   cursor: pointer;
-  margin-left: 12px;
+  /* margin-left: 12px; */
 }
 
 #item-link {

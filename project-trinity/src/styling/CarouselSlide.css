@@ -12,11 +12,11 @@
   }
   
   .slick-prev:before, .slick-next:before {
-    color: rgb(80, 80, 80); /* Customize arrow color */
+    color:  rgb(255, 255, 255); /* Customize arrow color */
   }
   
   .slick-dots li button:before {
-    color: rgb(95, 95, 95); /* Customize dot color */
+    color: rgb(255, 255, 255); /* Customize dot color */
   }
   
   .slick-slide img {

@@ -12,6 +12,14 @@
   
 }
 
+.blog-link-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -16px;
+}
+
+
+
 li {
     list-style: none;
 }

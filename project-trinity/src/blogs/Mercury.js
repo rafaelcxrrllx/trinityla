@@ -8,6 +8,7 @@ import backArrow from '../assets/icons/arrow-back.svg'
 import mercury from '../assets/mercury.JPG'
 import mercurytwo from '../assets/mercury-two.jpeg'
 import moses from '../assets/moses.webp'
+import rightArrow from '../assets/icons/arrow-right.svg'
 
 function Mercury() {
 
@@ -250,6 +251,42 @@ function Mercury() {
                     </div>
                 </div>
             </motion.div>
+
+            <div className='blog-link-container'>
+
+<Link id='item-link' to="/blog/genesis">
+    <motion.div
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}
+    className="blog-prev-container">
+        <div className='back-container'>
+            <img className="arrow" src={backArrow}/>
+            <p>
+                Chapter I
+            </p> 
+        </div>
+    </motion.div>
+</Link>
+
+
+<Link id='item-link' to="/blog/fullmetal">
+    <motion.div
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 1 }}
+    className="blog-next-container">
+        <div className='back-container'>
+            
+            <p>
+                Chapter III
+            </p> 
+            <img className="arrow" src={rightArrow}/>
+        </div>
+    </motion.div>
+</Link>
+</div>
+
         <Footer/>
     </div>
   );
