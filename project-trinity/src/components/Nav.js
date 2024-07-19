@@ -61,9 +61,9 @@ useEffect(() => {
         <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
-        animate={menuOpen ? { height: '100%', opacity: 1 } : { height: 0, opacity: 0 }}
+        animate={menuOpen ? { height: '500px', opacity: 1 } : { height: 0, opacity: 0 }}
         transition={{ duration: .3 }}
-        style={{ overflow: 'hidden', position: 'fixed', backgroundColor: '#070F19' }}>
+        style={{ position: 'fixed', backgroundColor: '#070F19' }}>
         <div className='flourescent-nav'></div>
 
         <motion.ul 
