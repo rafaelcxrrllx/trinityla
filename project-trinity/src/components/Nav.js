@@ -96,10 +96,13 @@ useEffect(() => {
             <motion.ul 
             className="hamburger">
               <motion.li 
-                animate={{  y: menuOpen ? 5: 0, rotate: menuOpen ? 40: 0}}
+                animate={{  y: menuOpen ? 2: 0, x: menuOpen ? 10: 0, rotate: menuOpen ? 60: 0}}
                 transition={{ duration: 0 }}></motion.li>
               <motion.li 
-                animate={{y: menuOpen ? -5: 0, rotate: menuOpen ? -40: 0}}
+                animate={{y: menuOpen ? -7: 0, x: menuOpen ? -10: 0, rotate: menuOpen ? -60: 0}}
+                transition={{ duration: 0 }}></motion.li>
+                <motion.li 
+                animate={{y: menuOpen ? 1: 0, rotate: menuOpen ? 0: 0}}
                 transition={{ duration: 0 }}></motion.li>
               
             </motion.ul>
