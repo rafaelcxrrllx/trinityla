@@ -8,8 +8,8 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     padding-bottom: 8px;
     padding-top: 8px;
     align-items: center;
