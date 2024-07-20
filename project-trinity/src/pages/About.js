@@ -44,13 +44,12 @@ function About() {
       <div className='about-description-container'>
 
       <p> <span className='start-letter'>
-                                R
-                            </span>afael Carrillo AKA Trinity was born and raised in Los Angeles California and is 
-        an aspiring entrepreneur in Design / Development. Growing up in South Central LA, 
-        Rafael had a passion for art and technology. Rafael graduated from the University of 
+                              R
+                            </span>afael Carrillo AKA Trinity was born and raised in South Los Angeles California. 
+        An aspiring entrepreneur in Design and Development with a passion for art and technology. Rafael is an alumni from the University of 
         California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024. 
-        Combining his unique artistic skills with human-centered design, Rafael reimagines how
-        apps, sites, and real-world objects can be designed and delivered for the best human experience. 
+        Combining his unique problem solving skills with human-centered design, Rafael reimagines how
+        our world can be designed and delivered for the best human experience. 
         </p>
       </div>
       <div id="about-flour" className='flourescent-about'></div>
