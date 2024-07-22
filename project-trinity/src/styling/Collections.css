@@ -1,0 +1,14 @@
+.collection-item img {
+    width: 80%;
+    border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+
+}
+
+@media (min-width: 1025px) {
+    .collection-item img {
+        width: 33%;
+    }
+}

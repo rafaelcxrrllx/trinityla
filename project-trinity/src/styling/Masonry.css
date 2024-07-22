@@ -3,6 +3,8 @@
     justify-content: center; /* Center the columns */
     margin-left: -16px; /* Adjust the gutter size as needed */
     width: auto;
+    align-items: stretch;
+
   }
   
   .masonry-grid_column {

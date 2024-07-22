@@ -12,7 +12,7 @@ import Masonry from 'react-masonry-css';
 
 const MasonryLayout = ({ items }) => {
   const breakpointColumnsObj = {
-    default: 4,
+    default: 3,
     1100: 3,
     700: 2,
     500: 1
