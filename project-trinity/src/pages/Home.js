@@ -15,13 +15,14 @@ import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom';
+import MasonryLayout from '../components/MasonryLayout';
 
 function Home() {
 
   return (
     <div>
     <Nav/>
-   
+      {/* <MasonryLayout/> */}
       <motion.div 
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1

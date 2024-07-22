@@ -9,6 +9,10 @@ body.menu-open {
   overflow: hidden;
 }
 
+.add-links {
+  overflow: hidden;
+}
+
 .navbar {
     display: flex;
     align-items: center;

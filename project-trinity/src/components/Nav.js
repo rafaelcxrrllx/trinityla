@@ -20,6 +20,8 @@ function Nav() {
 
 const [menuOpen, setMenuOpen] = useState(false);
 
+
+
 const handleToggleMenu = () => {
   setMenuOpen(!menuOpen);
 };
@@ -28,8 +30,10 @@ useEffect(() => {
   // Add or remove body class based on menuOpen state
   if (menuOpen) {
       document.body.classList.add('menu-open');
-  } else {
-      document.body.classList.remove('menu-open');
+  } 
+  else {
+
+    document.body.classList.remove('menu-open')
   }
 
   // Function to handle window resize
@@ -63,7 +67,7 @@ useEffect(() => {
         initial={{ height: 0, opacity: 0 }}
         animate={menuOpen ? { height: '100%', opacity: 1, top: '100px' } : { height: 0, opacity: 0 }}
         transition={{ duration: .3 }}
-        style={{ position: 'fixed', backgroundColor: '#070F19', top: '0' }}>
+        style={menuOpen ? { position: 'fixed', backgroundColor: '#070F19', top: '0'}: {display: 'none'}}>
         <div className='flourescent-nav'></div>
 
         <motion.ul 
@@ -75,6 +79,7 @@ useEffect(() => {
         <li><Link className='landing-page-link' to="/resume"> Resume </Link></li> */}
           <li><Link className='landing-page-link' to="/shop"> Shop </Link></li>
           <li><Link className='landing-page-link' to="/blog"> Blog </Link></li>
+          <li><Link className='landing-page-link' to="/collections"> Collections </Link></li>
           <li><Link className='landing-page-link' to="/about"> About </Link></li> 
           <li><Link className='landing-page-link' to="/contact"> Contact </Link></li>
           
@@ -86,6 +91,7 @@ useEffect(() => {
         {/* <Link id='landing-page-link' className="hover-underline" to="/portfolio"> Resume </Link> */}
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>
         <Link id='landing-page-link' className="hover-underline" to="/blog"> Blog </Link>
+        <Link id='landing-page-link' className="hover-underline" to="/collections"> Collections </Link>
         <Link id='landing-page-link' className="hover-underline" to="/about"> About </Link>
         <Link id='landing-page-link' className="hover-underline" to="/contact"> Contact </Link>
 

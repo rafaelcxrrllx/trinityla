@@ -18,6 +18,8 @@ import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-route
 import ScrollToTop from './ScrollToTop';
 import CellSalts from './blogs/CellSalts';
 import Portfolio from './pages/Portfolio';
+import Collections from './pages/Collections';
+import VolumeOne from './collections/VolumeOne';
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
       <Route path='/shop' element={<Shop/>}/>
       <Route path='/portfolio' element={<Portfolio/>}/>
       <Route path='/home' element={<Home/>}/>
+      <Route path='/collections' element={<Collections/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/blog/genesis' element={<Genesis/>}/>
       <Route path='/blog/mercury' element={<Mercury/>}/>
@@ -41,6 +44,8 @@ function App() {
       <Route path='/shop/lovelybones' element={<ItemTwo/>}/>
       <Route path='/shop/trinity' element={<ItemThree/>}/>
       <Route path='/shop/emfblkr' element={<ItemFour/>}/>
+      <Route path='/collections/vol.1' element={<VolumeOne/>}/>
+
 
 
 
