@@ -81,25 +81,6 @@ function VolumeOne() {
         { id: 29, src: trinityMoon, alt: '26' },
         { id: 30, src: notlikeus, alt: '28' },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         // Add more items as needed
       ];
 
