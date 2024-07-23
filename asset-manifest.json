@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.eec12c3a.css",
+    "main.css": "/trinityla/static/css/main.b4798088.css",
     "main.js": "/trinityla/static/js/main.a15e70b4.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/trinityla/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
@@ -165,12 +165,12 @@
     "static/media/pause.svg": "/trinityla/static/media/pause.0f21f8b562c0f82f999fee38de30944c.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
-    "main.eec12c3a.css.map": "/trinityla/static/css/main.eec12c3a.css.map",
+    "main.b4798088.css.map": "/trinityla/static/css/main.b4798088.css.map",
     "main.a15e70b4.js.map": "/trinityla/static/js/main.a15e70b4.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eec12c3a.css",
+    "static/css/main.b4798088.css",
     "static/js/main.a15e70b4.js"
   ]
 }
