@@ -25,6 +25,15 @@
 
 }
 
+.vidCred {
+    position: absolute;
+    color: rgb(132, 92, 188);
+    z-index: 1;
+    top: 60%;
+    right: 16px;
+    display: flex;
+}
+
 @media (max-width: 600px) {
 
 }
@@ -32,5 +41,14 @@
 @media (min-width: 1025px) {
     .collection-item img {
         width: 33%;
+    }
+
+    .vidCred {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        top: 80%;
+        right: 24px;
+        display: flex;
     }
 }
