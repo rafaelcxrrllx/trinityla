@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trinityla/static/css/main.92c2be3c.css",
-    "main.js": "/trinityla/static/js/main.b7a27040.js",
+    "main.js": "/trinityla/static/js/main.3618b98e.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
     "static/media/blog-cover.svg": "/trinityla/static/media/blog-cover.5cdf5d49654bb9e87fa35322bc2bf12f.svg",
@@ -108,23 +108,31 @@
     "static/media/volOne.jpg": "/trinityla/static/media/volOne.d6692f7e9a35e07736cb.jpg",
     "static/media/moon.jpg": "/trinityla/static/media/moon.09a7dcef1550b83e5db7.jpg",
     "static/media/animalman.jpeg": "/trinityla/static/media/animalman.6288afb971236f59b707.jpeg",
+    "static/media/holytrinity.jpg": "/trinityla/static/media/holytrinity.7b93d432a872d0d07c67.jpg",
     "static/media/solarPlexus.jpeg": "/trinityla/static/media/solarPlexus.8752adc881ef1f51c630.jpeg",
     "static/media/edward.jpeg": "/trinityla/static/media/edward.3bb00d38caea72f708c2.jpeg",
     "static/media/jesus.jpeg": "/trinityla/static/media/jesus.6bc84b14131ee7992b49.jpeg",
     "static/media/trinityTwo.jpg": "/trinityla/static/media/trinityTwo.cb44c606ae99184e2488.jpg",
     "static/media/denial.jpg": "/trinityla/static/media/denial.0a2a1fb22faac8087ab9.jpg",
     "static/media/ladder.jpeg": "/trinityla/static/media/ladder.18809a2b3bc464eabae8.jpeg",
+    "static/media/yinyang.jpg": "/trinityla/static/media/yinyang.4e91a989e18fb28a5887.jpg",
     "static/media/cellsalts.jpeg": "/trinityla/static/media/cellsalts.c1767d180faef1ad98ff.jpeg",
     "static/media/energy-front.svg": "/trinityla/static/media/energy-front.5176588c846fb09b58402c090f674a5c.svg",
     "static/media/astrology.jpeg": "/trinityla/static/media/astrology.99fe9ca84a4a2e4381e4.jpeg",
+    "static/media/korea.jpg": "/trinityla/static/media/korea.20401959174c58d8eaee.jpg",
     "static/media/holymountain.jpg": "/trinityla/static/media/holymountain.35ed99b4cdf24f3f8663.jpg",
     "static/media/emblem-front.svg": "/trinityla/static/media/emblem-front.39645e65cc578eb61183dc88c7ce88b0.svg",
     "static/media/trinity-front.svg": "/trinityla/static/media/trinity-front.4cb8d226c16dc61301072df55920c4e9.svg",
+    "static/media/walkonwater.jpg": "/trinityla/static/media/walkonwater.6ffaee758f59cd9c90f3.jpg",
     "static/media/doorone.jpeg": "/trinityla/static/media/doorone.39be65bedb614a79270f.jpeg",
     "static/media/fullmetal.jpeg": "/trinityla/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
+    "static/media/torus.jpg": "/trinityla/static/media/torus.ee1c79d163690d19b85b.jpg",
+    "static/media/father.jpg": "/trinityla/static/media/father.a4618ee25aadc7d78551.jpg",
     "static/media/shirt-size.jpeg": "/trinityla/static/media/shirt-size.3f39ee5c83993b2b378e.jpeg",
     "static/media/holyparents.jpg": "/trinityla/static/media/holyparents.a77b04c44a44526ce9c7.jpg",
+    "static/media/aura.jpg": "/trinityla/static/media/aura.e9104fc598c1213666f4.jpg",
     "static/media/trinity-back.svg": "/trinityla/static/media/trinity-back.f02db47afacfec2f9c82df74a9cddfac.svg",
+    "static/media/god.jpg": "/trinityla/static/media/god.63e1b719f051c03469e0.jpg",
     "static/media/emf-model.png": "/trinityla/static/media/emf-model.08334f1ad834473a1ba8.png",
     "static/media/signature.svg": "/trinityla/static/media/signature.9b82f14391fdc7fc0ddcbb08b978b4f3.svg",
     "static/media/man.svg": "/trinityla/static/media/man.638bab3fa11d8fbe6aca9e47376e51bd.svg",
@@ -153,11 +161,11 @@
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
     "main.92c2be3c.css.map": "/trinityla/static/css/main.92c2be3c.css.map",
-    "main.b7a27040.js.map": "/trinityla/static/js/main.b7a27040.js.map",
+    "main.3618b98e.js.map": "/trinityla/static/js/main.3618b98e.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92c2be3c.css",
-    "static/js/main.b7a27040.js"
+    "static/js/main.3618b98e.js"
   ]
 }
