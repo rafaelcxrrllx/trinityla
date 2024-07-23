@@ -16,6 +16,8 @@ import { motion } from 'framer-motion';
 import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom';
 import MasonryLayout from '../components/MasonryLayout';
+import SpotifyNow from '../components/SpotifyNow';
+
 
 function Home() {
 
@@ -45,8 +47,13 @@ function Home() {
           </div>
       </div>
      
-      
+      <br/>
+      <br/>
       <div id="desktop-flour" className='flourescent'></div>
+      <div className='spotify-container'>
+        <SpotifyNow/>
+      </div>
+      
       {/* <div>
         <p id="recent-work-title"><i>Recent Work</i></p>
       </div> */}

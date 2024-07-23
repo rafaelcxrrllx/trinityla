@@ -37,11 +37,21 @@
     z-index: 1;
     top: 60%;
     right: 16px;
-    display: flex;
+    display: none;
 }
+
+
 
 @media (max-width: 600px) {
 
+    .vidCred {
+        position: absolute;
+        color: rgb(132, 92, 188);
+        z-index: 1;
+        top: 60%;
+        right: 16px;
+        display: flex;
+    }
 }
 
 @media (min-width: 1025px) {
