@@ -244,13 +244,7 @@ function HolyTrinity() {
                                     - John 3:5
                                 </p>
                             </div>
-
-                            <div className='blog-img'>
-                                <img src={walkonwater}  alt="Note to Self"/>
-                                <p>
-                                    Jesus and Peter on Water by Gustave Brion (1863)
-                                </p>
-                            </div>
+                            <br/>
                            
                             <p>
                                 The inner-volume of every Atom (Adam) is 
@@ -261,27 +255,20 @@ function HolyTrinity() {
                                 The Toroidal radiates out from the center up and around 
                                 creating a donut shape as it returns back to the center. 
                             </p>
-                            <div className='blog-img'>
-                                <img src={torus}  alt="Note to Self"/>
-                                <p>
-                                The Hyperbola (The Bull) and Torus Field (El Toro)
-                                </p>
-                            </div>
-                            <h4>
-                                The Hyperbola (The Bull) and Torus Field (El Toro)
-                            </h4>
-                            <p>
-                                These diverging and converging fields of pure energy and the loss of pure energy create all things in the universe. 
-                                The Toro and The Bull, how I like to call it. For a very good reason to. Because as you innerstand this information, 
-                                you begin to see everything in the world is just Toros and Bulls. Right-turning, Left-turning, Red, Blue, Wrong, Right, Up, Down. This polarity is 
-                                the temporal construct of interference in the Ether. 
-                            </p>
+                            
                             <div className='blog-img'>
                                 <img src={aura}  alt="Note to Self"/>
                                 <p>
                                 The Hyperbola (The Bull) and Torus Field (El Toro)
                                 </p>
                             </div>
+                            <p>
+                                These diverging and converging fields of pure energy and the loss of pure energy create all things in the universe. 
+                                The Toro and The Bull, how I like to call it. For a very good reason to. Because as you innerstand this information, 
+                                you begin to see everything in the world is just Toros and Bulls. Right-turning, Left-turning, Red, Blue, Wrong, Right, Up, Down. This polarity is 
+                                the temporal construct of interference in the Ether. 
+                            </p>
+                           
                             <p>
                                 The roots of our languages, were based on these truths. Many words contain variations of the vibrations <i>bol, lob, tor </i> 
                                 and, <i>rot</i>. 
@@ -295,6 +282,12 @@ function HolyTrinity() {
                             <p>
                                 The Hyperbola Hourglass is Time, Blue, Thrusting, Convergent, and Centripetal
                             </p>
+                            <div className='blog-img'>
+                                <img src={redblue}  alt="Note to Self"/>
+                                <p>
+                                    Redshift - Blueshift
+                                </p>
+                            </div>
 
                             <p>
                                 This is super important to understand. It is a red-shift, blue-shift world. The Toro and The Bull. Maybe this 
@@ -317,11 +310,10 @@ function HolyTrinity() {
                             
 
                             
-
                             <div className='blog-img'>
-                                <img src={redblue}  alt="Note to Self"/>
+                                <img src={walkonwater}  alt="Note to Self"/>
                                 <p>
-                                    Redshift - Blueshift
+                                    Jesus and Peter on Water by Gustave Brion (1863)
                                 </p>
                             </div>
                             
