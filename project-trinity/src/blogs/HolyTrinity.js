@@ -195,7 +195,7 @@ function HolyTrinity() {
                             <div className='blog-img'>
                                 <img src={mary}  alt="Note to Self"/>
                                 <p>
-                                    The Creation of Adam by Michelangelo (1512)
+                                    The Immaculate Conception of Mary
                                 </p>
                             </div>
                             <p>
