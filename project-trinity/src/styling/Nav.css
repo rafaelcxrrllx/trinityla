@@ -5,6 +5,14 @@ nav {
 
 }
 
+#flourescent {
+  mix-blend-mode: difference;
+  background-color: rgb(132, 92, 188);
+}
+
+
+
+
 body.menu-open {
   overflow: hidden;
 }
@@ -46,7 +54,7 @@ body.menu-open {
     padding: 14px 12px;
     display: block;
     font-family: Playfair Display;
-    color: #fff;
+    color: #fff !important;
   }
 
   

@@ -3,6 +3,28 @@
     border-radius: 6px;
 }
 
+.collection-item {
+    position: relative;
+}
+
+.videoCover {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: -120px;
+}
+
+
+.middleTitle {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+    display: flex;
+
+}
+
 @media (max-width: 600px) {
 
 }
