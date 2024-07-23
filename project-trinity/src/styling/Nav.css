@@ -132,5 +132,12 @@ body.menu-open {
       .menu-container {
         display: none;
       }
+
+      #flourescent {
+        mix-blend-mode: difference;
+        background-color: rgb(71, 97, 175);
+      }
+
+      
     
   }

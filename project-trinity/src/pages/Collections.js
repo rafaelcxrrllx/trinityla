@@ -13,11 +13,14 @@ import { Link } from 'react-router-dom';
 import VideoPlayer from '../components/VideoPlayer';
 import volOne from '../assets/actOne/volOne.jpg';
 import lavenderDesktop from '../assets/lavenderTwo.mp4';
+import trinity from '../assets/trinity.mp4';
 
 function Collections() {
 
 
   return (
+
+    
 
     <div className='home-container'>
     <FlourescentNav/>
@@ -32,11 +35,16 @@ function Collections() {
     <p className='vidCred'>🎞️ @gnarlyk_</p>
     <div>
     
-      <VideoPlayer 
-        src={lavenderDesktop} 
-        type="video/mp4" 
-        className="videoCover" 
-      />
+   
+      <div
+          className="videoCover"  
+          dangerouslySetInnerHTML={{
+            __html: `<video className="videoCover" autoplay loop muted playsinline>
+      <source src=${ window.innerWidth < 700 ? lavenderDesktop: trinity} type="video/mp4" />
+      Your browser does not support the video tag.
+</video>`,
+          }}
+        />
     
     </div>
     <br/>
