@@ -49,7 +49,7 @@ function Mercury() {
                             12 June, 2024
                         </p>
                         <h1 id='title'>
-                            Mercury: The Messenger of the Gods
+                            The Messenger of the Gods
                         </h1>
                     </div>
                     <div className='genesis-container'>

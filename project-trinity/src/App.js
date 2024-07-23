@@ -20,6 +20,7 @@ import CellSalts from './blogs/CellSalts';
 import Portfolio from './pages/Portfolio';
 import Collections from './pages/Collections';
 import VolumeOne from './collections/VolumeOne';
+import HolyTrinity from './blogs/HolyTrinity';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
       <Route path='/blog/theholymountain' element={<HolyMount/>}/>
       <Route path='/blog/cellsaltsintro' element={<CellSalts/>}/>
       <Route path='/blog/theantichrist' element={<TheAntiChrist/>}/>
+      <Route path='/blog/holytrinity' element={<HolyTrinity/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/shop/heartofgod' element={<Item/>}/>

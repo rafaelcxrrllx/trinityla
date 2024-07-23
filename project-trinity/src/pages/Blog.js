@@ -46,6 +46,22 @@ return (
                  Enjoy. 
             </p>
 
+            <Link id='item-link' to="/blog/holytrinity">
+                <div className='blog-container'>
+                    <div className='chapter-container'>
+                    <p>
+                        VII
+                    </p>
+                    </div>
+                    <h2>
+                        The Holy Trinity
+                    </h2>
+                    <p>
+                        22 July, 2024
+                    </p>
+                </div>
+            </Link>
+
             <Link id='item-link' to="/blog/theantichrist">
                 <div className='blog-container'>
                     <div className='chapter-container'>

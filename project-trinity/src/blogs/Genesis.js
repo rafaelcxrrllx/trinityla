@@ -47,7 +47,7 @@ function Genesis() {
                         11 June, 2024
                     </p>
                     <h1 id='title'>
-                        Genesis: The Beginning and The End
+                        Genesis
                     </h1>
                 </div>
                     <div className='genesis-container'>

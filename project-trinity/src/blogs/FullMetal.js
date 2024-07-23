@@ -53,7 +53,7 @@ function FullMetal() {
                         16 June, 2024
                     </p>
                     <h1 id='title'>
-                        FullMetal: The Law of Equivalent Exchange
+                        The Law of Equivalent Exchange
                     </h1>
                     
                 </div>

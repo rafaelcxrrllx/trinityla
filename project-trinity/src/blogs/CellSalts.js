@@ -48,7 +48,7 @@ function CellSalts() {
                         22 June, 2024
                     </p>
                     <h1 id='title'>
-                        The Cell Salts of Salvation: Summary
+                        The Cell Salts of Salvation
                     </h1>
                     
                 </div>

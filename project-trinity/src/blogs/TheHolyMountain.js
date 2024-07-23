@@ -63,7 +63,7 @@ function TheHolyMountain() {
                         20 June, 2024
                     </p>
                     <h1 id='title'>
-                    The Holy Mountain (La Montaña Sagrada)
+                    The Holy Mountain
                     </h1>
                     
                 </div>

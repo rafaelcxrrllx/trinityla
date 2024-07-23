@@ -6,7 +6,6 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg'
 import rightArrow from '../assets/icons/arrow-right.svg'
-
 import Jesus from '../assets/jesus.jpeg'
 import sacredheart from '../assets/sacred-heart.jpg';
 import holyparents from '../assets/holyparents.jpg'
@@ -58,7 +57,7 @@ function AntiChrist() {
                         4 July, 2024
                     </p>
                     <h1 id='title'>
-                        The Anti-Christ: Summary
+                        The Anti-Christ
                     </h1>
                     
                 </div>
@@ -504,7 +503,7 @@ function AntiChrist() {
                             <div className='blog-img'>
                                 <img src={ladder}  alt="Jacob's Ladder"/>
                                 <p>
-                                    The Seed of a Vispero Tree, 2024
+                                    Genesis 28:10-22 – Jacob's Dream at Bethel
                                 </p>
                             </div>
                             <p>
@@ -745,7 +744,7 @@ function AntiChrist() {
         </Link>
         
         
-        <Link id='item-link' to="/blog/genesis">
+        <Link id='item-link' to="/blog/holytrinity">
             <motion.div
             initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -754,7 +753,7 @@ function AntiChrist() {
                 <div className='back-container'>
                     
                     <p>
-                        Chapter I
+                        Chapter VII
                     </p> 
                     <img className="arrow" src={rightArrow}/>
                 </div>
