@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.15c28d09.css",
-    "main.js": "/trinityla/static/js/main.de3cacdd.js",
+    "main.css": "/trinityla/static/css/main.025d7c3f.css",
+    "main.js": "/trinityla/static/js/main.dcf28c7f.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
+    "static/media/trinity.mp4": "/trinityla/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
     "static/media/blog-cover.svg": "/trinityla/static/media/blog-cover.5cdf5d49654bb9e87fa35322bc2bf12f.svg",
     "static/media/heartofgod-back.svg": "/trinityla/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
@@ -161,12 +162,12 @@
     "static/media/sagittarius.svg": "/trinityla/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
-    "main.15c28d09.css.map": "/trinityla/static/css/main.15c28d09.css.map",
-    "main.de3cacdd.js.map": "/trinityla/static/js/main.de3cacdd.js.map",
+    "main.025d7c3f.css.map": "/trinityla/static/css/main.025d7c3f.css.map",
+    "main.dcf28c7f.js.map": "/trinityla/static/js/main.dcf28c7f.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15c28d09.css",
-    "static/js/main.de3cacdd.js"
+    "static/css/main.025d7c3f.css",
+    "static/js/main.dcf28c7f.js"
   ]
 }
