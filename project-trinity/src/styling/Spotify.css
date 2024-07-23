@@ -95,7 +95,7 @@
 }
 
 .soundbar{
-    filter: invert(100%);
+    /* filter: invert(100%); */
     width: 100%;
 }
 
