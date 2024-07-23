@@ -10,6 +10,7 @@
     justify-content: space-between;
     transition: all 0.5s ease;
     font-family: Playfair Display;
+    color: #fff;
 }
 
 .nowPlayingCard:hover {

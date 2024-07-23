@@ -135,7 +135,7 @@ const NowPlaying = () => {
   } else if (nowPlaying === 'Currently Not Playing') { // If the response returns this error message then we print the following text in the widget
     playerState = 'OFFLINE';
     title = 'Silence is Golden';
-    artist = 'currently Offline';
+    artist = 'Currently Offline';
   } else { // If the response wasn't able to fetch anything then we display this
     title = 'Failed to';
     artist = 'fetch song';
@@ -152,14 +152,16 @@ const NowPlaying = () => {
       <div className='nowPlayingCard'>
         {/* Album image and href displayed based on playerState */}
         <div className='nowPlayingImage'>
-          {playerState === 'PLAY' || playerState === 'PAUSE' ? <a href={nowPlaying.songUrl}><img src={albumImageUrl} alt="Album" /></a> : <img src={albumImageUrl} alt="Album" /> || playerState === 'OFFLINE' ? <video
-        src={eyes}
-        autoPlay
-        muted
-        loop
-        className='eyes-offline'
-        
-      /> : <a></a>}
+          {playerState === 'PLAY' || playerState === 'PAUSE' ? <a href={nowPlaying.songUrl}><img src={albumImageUrl} alt="Album" /></a> : <img src={albumImageUrl} alt="Album" /> || playerState === 'OFFLINE' ? 
+          <video
+            src={eyes}
+            autoPlay
+            muted
+            loop
+            className='eyes-offline'
+            
+        /> 
+      : <a></a>}
         </div>
         <div id='nowPlayingDetails'>
           {/* Song Title displayed based on playerState */}
