@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/trinityla/static/css/main.b4798088.css",
-    "main.js": "/trinityla/static/js/main.a15e70b4.js",
+    "main.css": "/trinityla/static/css/main.51c43d64.css",
+    "main.js": "/trinityla/static/js/main.c279f136.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/trinityla/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
@@ -46,7 +46,6 @@
     "static/media/theFool.jpg": "/trinityla/static/media/theFool.8e281ab3381713a3c9bc.jpg",
     "static/media/aries-card-desktop.svg": "/trinityla/static/media/aries-card-desktop.9470d5b49f97a32c10d763b618e7a21b.svg",
     "static/media/taurus-card-desktop.svg": "/trinityla/static/media/taurus-card-desktop.f7271b7dbab356fc3d978ada6093832f.svg",
-    "static/media/soundbar.gif": "/trinityla/static/media/soundbar.caeac6b4b50a0bafe466.gif",
     "static/media/christRelease.jpg": "/trinityla/static/media/christRelease.4b001578f87534365ed5.jpg",
     "static/media/womanNChimp.jpg": "/trinityla/static/media/womanNChimp.c30e501448d78b61adfa.jpg",
     "static/media/selfOne.jpg": "/trinityla/static/media/selfOne.234449f3fe0eb15b6168.jpg",
@@ -139,6 +138,7 @@
     "static/media/god.jpg": "/trinityla/static/media/god.63e1b719f051c03469e0.jpg",
     "static/media/emf-model.png": "/trinityla/static/media/emf-model.08334f1ad834473a1ba8.png",
     "static/media/signature.svg": "/trinityla/static/media/signature.9b82f14391fdc7fc0ddcbb08b978b4f3.svg",
+    "static/media/soundbar.gif": "/trinityla/static/media/soundbar.f7f721aaf8de871bbb44.gif",
     "static/media/man.svg": "/trinityla/static/media/man.638bab3fa11d8fbe6aca9e47376e51bd.svg",
     "static/media/oroboros.svg": "/trinityla/static/media/oroboros.5523d363665c0e383fc1383ce9ca0f0b.svg",
     "static/media/logo.svg": "/trinityla/static/media/logo.b0b720cdb1ff90635f53eed732d5a45b.svg",
@@ -165,12 +165,12 @@
     "static/media/pause.svg": "/trinityla/static/media/pause.0f21f8b562c0f82f999fee38de30944c.svg",
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
-    "main.b4798088.css.map": "/trinityla/static/css/main.b4798088.css.map",
-    "main.a15e70b4.js.map": "/trinityla/static/js/main.a15e70b4.js.map",
+    "main.51c43d64.css.map": "/trinityla/static/css/main.51c43d64.css.map",
+    "main.c279f136.js.map": "/trinityla/static/js/main.c279f136.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4798088.css",
-    "static/js/main.a15e70b4.js"
+    "static/css/main.51c43d64.css",
+    "static/js/main.c279f136.js"
   ]
 }
