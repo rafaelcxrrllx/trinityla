@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trinityla/static/css/main.7ba87862.css",
-    "main.js": "/trinityla/static/js/main.0d0211b6.js",
+    "main.js": "/trinityla/static/js/main.1c05aa1e.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/trinityla/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
@@ -81,6 +81,7 @@
     "static/media/emf-two.png": "/trinityla/static/media/emf-two.862566cc82e65aee1964.png",
     "static/media/stars.jpg": "/trinityla/static/media/stars.eb9934c7fff72f9ea743.jpg",
     "static/media/treeoftruth.svg": "/trinityla/static/media/treeoftruth.6f6a2a4b92315e50e9726d1a8289c2d3.svg",
+    "static/media/trinity-eyes.gif": "/trinityla/static/media/trinity-eyes.f9f2329dd22261cb24c6.gif",
     "static/media/emf.png": "/trinityla/static/media/emf.3fed4463426b2d46f347.png",
     "static/media/sun.jpg": "/trinityla/static/media/sun.a27434c236f18ab9a695.jpg",
     "static/media/mac.jpg": "/trinityla/static/media/mac.75fb2fffb2a11e9cc065.jpg",
@@ -105,7 +106,6 @@
     "static/media/logo.jpg": "/trinityla/static/media/logo.6039cb0ded4c7cc6811a.jpg",
     "static/media/fullmetalAlchemist.jpeg": "/trinityla/static/media/fullmetalAlchemist.935500264edc376b5378.jpeg",
     "static/media/thirdEye.jpg": "/trinityla/static/media/thirdEye.7c202b436a020744b20f.jpg",
-    "static/media/trinityeyes.mp4": "/trinityla/static/media/trinityeyes.c63a4163a5e5b0804c93.mp4",
     "static/media/christ.jpeg": "/trinityla/static/media/christ.be5c3c0dbb62af1d1b49.jpeg",
     "static/media/logoSky.jpg": "/trinityla/static/media/logoSky.c7cd56a5d14af8786986.jpg",
     "static/media/volOne.jpg": "/trinityla/static/media/volOne.d6692f7e9a35e07736cb.jpg",
@@ -166,11 +166,11 @@
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.aaa6de726c1e876e75ad767289d137d7.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.11dc504192648e7ff6aa32141a30e011.svg",
     "main.7ba87862.css.map": "/trinityla/static/css/main.7ba87862.css.map",
-    "main.0d0211b6.js.map": "/trinityla/static/js/main.0d0211b6.js.map",
+    "main.1c05aa1e.js.map": "/trinityla/static/js/main.1c05aa1e.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ba87862.css",
-    "static/js/main.0d0211b6.js"
+    "static/js/main.1c05aa1e.js"
   ]
 }
