@@ -150,9 +150,9 @@ function HolyTrinity() {
                             </div>
                             <p> 
                                 <b>
-                                Dielectricity - Black Light - Absence of Color - Soul - Time - God - Father - Omnipotent - The Creator
+                                Source - Dielectricity - Black Light - Invisible - Absence of Color - Soul - Time - God - Father - Omnipotent - The Creator
                                 -
-                                Masculine - Rest - Acceleration - Order - Christ - Sulfur - Sun
+                                Masculine - Stillness - Acceleration - Order - Christ - Sulfur - Black Sun - Neutral - Energy - 3
                                 </b>
                             </p>
 
@@ -200,9 +200,9 @@ function HolyTrinity() {
                             </div>
                             <p>
                             <b>
-                                Magnetism - White Light - All Color - Spirit - Space - Mary - Mother -  Omniscient
+                                Dimensional Force - Magnetism - White Light - Invisible - All Color - Spirit - Space - Mary - Mother -  Omniscient
 
-                               - Feminine - Motion - Force - Chaos - Virgin - Mercury - Moon
+                               - Feminine - Motion - Force - Chaos - Virgin - Mercury - Moon - Positive - Frequency - 6
                             </b>
                             </p>
 
@@ -318,9 +318,9 @@ function HolyTrinity() {
                             </div>
                             
                             <p>
-                                Electricity - Red & Blue Light - Seven Colors - Mind/Body - Wave - Jesus - Son 
+                                Electricity - Red & Blue Light - Visible - Seven Colors - Mind/Body - Wave - Jesus - Son 
                                 
-                                - Masculine/Feminine - Temporal - Finite - Changing - Dividing - Life - Salt - Earth
+                                - Masculine/Feminine - Rest Against Motion - Temporal - Finite - Changing - Dividing - Life - Salt - Earth - Positive & Negative - Vibration - 9
                             </p>
 
                             <h2>
