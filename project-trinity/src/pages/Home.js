@@ -46,9 +46,7 @@ function Home() {
               </div>
           </div>
       </div>
-     
-      <br/>
-      <br/>
+  
       <div id="desktop-flour" className='flourescent'></div>
       <div className='spotify-container'>
         <SpotifyNow/>

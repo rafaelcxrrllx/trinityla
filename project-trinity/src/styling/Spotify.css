@@ -11,6 +11,7 @@
     transition: all 0.5s ease;
     font-family: Playfair Display;
     color: #fff;
+    margin-top: 32px;
 }
 
 .nowPlayingCard:hover {
@@ -74,6 +75,35 @@
     font-size: 20px;
     width: 100%;
 }
+
+.nowPlayingTitle, .playlistName::after {
+  content: "";
+  display: inline-block;
+  width: 100%; 
+  animation: scroll-right 10s linear infinite; 
+  animation-delay: 3s;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0%);  /* Start from the right */
+  }
+
+  33% {
+    transform: translateX(-100%);  /* Move to the left */
+  }
+  
+
+  66% {
+    transform: translateX(0%);  /* Move to the left */
+  }
+
+  100% {
+    transform: translateX(0%);  /* Move to the left */
+  }
+  
+}
+
 
 .nowPlayingArtist, .playlistHeader {
     text-align: left;

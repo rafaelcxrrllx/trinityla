@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import querystring from 'querystring';
 import { Buffer } from 'buffer';
 import { AiOutlinePauseCircle } from 'react-icons/ai';
@@ -8,7 +8,7 @@ import '../styling/Spotify.css';
 import soundBar from '../assets/icons/soundbar.gif'
 import pause from '../assets/icons/pause.svg'
 import eyes from '../assets/trinityeyes.mp4'
-
+import { motion } from 'framer-motion';
 // Setting up the Spotify API and Endpoints
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';
@@ -91,10 +91,26 @@ const NowPlaying = () => {
   const [nowPlaying, setNowPlaying] = useState(null);
 
   useEffect(() => {
+    // Add or remove body class based on menuOpen state
+    if (title.length > 15) {
+        document.body.classList.add('scroll-right');
+    } 
+    else {
+  
+      document.body.classList.remove('scroll-right')
+    }
+  
+    
+  });
+
+
+  useEffect(() => {
     const fetchNowPlaying = async () => {
       const data = await SpotifyNow();
       setNowPlaying(data);
     };
+
+    
 
     // Fetch now playing song initially
     fetchNowPlaying();
@@ -146,6 +162,30 @@ const NowPlaying = () => {
     return (n < 10) ? ('0' + n) : n;
   };
 
+  const [duration, setDuration] = useState(0);
+  const [delay, setDelay] = useState(5);
+
+  const textRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const calculateDuration = () => {
+     
+
+      if (title.length >= 17) {
+        const newDuration = (title.length);  // Adjust 10 as a base duration
+        setDuration(newDuration);
+      }
+
+      if (title.length < 10) {
+        const newDuration = 0;  // Adjust 10 as a base duration
+        setDuration(newDuration);
+      }
+    };
+
+    calculateDuration();
+  });
+
   return (
     // Depending on the value of playerState, the href, album image and icons are updated
     <a style={{ textDecoration: 'none', color: 'black' }} href={playerState === 'PLAY' || playerState === 'PAUSE' ? nowPlaying.songUrl : ''}>
@@ -164,8 +204,9 @@ const NowPlaying = () => {
       : <a></a>}
         </div>
         <div id='nowPlayingDetails'>
+          
           {/* Song Title displayed based on playerState */}
-          <div className={`nowPlayingTitle ${title.length > 15 ? 'marquee-content' : ' '}`}>
+          <div style={{ animationDuration: `${duration}s`}} className={`nowPlayingTitle ${title.length > 15 ? 'marquee-content' : ' '}`}>
             {playerState === 'PLAY' || playerState === 'PAUSE' ? <a href={nowPlaying.songUrl}>{title}</a> : title}
           </div>
           {/* Artist displayed based on playerState */}
