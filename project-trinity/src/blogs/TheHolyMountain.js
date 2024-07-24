@@ -39,7 +39,7 @@ function TheHolyMountain() {
             className="blog-back-container">
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
-                    <p>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>
@@ -119,7 +119,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={animalMan}  alt="The Protagonist, The Holy Mountainl"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Protagonist, The Holy Mountain
                                 </p>
                             </div>
@@ -134,7 +134,7 @@ function TheHolyMountain() {
 
                             <div className='blog-img'>
                                 <img src={theFool}  alt="The Fool, The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Fool, The Holy Mountain
                                 </p>
                             </div>
@@ -153,7 +153,7 @@ function TheHolyMountain() {
 
                             <div className='blog-img'>
                                 <img src={theLostBoys}  alt="The Lost Boys, The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Lost Boys, The Holy Mountain
                                 </p>
                             </div>
@@ -182,7 +182,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={selfOne}  alt="Christ-like Figures, The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Christ-like Figures, The Holy Mountain
                                 </p>
                             </div>
@@ -197,7 +197,7 @@ function TheHolyMountain() {
                             </p>
                             <div className='blog-img'>
                                 <img src={selfTwo}  alt="Christ-like Figures (Destroyed), The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Christ-like Figures (Destroyed), The Holy Mountain
                                 </p>
                             </div>
@@ -219,7 +219,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={womanNChimp}  alt="The Woman and The Protagonist, The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Woman and The Protagonist, The Holy Mountain
                                 </p>
                             </div>
@@ -240,7 +240,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={christRelease}  alt="Release of Self Image,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Release of Self Image,  The Holy Mountain
                                 </p>
                             </div>
@@ -258,7 +258,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={tower}  alt="The Tower,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Tower,  The Holy Mountain
                                 </p>
                             </div>
@@ -270,7 +270,7 @@ function TheHolyMountain() {
 
                             <div className='blog-img'>
                                 <img src={gold}  alt="Gold from the Tower,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Gold from the Tower,  The Holy Mountain
                                 </p>
                             </div>
@@ -337,7 +337,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={insideTower}  alt="Inside The Tower,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Inside The Tower,  The Holy Mountain
                                 </p>
                             </div>
@@ -357,7 +357,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={goatMan}  alt="The Goat Man,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Goat Man,  The Holy Mountain
                                 </p>
                             </div>
@@ -378,7 +378,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={hippo}  alt="The Crystal Palace,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Crystal Palace,  The Holy Mountain
                                 </p>
                             </div>
@@ -402,7 +402,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={alchemy}  alt="The Great Work,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Great Work,  The Holy Mountain
                                 </p>
                             </div>
@@ -427,7 +427,7 @@ function TheHolyMountain() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={throatChakra}  alt="The Spinning Room,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Spinning Room,  The Holy Mountain
                                 </p>
                             </div>
@@ -438,7 +438,7 @@ function TheHolyMountain() {
                             </p>
                             <div className='blog-img'>
                                 <img src={thirdEye}  alt="Third Eye Chakra,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Third Eye Chakra,  The Holy Mountain
                                 </p>
                             </div>
@@ -451,7 +451,7 @@ function TheHolyMountain() {
                             </p>
                             <div className='blog-img'>
                                 <img src={solarPlexus}  alt="Solar Plexus Chakra,  The Holy Mountain"/>
-                                <p>
+                                <p className='stay-white'>
                                     Solar Plexus Chakra,  The Holy Mountain
                                 </p>
                             </div>

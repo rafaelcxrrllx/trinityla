@@ -24,7 +24,7 @@ function CellSalts() {
             className="blog-back-container">
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
-                    <p>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>

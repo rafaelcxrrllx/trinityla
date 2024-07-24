@@ -1,8 +1,8 @@
 .nowPlayingCard {
     flex-shrink: 0;
     border-radius: 22px;
-    border: 2px solid #fff;
-    box-shadow: 5px 5px 0 rgba(255, 255, 255, 1);
+    border: 2px solid #c5e3fe;
+    box-shadow: 5px 5px 0 #c5e3fe;
     align-items: center;
     width: 300px;
     height: 80px;
@@ -10,7 +10,7 @@
     justify-content: space-between;
     transition: all 0.5s ease;
     font-family: Playfair Display;
-    color: #fff;
+    color: #c5e3fe;
     margin-top: 32px;
 }
 
@@ -22,13 +22,13 @@
 }
   
 .nowPlayingCard a {
-    color: rgb(255, 255, 255);
+    color: #c5e3fe;
     text-decoration: none;
     font-family: Playfair Display;
 }
 
 .nowPlayingCard a:hover {
-    color: rgb(255, 255, 255);
+    color: #c5e3fe;
     text-decoration: underline;
 }
 
@@ -69,7 +69,7 @@
 
 .nowPlayingTitle, .playlistName {
     flex-shrink: 0;
-    color: #ffffff;
+    color: #c5e3fe;
     white-space: nowrap;
     text-align: left;
     font-size: 20px;
@@ -115,14 +115,14 @@
 
 .nowPlayingTime {
     text-align: left;
-    color: #b3b3b3;
+    color: #c5e3fe;
 }
 
 .nowPlayingState {
     text-align: center;
     width: 20%;
     padding: 10px;
-    color: #fff;
+    color: #c5e3fe;
 }
 
 .soundbar{

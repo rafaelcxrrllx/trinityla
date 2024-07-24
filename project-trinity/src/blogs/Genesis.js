@@ -23,7 +23,7 @@ function Genesis() {
             className="blog-back-container">
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
-                    <p>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>
@@ -66,7 +66,7 @@ function Genesis() {
                             <div className='blog-img'>
                                 <img src={gibran}  alt="A hand with an eyeball placed centered on the palm facing forward. A group of angel-like
                                 beings sworm around the hand in unison forming a circle"/>
-                                <p>
+                                <p className='stay-white'>
                                     Art by Khalil Gibran, 1923
                                 </p>
                             </div>
@@ -88,10 +88,10 @@ function Genesis() {
             
                            
                             <div className='quote'>
-                                <h2>
+                                <p>
                                     "Your pain is the breaking of the shell that encloses your understanding. 
                                     Even as the stone of the fruit must break, that its heart may stand in the sun, so must you know pain."
-                                </h2>
+                                </p>
                                 <p>
                                     - Kahlil Gibran
                                 </p>

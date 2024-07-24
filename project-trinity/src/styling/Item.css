@@ -10,29 +10,31 @@
 .arrow-container {
   display: flex;
   cursor: pointer;
-
 }
 
 .back-container {
   display: flex;
   cursor: pointer;
-  /* margin-left: 12px; */
 }
 
 #item-link {
   text-decoration: none;
-
 }
-
-
 
 .back-container img {
   margin-right: 10px;
 }
 
+#AddToBag {
+  background-color: #070F19;
+  border: 1px solid  #c5e3fe;
+  color:  #c5e3fe;
+  font-family: Playfair Display;
+}
+
 #AddToBag:hover {
-  background-color:  #070F19;
-  color: #fff;
+  background-color:  #c5e3fe;
+  color: #ffffff;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -62,9 +64,6 @@
 .item-description {
     text-align: left;
     box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
-
-
-
 }
 
 #size {
@@ -81,57 +80,56 @@
 }
 
 .styled-table {
-    border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 18px;
-    min-width: 250px;
-  }
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  min-width: 250px;
+}
   
-  .styled-table thead tr {
-    color: #0B2545;
-    border-bottom: .5px solid #dddddd;
-    text-align: left;
-    border-top: .5px solid #dddddd;
+.styled-table thead tr {
+  color: #0B2545;
+  border-bottom: .5px solid #dddddd;
+  text-align: left;
+  border-top: .5px solid #dddddd;
 
-  }
-  
-  .styled-table th,
-  .styled-table td {
-    padding: 12px 15px;
-  }
-  
-  .styled-table tbody tr {
-    border-bottom: 1px solid #dddddd;
-  }
+}
 
-  #shirt-size {
-    width: 50%;
-  }
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
 
-  .shirt-size-container {
-    text-align: left;
-  }
+.styled-table tbody tr {
+  border-bottom: 1px solid #c5e3fe;
+}
 
-  .buttons {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    position: sticky;
-    bottom: 0;
-    padding: 12px 6px 24px 6px;
-    box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
-    z-index: 0;
-  }
+#shirt-size {
+  width: 50%;
+}
 
-  .btn {
-    width: 100%;
-    height: 50px;
-    margin: 6px 6px 6px 6px;
-    border-radius: 0%;
-    border-width: 1px;
-  }
+.shirt-size-container {
+  text-align: left;
+}
 
-  /* SizeSelector.css */
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  color: #c5e3fe;
+  position: sticky;
+  bottom: 0;
+  padding: 12px 6px 24px 6px;
+  box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
+  z-index: 0;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  margin: 6px 6px 6px 6px;
+  border-radius: 0%;
+  border-width: 1px;
+}
+
 .sizes {
   display: flex;
 }
@@ -140,10 +138,6 @@
   font-weight: bold;
   text-decoration: underline;
 }
-
-  
-  
-
 
 
 
@@ -176,7 +170,7 @@
 
 
 @media (min-width: 1025px) {
-/* styles.css */
+
   .container {
     display: flex; /* Use Flexbox */
   }
@@ -186,7 +180,6 @@
     box-sizing: border-box;
     align-content: start;
     margin-left: 64px;
-
   }
 
   .item-img {
@@ -196,7 +189,6 @@
     height: 100vh;
     overflow: scroll;
     scrollbar-width: none;
-
   }
 
   .item-img img {
@@ -206,14 +198,13 @@
     width: 100%;
     padding-bottom: 150px;
     padding-top: 150px;
-
   }
 
   .item-description {
     text-align: left;
     padding: 12px 12px 12px 12px;
     box-shadow: 0px 1px 0px 0px rgba(126, 126, 126, 0.10);
-}
+  }
 
   .styled-table {
     width: 50%;
@@ -229,9 +220,9 @@
     display: inline-flex;
     justify-content: center;
     width: 100%;
-    background-color: rgb(244, 244, 244);
+    background-color: #c5e3fe;
     margin-bottom: 100px;
-}
+  }
 
   .buttons {
     margin-top: 20px;

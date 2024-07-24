@@ -29,7 +29,7 @@ function FullMetal() {
             className="blog-back-container">
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
-                    <p>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>
@@ -135,7 +135,7 @@ function FullMetal() {
 
                             <div className='blog-img'>
                                 <img src={fullmetal}  alt="zodiac wheel"/>
-                                <p>
+                                <p className='stay-white'>
                                     FullMetal Alchemist: Brotherhood, 2009
                                 </p>
                             </div>
@@ -171,7 +171,7 @@ function FullMetal() {
                             
                             <div className='blog-img'>
                                 <img src={philosopherstone}  alt="Birth of the Philosopher's Stone, 1745 depicts an alchemist in a dimly lit laboratory, intensely focused on a glowing stone amidst shelves of ancient books and bubbling potions, capturing the mystical moment of alchemical discovery"/>
-                                <p>
+                                <p className='stay-white'>
                                     Birth of the Philosopher's Stone, 1745
                                 </p>
                             </div>
@@ -236,7 +236,7 @@ function FullMetal() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={philosopherstonetwo}  alt="Hermetic Vase, Unkown Artist"/>
-                                <p>
+                                <p className='stay-white'>
                                 Hermetic Vase, Unkown Artist
                                 </p>
                             </div>
@@ -272,7 +272,7 @@ function FullMetal() {
                             </h2>
                             <div className='blog-img'>
                                 <img src={dooroftruth}  alt="Gate of Truth, FullMetal Alchemist: Brotherhood"/>
-                                <p>
+                                <p className='stay-white'>
                                 Gate of Truth, FullMetal Alchemist: Brotherhood
                                 </p>
                             </div>
@@ -280,7 +280,7 @@ function FullMetal() {
                                 <img src={tree}  alt=" George Ripley's Marrow of Alchemy"/>
                                
                             </div>
-                            <p className='credit'>
+                            <p className='stay-white'>
                                 George Ripley's Marrow of Alchemy
                                 </p>
                            
@@ -348,7 +348,7 @@ function FullMetal() {
                             </p>
                             <div className='blog-img'>
                                 <img src={edward}  alt="zodiac wheel"/>
-                                <p>
+                                <p className='stay-white'>
                                 Edward Elric, FullMetal Alchemist: Brotherhood
                                 </p>
                             </div>
@@ -369,7 +369,7 @@ function FullMetal() {
                             </p>
                             <div className='blog-img'>
                                 <img src={oroboros}  alt="Oroboros, FullMetal Alchemist: Brotherhood"/>
-                                <p>
+                                <p className='stay-white'>
                                 Homuculus Stamp: Oroboros, FullMetal Alchemist: Brotherhood  
                                 </p>
                             </div>

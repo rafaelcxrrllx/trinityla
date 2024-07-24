@@ -1,5 +1,5 @@
 .item {
-    background-color: rgb(49, 49, 49);
+    background-color: #c5e3fe;
     max-width: max-content;
     text-align: center;
     margin: 12px 12px 12px 12px;
@@ -11,19 +11,16 @@
 
 .title {
     text-align: left;
-    /* margin-left: 12px; */
     padding-bottom: 24px;
     padding-top: 24px;
     padding-left: 12px;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     border-top: 1px solid  rgba(126, 126, 126, 0.10);
-
 }
 
 .hover-image {
     height: auto;
     transition: 0.3s ease-in-out;
-
   }
 
 @media (max-width: 600px) {

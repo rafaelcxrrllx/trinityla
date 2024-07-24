@@ -5,7 +5,7 @@ import '../styling/styles.css'
 import '../styling/Footer.css'
 
 // Assets
-import instagram from '../assets/instagram.svg';
+import instagram from '../assets/icons/instagram.svg';
 
 
 

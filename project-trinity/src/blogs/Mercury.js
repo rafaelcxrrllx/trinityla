@@ -25,7 +25,7 @@ function Mercury() {
                     className="blog-back-container">
                     <div className='back-container'>
                         <img className="arrow" src={backArrow}/>
-                        <p>
+                        <p className='stay-blue'>
                             Back to Blog
                         </p>
                     </div>
@@ -76,7 +76,7 @@ function Mercury() {
                             </p>
                             <div className='blog-img'>
                                 <img src={mercury}  alt="Mercury at The Huntington Library, 2024"/>
-                                <p>
+                                <p className='stay-white'>
                                     Mercury at The Huntington Library, 2024
                                 </p>
                             </div>
@@ -106,7 +106,7 @@ function Mercury() {
                            
                             <div className='blog-img'>
                                 <img src={mercurytwo}  alt="Mercury at The Huntington Library, 2024"/>
-                                <p>
+                                <p className='stay-white'>
                                     Mercury at The Huntington Library, 2024
                                 </p>
                             </div>
@@ -157,7 +157,7 @@ function Mercury() {
                             </p>
                             <div className='blog-img'>
                                 <img src={moses}  alt="Moses and The Bronze Serpent"/>
-                                <p>
+                                <p className='stay-white'>
                                     Moses and The Bronze Serpent
                                 </p>
                             </div>

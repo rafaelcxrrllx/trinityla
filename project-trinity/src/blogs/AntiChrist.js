@@ -33,7 +33,7 @@ function AntiChrist() {
             className="blog-back-container">
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
-                    <p>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>
@@ -119,7 +119,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={holyparents}  alt="The Sacred Heart of Jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     Mary, Joseph, and Jesus
                                 </p>
                             </div>
@@ -179,7 +179,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={christ}  alt="The Baptism of Jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Baptism of Jesus
                                 </p>
                             </div>
@@ -274,7 +274,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={crucifixion}  alt="The Crucifixion of Jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Crucifixion of Jesus
                                 </p>
                             </div>
@@ -326,7 +326,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={ressurection}  alt="The Ressurection of Jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Ressurection of Jesus
                                 </p>
                             </div>
@@ -387,7 +387,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={sunofgod}  alt="IHS"/>
-                                <p>
+                                <p className='stay-white'>
                                     IHS, a monogram or symbol for the name Jesus
                                 </p>
                             </div>
@@ -445,7 +445,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={sacredheart}  alt="The Sacred Heart of Jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     Sacred Heart of Jesus
                                 </p>
                             </div>
@@ -502,7 +502,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={ladder}  alt="Jacob's Ladder"/>
-                                <p>
+                                <p className='stay-white'>
                                     Genesis 28:10-22 – Jacob's Dream at Bethel
                                 </p>
                             </div>
@@ -632,7 +632,7 @@ function AntiChrist() {
                             </p>
                             <div className='blog-img'>
                                 <img src={denial}  alt="The Denial of jesus"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Denial of Jesus
                                 </p>
                             </div>
@@ -713,7 +713,7 @@ function AntiChrist() {
                             <br/>
                             <div className='blog-img'>
                                 <img src={seed}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     Note To Self, 2024
                                 </p>
                             </div>

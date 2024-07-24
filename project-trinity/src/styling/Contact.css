@@ -7,11 +7,10 @@
     border-radius: 5px;
     color: black;
     font-size: large;
-    
     border-style: none;
-    border-color: #fff;
+    border-color: #c5e3fe;
     border-style: solid;
-    background-color: #fff;
+    background-color: #070F19;
 }
 
 .contact-container {
@@ -23,6 +22,22 @@
     padding-bottom: 7%;
 }
 
+.Link {
+    text-decoration: none;
+}
+
+#btn {
+    background-color: #070F19 !important;
+    border: 1px solid  #c5e3fe;
+    color: #c5e3fe;
+    font-size: 16px;
+}
+
+#btn:hover {
+    background-color: #c5e3fe !important;
+    color: #fff;
+}
+
 
 .send-btn {
     width: 50%;
@@ -30,7 +45,6 @@
     margin: 6px 6px 6px 6px;
     border-radius: 0%;
     border-width: 1px;
-    
 }
 
 
@@ -42,30 +56,28 @@
 }
 
 .message-confirmed-header button {
-        width: 25vw; 
-        padding: 16px 14px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 45px;
-        color: #fff;
-        font-size: large;
-        border-style: none;
-        border-color: #fff;
-        border-style: solid;
-        background-color: #070F19;
-        margin-bottom: 20px;
-        margin-top: 30px;
-        transition: transform 0.3s ease-in-out;
-        display: flex;
-        width: fit-content;
-        
-    
+    width: 25vw; 
+    padding: 16px 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+    color: #c5e3fe;
+    font-size: large;
+    border-style: none;
+    border-color: #c5e3fe;
+    border-style: solid;
+    background-color: #070F19;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    width: fit-content;
 }
 
 #btn button:hover {
-    color: white;
+    color: f3f2ed;
     border-style: solid;
-    border-color: white;
+    border-color: f3f2ed;
     background-color:  #070F19;
 }
 
@@ -76,15 +88,15 @@
     border-radius: 0%;
     border-width: 1px;
     text-decoration: none;
-  }
+}
 
 .message-confirmed-header h4{
-    color: #fff;
+    color: #c5e3fe;
 }
 
 
 .header h4 {
-    color: #fff;
+    color: #c5e3fe;
 }
 
 
@@ -116,13 +128,11 @@
     padding-top: 10px;
     padding-bottom: 30px;
     font-family: Playfair Display;
-
 }
 
+/* Small screens (phones) */
+@media (max-width: 600px) {
 
-  /* Small screens (phones) */
-  @media (max-width: 600px) {
-   
     .contact-container {
         background-color: #070F19;
         padding-left: 5%;
@@ -135,27 +145,27 @@
         width: 50vw; 
     }
 
-    
+
     .contact {
         display: flex;  
         flex-direction: column;  
     }
-    
-    
+
+
     .contact input {
         margin-top: 20px;
         width: 100%;
         font-family: Playfair Display;
 
     }
-    
+
     .phone input{
         margin-top: 20px;
         width: 100%;
         font-family: Playfair Display;
 
     }
-    
+
     .message input{
         margin-top: 20px;
         width: 100%;
@@ -167,9 +177,9 @@
         font-family: Playfair Display;
 
     }
-  }
+}
 
-    
+
 @media (min-width: 1025px) {
 
     .contact input {
@@ -178,14 +188,14 @@
         font-family: Playfair Display;
 
     }
-    
+
     .phone input{
         margin-top: 20px;
         width: 100%;
         font-family: Playfair Display;
 
     }
-    
+
     .message input{
         margin-top: 20px;
         width: 100%;

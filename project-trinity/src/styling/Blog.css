@@ -22,28 +22,27 @@
 
 
 
-  /* Small screens (phones) */
-  @media (max-width: 600px) {
-    .blog-main-container {
-        padding-left: 24px;
+/* Small screens (phones) */
+@media (max-width: 600px) {
+.blog-main-container {
+    padding-left: 24px;
 
-    }
+}
 
-    #title {
-        margin-bottom: 50px;
-    }
-    
-    .blog-container {
-        padding: 10px 10px 10px 10px;
-        margin: 0px -50px 0px 0px;
-    }
+#title {
+    margin-bottom: 50px;
+}
 
-    .blog-img img {
-        width: 100%;
-    }
-    
-  }
+.blog-container {
+    padding: 10px 10px 10px 10px;
+    margin: 0px -50px 0px 0px;
+}
 
+.blog-img img {
+    width: 100%;
+}
+
+}
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
@@ -55,16 +54,15 @@
     #title {
         margin-bottom: 50px;
     }
-    
+
     .blog-container {
         padding: 10px 10px 10px 10px;
         margin: 0px -50px 0px 0px;
     }
-  }
+}
   
   
 @media (min-width: 1025px) {
-
     #title {
         margin-bottom: 50px;
     }
@@ -74,8 +72,8 @@
         margin: 0px 0px 0px 0px;
     }
 
-.blog-img-container img{
-    display: none;
-}
+    .blog-img-container img{
+        display: none;
+    }
 
 }  

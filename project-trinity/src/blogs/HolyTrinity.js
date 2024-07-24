@@ -1,7 +1,7 @@
 import '../styling/Genesis.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg';
@@ -10,7 +10,6 @@ import holytrinity from '../assets/holytrinity.jpg';
 import mary from '../assets/father.jpg';
 import god from '../assets/god.jpg';
 import walkonwater from '../assets/walkonwater.jpg';
-import torus from '../assets/torus.jpg';
 import aura from '../assets/aura.jpg';
 import yinyang from '../assets/yinyang.jpg';
 import redblue from '../assets/korea.jpg';
@@ -31,8 +30,8 @@ function HolyTrinity() {
             transition={{ duration: 1 }}
             className="blog-back-container">
                 <div className='back-container'>
-                    <img className="arrow" src={backArrow}/>
-                    <p>
+                    <img className="arrow" alt="back arrow" src={backArrow}/>
+                    <p className='stay-blue'>
                         Back to Blog
                     </p>
                 </div>
@@ -144,7 +143,7 @@ function HolyTrinity() {
                             </p>
                             <div className='blog-img'>
                                 <img src={god}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Creation of Adam
                                 </p>
                             </div>
@@ -194,7 +193,7 @@ function HolyTrinity() {
                             </p>
                             <div className='blog-img'>
                                 <img src={mary}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     The Immaculate Conception of Mary
                                 </p>
                             </div>
@@ -258,7 +257,7 @@ function HolyTrinity() {
                             
                             <div className='blog-img'>
                                 <img src={aura}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                 The Hyperbola (The Bull) and Torus Field (El Toro)
                                 </p>
                             </div>
@@ -284,7 +283,7 @@ function HolyTrinity() {
                             </p>
                             <div className='blog-img'>
                                 <img src={redblue}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     Redshift - Blueshift
                                 </p>
                             </div>
@@ -299,7 +298,7 @@ function HolyTrinity() {
                            </p>
                            <div className='blog-img'>
                                 <img src={yinyang}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     Yin Yang
                                 </p>
                             </div>
@@ -312,7 +311,7 @@ function HolyTrinity() {
                             
                             <div className='blog-img'>
                                 <img src={walkonwater}  alt="Note to Self"/>
-                                <p>
+                                <p className='stay-white'>
                                     Jesus and Peter on Water by Gustave Brion (1863)
                                 </p>
                             </div>
@@ -400,7 +399,7 @@ function HolyTrinity() {
             transition={{ duration: 1 }}
             className="blog-prev-container">
                 <div className='back-container'>
-                    <img className="arrow" src={backArrow}/>
+                    <img alt="back arrow" className="arrow" src={backArrow}/>
                     <p>
                         Chapter VI
                     </p> 
@@ -420,7 +419,7 @@ function HolyTrinity() {
                     <p>
                         Chapter I
                     </p> 
-                    <img className="arrow" src={rightArrow}/>
+                    <img alt="right arrow" className="arrow" src={rightArrow}/>
                 </div>
             </motion.div>
         </Link>

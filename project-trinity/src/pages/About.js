@@ -59,10 +59,11 @@ function About() {
     <div >
         <img src={stars} id="stars"  alt="three stars"/>
         <h2 className="less-spaced">
-          Los Angeles
+         <span className='stay-blue'>Los Angeles</span>
         </h2>
         <h1 className="spaced">
-          ♱TRINITY♱
+          <span className="stay-blue"> ♱TRINITY♱</span>
+         
         </h1>
     </div>
         <div className='about-description-container'>
@@ -84,7 +85,7 @@ function About() {
           </p>
       </div>
       <div className='about-description-container'>
-        <h1>
+        <h1 className='stay-blue'>
           Evoking Divinity To Amplify Human Consciousness
         </h1>
         <p>
