@@ -225,7 +225,7 @@ function HolyTrinity() {
                             <p>
                                 When all developments of Ignorance are withdrawn, the Heart being perfectly clear and purified no longer reflects the Spiritual Light but 
                                 recieves and manifests it, thus being consecrated and anointed becomes Christ. When man, thus entering into the spiritual world, 
-                                becomes a Son of God, he comprehends the universal light - The Holy Ghost - as a perfect whole, ans his self as nothing but a mere idea resting on a 
+                                becomes a Son of God, he comprehends the universal light - The Holy Ghost - as a perfect whole, and his self as nothing but a mere idea resting on a 
                                 fragment of the Eternal Father's <i>Aum</i>. 
                             </p>
 
@@ -353,13 +353,13 @@ function HolyTrinity() {
                             </h2>
 
                             <p>
-                                My seveth entry, the perfect entry, the entry where I finally talk about Trinity. Fun fact, I did not name myself after the character from 'The Matrix', even though it fits perfectly with its embodiment. 
-                                I fell in love with the idea of 'Trinity' being this other self that was connected to me, the same way my reflection is always attached to me, even when I am not in front of a mirror. 
+                                My seventh entry, the perfect entry, the entry where I finally talk about  <i>Trinity</i>. Fun fact, I did not name myself after the character from 'The Matrix', even though it fits perfectly with its embodiment. 
+                                I fell in love with the idea of <i>Trinity</i> being this other self that was connected to me, the same way my reflection is always attached to me, even when I am not in front of a mirror. 
                                
                             </p>
                            
                             <p>
-                                Funny enough, The Holy Trinity, or Trinity, is truly a companion in all of our lives. 
+                                Funny enough, <i> The Holy Trinity</i>, or  <i>Trinity</i>, is truly a companion in all of our lives. 
                                 Calling forth Neo to wake up. Constantly knocking at our door. Waiting for us to answer. 
                                 
                             </p>
@@ -369,6 +369,14 @@ function HolyTrinity() {
                                 We all have a dark-side, literally. So join hands, 
                                 and know that love is the answer. 
                             </p>
+                            <div className='quote'>
+                                <p>
+                                    "Love rules the court, the camp, the grove, and men below, and the saints above, for love is heaven, and heaven is love."
+                                </p>
+                                <p>
+                                    - Sir Walter Scott
+                                </p>
+                            </div>
                             <p>
                                 Loved Not Owned. 
                             </p>
