@@ -172,7 +172,8 @@ const NowPlaying = () => {
     const calculateDuration = () => {
      
 
-      if (title.length >= 17) {
+      if (title.length >= 17 && playerState != "OFFLINE") {
+        console.log("Title is: " + title)
         const newDuration = (title.length);  // Adjust 10 as a base duration
         setDuration(newDuration);
       }
@@ -195,11 +196,11 @@ const NowPlaying = () => {
           {playerState === 'PLAY' || playerState === 'PAUSE' ? <a href={nowPlaying.songUrl}><img src={albumImageUrl} alt="Album" /></a> : <img src={albumImageUrl} alt="Album" /> || playerState === 'OFFLINE' ? 
           <video
             src={eyes}
-            autoPlay
-            muted
-            loop
+            autoplay 
+            loop 
+            muted 
+            playsinline
             className='eyes-offline'
-            
         /> 
       : <a></a>}
         </div>
