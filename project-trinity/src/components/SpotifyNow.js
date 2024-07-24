@@ -7,7 +7,7 @@ import { HiOutlineStatusOffline } from 'react-icons/hi';
 import '../styling/Spotify.css';
 import soundBar from '../assets/icons/soundbar.gif'
 import pause from '../assets/icons/pause.svg'
-import eyes from '../assets/trinityeyes.mp4'
+import eyes from '../assets/trinity-eyes.gif'
 import { motion } from 'framer-motion';
 // Setting up the Spotify API and Endpoints
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
@@ -194,14 +194,7 @@ const NowPlaying = () => {
         {/* Album image and href displayed based on playerState */}
         <div className='nowPlayingImage'>
           {playerState === 'PLAY' || playerState === 'PAUSE' ? <a href={nowPlaying.songUrl}><img src={albumImageUrl} alt="Album" /></a> : <img src={albumImageUrl} alt="Album" /> || playerState === 'OFFLINE' ? 
-          <video
-            src={eyes}
-            autoplay 
-            loop 
-            muted 
-            playsinline
-            className='eyes-offline'
-        /> 
+          <img alt="blinking eyes" src={eyes}/> 
       : <a></a>}
         </div>
         <div id='nowPlayingDetails'>
