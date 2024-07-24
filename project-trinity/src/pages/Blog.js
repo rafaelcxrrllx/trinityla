@@ -53,7 +53,7 @@ return (
                         VII
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         The Holy Trinity
                     </h2>
                     <p>
@@ -69,7 +69,7 @@ return (
                         VI
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                        The Anti-Christ
                     </h2>
                     <p>
@@ -85,7 +85,7 @@ return (
                         V
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         The Cell Salts of Salvation
                     </h2>
                     <p>
@@ -101,7 +101,7 @@ return (
                         IV
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         The Holy Mountain
                     </h2>
                     <p>
@@ -117,7 +117,7 @@ return (
                         III
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         The Law of Equivalent Exchange
                     </h2>
                     <p>
@@ -133,7 +133,7 @@ return (
                         II
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         The Messenger of the Gods
                     </h2>
                     <p>
@@ -150,7 +150,7 @@ return (
                         I
                     </p>
                     </div>
-                    <h2>
+                    <h2 className='stay-blue'>
                         Genesis
                     </h2>
                     <p>
