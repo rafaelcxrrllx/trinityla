@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trinityla/static/css/main.a5f9f0aa.css",
-    "main.js": "/trinityla/static/js/main.3f5419a2.js",
+    "main.js": "/trinityla/static/js/main.3b30b6b9.js",
     "static/js/453.b29e5ee2.chunk.js": "/trinityla/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/trinityla/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/trinityla/static/media/seed.bdffd269cfe828924817.JPG",
@@ -70,7 +70,7 @@
     "static/media/rainbowTwo.jpg": "/trinityla/static/media/rainbowTwo.b6325223b082ea1ebe7e.jpg",
     "static/media/alchemy.jpg": "/trinityla/static/media/alchemy.b65957339caaad57363b.jpg",
     "static/media/e46.jpg": "/trinityla/static/media/e46.4c80fba3c9e11f827f65.jpg",
-    "static/media/signature.svg": "/trinityla/static/media/signature.2e2f444bf0e095966acd52e95093d020.svg",
+    "static/media/signature.svg": "/trinityla/static/media/signature.997e40b01c8a9adb43ac9809caca33e2.svg",
     "static/media/trinityGreen.jpg": "/trinityla/static/media/trinityGreen.a749366033144295d42d.jpg",
     "static/media/emf-one.png": "/trinityla/static/media/emf-one.6373a10f338f8dcc5078.png",
     "static/media/mary.jpg": "/trinityla/static/media/mary.60b5957fd6276e9eaec1.jpg",
@@ -147,7 +147,7 @@
     "static/media/slick.ttf": "/trinityla/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/cancer.svg": "/trinityla/static/media/cancer.b1d3a9937e2d72dffeb60bcc221c64e3.svg",
     "static/media/slick.woff": "/trinityla/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/stars.svg": "/trinityla/static/media/stars.6bd49a4f83eff124f288ca73e4f46d82.svg",
+    "static/media/stars.svg": "/trinityla/static/media/stars.f09c6186a8a71e072302dda3123ef413.svg",
     "static/media/virgo.svg": "/trinityla/static/media/virgo.30b1d2d8a4d639d1faf057b339ed9b97.svg",
     "static/media/arrow.svg": "/trinityla/static/media/arrow.ed0c260d7511a28b75c8a8e7b7be5b25.svg",
     "static/media/scorpio.svg": "/trinityla/static/media/scorpio.d5871e88ec5383fac48d51309bcbf621.svg",
@@ -165,11 +165,11 @@
     "static/media/arrow-back.svg": "/trinityla/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/trinityla/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "main.a5f9f0aa.css.map": "/trinityla/static/css/main.a5f9f0aa.css.map",
-    "main.3f5419a2.js.map": "/trinityla/static/js/main.3f5419a2.js.map",
+    "main.3b30b6b9.js.map": "/trinityla/static/js/main.3b30b6b9.js.map",
     "453.b29e5ee2.chunk.js.map": "/trinityla/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a5f9f0aa.css",
-    "static/js/main.3f5419a2.js"
+    "static/js/main.3b30b6b9.js"
   ]
 }
