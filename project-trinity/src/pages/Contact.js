@@ -45,12 +45,13 @@ function Contact() {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleHide = () => {
-    setIsVisible(false);
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Smooth scrolling behavior
-    });
-
+    if (name.length > 1 && email.length > 1 && message.length >= 1) {
+        setIsVisible(false);
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Smooth scrolling behavior
+        });
+    } 
   };
 
 
@@ -75,7 +76,7 @@ return (
                 style={{display: isVisible ? 'block' : 'none', pointerEvents: isVisible ? 'none' : 'auto', position:  isVisible ? 'relative' : 'absolute'}}
                 initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
                 animate={{ y: 0, opacity: isVisible ? 1 : 0 }} // Animate opacity to 1
-                transition={{ duration: isVisible ? 1 : 0 }}>Send us a message and we will get back to you soon.
+                transition={{ duration: isVisible ? 1 : 0 }}>Send me a message and I will get back to you soon.
             </motion.h4>
 
         <div 
@@ -110,6 +111,7 @@ return (
 
             <div className='contact'>
                 <input
+                required
                 type="text"
                 value={name}
                 onChange={handleName}
@@ -118,6 +120,7 @@ return (
                 className='text-entry'/>
 
                 <input
+                required
                 type="text"
                 value={email}
                 onChange={handleEmail}
@@ -130,7 +133,6 @@ return (
 
             <div className='phone'>
                 <input
-                
                 type="tel"
                 value={phone}
                 onChange={handlePhone}
@@ -142,12 +144,14 @@ return (
 
             <div className='message'>
                 <input
+                required
                 type="text"
                 value={message}
                 onChange={handleMessage}
                 placeholder="Message"
                 name="message"
-                className='text-entry'/>
+                className='text-entry'
+                />
             </div>
             <motion.button 
                 onClick={handleHide} 

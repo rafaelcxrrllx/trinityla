@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import shirt from '../assets/shirt-size.jpeg';
+import shirt from '../assets/shirt-size.svg';
 import CarouselSlide from '../carousels/CarouselSlide';
 import arrow from '../assets/icons/arrow.svg'
 import backArrow from '../assets/icons/arrow-back.svg'
@@ -52,12 +52,12 @@ function ItemOne() {
       transition={{ duration: 1 }}
       className='shop-back-container'>
 
-        <div className='back-container'>
+        {/* <div className='back-container'>
           <img className="arrow" src={backArrow}/>
             <p>
               Back to Shop
             </p> 
-        </div>
+        </div> */}
       </motion.div>
     </Link>
     <motion.div 
@@ -111,7 +111,7 @@ function ItemOne() {
           </p>
           <motion.img
             animate={isDetailsVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3}} 
             className="arrow" src={arrow}/>
         </div>
         
@@ -148,7 +148,7 @@ function ItemOne() {
             </p>
             <motion.img
             animate={isSizeVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3 }} 
             className="arrow" src={arrow}/>
           </div>
             
@@ -213,7 +213,7 @@ function ItemOne() {
             </p>
             <motion.img
             animate={isShipVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3 }} 
             className="arrow" src={arrow}/>
           </div>
           

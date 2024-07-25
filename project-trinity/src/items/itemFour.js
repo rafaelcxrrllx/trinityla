@@ -52,12 +52,12 @@ function ItemFour() {
       transition={{ duration: 1 }}
       className='shop-back-container'>
 
-        <div className='back-container'>
+        {/* <div className='back-container'>
           <img className="arrow" src={backArrow}/>
             <p>
               Back to Shop
             </p> 
-        </div>
+        </div> */}
       </motion.div>
     </Link>
     <motion.div 
@@ -111,7 +111,7 @@ function ItemFour() {
           </p>
           <motion.img
             animate={isDetailsVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3 }} 
             className="arrow" src={arrow}/>
         </div>
         
@@ -163,7 +163,7 @@ function ItemFour() {
             </p>
             <motion.img
             animate={isSizeVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3 }} 
             className="arrow" src={arrow}/>
           </div>
             
@@ -198,7 +198,7 @@ function ItemFour() {
             </p>
             <motion.img
             animate={isShipVisible ? { rotate: 90 } : { rotate: 0 }}
-            transition={{ duration: 0 }} 
+            transition={{ duration: .3 }} 
             className="arrow" src={arrow}/>
           </div>
           

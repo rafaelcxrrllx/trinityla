@@ -105,6 +105,10 @@
     flex-direction: column;  
 }
 
+.text-entry {
+    color:  #c5e3fe !important; 
+}
+
 
 .contact input {
     margin-top: 20px;

@@ -6,11 +6,11 @@ import '../styling/BlogCarousel.css';
 
 // Components
 import React, { useState, useEffect } from 'react';
-
+import { motion } from 'framer-motion';
 // Assets
-import img1 from '../assets/illuminated.jpg'
-import img2 from '../assets/christ.jpeg'
-import img3 from '../assets/astrology.jpeg'
+import img3 from '../assets/illuminated.jpg'
+import img2 from '../assets/christSatan.jpg'
+import img1 from '../assets/justice.png'
 
 
 const BlogCarousel = () => {
@@ -31,7 +31,11 @@ const BlogCarousel = () => {
   }, [images.length]);
 
   return (
-    <div className='carousel-container'>
+    <motion.div 
+      initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+      animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+      transition={{ duration: 1 }}
+      className='carousel-container'>
     <div className="blog-carousel">
       <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
@@ -44,7 +48,7 @@ const BlogCarousel = () => {
         ))}
       </div>
     </div>
-    </div>
+    </motion.div>
   );
 };
 

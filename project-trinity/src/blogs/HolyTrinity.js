@@ -29,12 +29,12 @@ function HolyTrinity() {
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
             transition={{ duration: 1 }}
             className="blog-back-container">
-                <div className='back-container'>
+                {/* <div className='back-container'>
                     <img className="arrow" alt="back arrow" src={backArrow}/>
                     <p className='stay-blue'>
                         Back to Blog
                     </p>
-                </div>
+                </div> */}
             </motion.div>
         </Link>
         <motion.div 
@@ -51,10 +51,10 @@ function HolyTrinity() {
         className="blog-back-container">
             <div className='genesis-main-container'>
                 <div className='title-container'>
-                    <p>
+                    <p className='stay-white'>
                         22 July, 2024
                     </p>
-                    <h1 id='title'>
+                    <h1 className='stay-white' id='title'>
                         The Holy Trinity
                     </h1>
                     
@@ -144,7 +144,7 @@ function HolyTrinity() {
                             <div className='blog-img'>
                                 <img src={god}  alt="Note to Self"/>
                                 <p className='stay-white'>
-                                    The Creation of Adam
+                                    The Creation of Adam, Michelangelo (1512)
                                 </p>
                             </div>
                             <p> 
@@ -263,7 +263,7 @@ function HolyTrinity() {
                             </div>
                             <p>
                                 These diverging and converging fields of pure energy and the loss of pure energy create all things in the universe. 
-                                The Toro and The Bull, how I like to call it. For a very good reason to. Because as you innerstand this information, 
+                                The Bull and El Toro, how I like to call it. For a very good reason to. Because as you innerstand this information, 
                                 you begin to see everything in the world is just Toros and Bulls. Right-turning, Left-turning, Red, Blue, Wrong, Right, Up, Down. This polarity is 
                                 the temporal construct of interference in the Ether. 
                             </p>

@@ -27,12 +27,12 @@ function FullMetal() {
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
             transition={{ duration: 1 }}
             className="blog-back-container">
-                <div className='back-container'>
+                {/* <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
                     <p className='stay-blue'>
                         Back to Blog
                     </p>
-                </div>
+                </div> */}
             </motion.div>
         </Link>
         <motion.div 
@@ -49,10 +49,10 @@ function FullMetal() {
             className="blog-back-container">
             <div className='genesis-main-container'>
                 <div className='title-container'>
-                    <p>
+                    <p className='stay-white'>
                         16 June, 2024
                     </p>
-                    <h1 id='title'>
+                    <h1 className='stay-white' id='title'>
                         The Law of Equivalent Exchange
                     </h1>
                     

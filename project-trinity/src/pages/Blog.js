@@ -42,7 +42,7 @@ return (
             
            
             <p id="introduction">
-                A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
+                Here Lies The Unspoke Gospel. <br/>A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
                  Enjoy. 
             </p>
 

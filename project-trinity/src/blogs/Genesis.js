@@ -21,12 +21,12 @@ function Genesis() {
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
             transition={{ duration: 1 }}
             className="blog-back-container">
-                <div className='back-container'>
+                {/* <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
                     <p className='stay-blue'>
                         Back to Blog
                     </p>
-                </div>
+                </div> */}
             </motion.div>
         </Link>
         <motion.div 
@@ -43,10 +43,10 @@ function Genesis() {
         className="blog-back-container">
             <div className='genesis-main-container'>
                 <div className='title-container'>
-                    <p>
+                    <p className='stay-white'>
                         11 June, 2024
                     </p>
-                    <h1 id='title'>
+                    <h1 className='stay-white' id='title'>
                         Genesis
                     </h1>
                 </div>
@@ -124,7 +124,7 @@ function Genesis() {
 
         <div className='blog-link-container'>
 
-        <Link id='item-link' to="/blog/theantichrist">
+        <Link id='item-link' to="/blog/holytrinity">
             <motion.div
             initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -133,7 +133,7 @@ function Genesis() {
                 <div className='back-container'>
                     <img className="arrow" src={backArrow}/>
                     <p>
-                        Chapter VI
+                        Chapter VII
                     </p> 
                 </div>
             </motion.div>
