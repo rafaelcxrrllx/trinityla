@@ -4,7 +4,7 @@ import '../styling/styles.css'
 // Local Styling
 import '../styling/ScrollingText.css'
 
-
+import { motion } from 'framer-motion';
 
 function ScrollingText() {
 
@@ -21,6 +21,7 @@ function ScrollingText() {
                
             </div>
             <div class='scroll' id='scroll-two'>
+                
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
