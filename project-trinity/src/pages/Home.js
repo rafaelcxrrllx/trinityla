@@ -12,6 +12,7 @@ import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import SpotifyNow from '../components/SpotifyNow';
+import ScrollingText from '../components/scrollingText';
 
 
 function Home() {
@@ -42,6 +43,7 @@ function Home() {
               </div>
           </div>
       </div>
+
   
       <div id="desktop-flour" className='flourescent'></div>
       <div className='spotify-container'>
@@ -51,7 +53,7 @@ function Home() {
       {/* <div>
         <p id="recent-work-title"><i>Recent Work</i></p>
       </div> */}
-
+      <ScrollingText/>
       </motion.div>
       <Footer/>
     </div>
