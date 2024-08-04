@@ -39,7 +39,6 @@ function App() {
 
     <Router basename="/trinityla">
       <ScrollToTop/>
-      <Routes>
         <Route path='/' element={<Home/>}/> 
         <Route path='/trinityla' element={<Home/>}/> 
         {/* Pages */}
@@ -69,7 +68,6 @@ function App() {
 
         {/* Collections */}
         <Route path='/collections/vol.1' element={<VolumeOne/>}/>
-      </Routes>
     </Router>
   );
 }
