@@ -50,9 +50,7 @@ function Home() {
         <SpotifyNow/>
       </div>
       
-      {/* <div>
-        <p id="recent-work-title"><i>Recent Work</i></p>
-      </div> */}
+      
       <ScrollingText/>
       </motion.div>
       <Footer/>
