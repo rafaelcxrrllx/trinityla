@@ -38,9 +38,7 @@ function App() {
   return (
 
       <Router>
-        <Routes>
-        <Switch>
-        
+        <Routes>        
           <Route path='/' element={<Home/>}/> 
           <Route path='/trinityla' element={<Home/>}/> 
           {/* Pages */}
@@ -70,7 +68,6 @@ function App() {
 
           {/* Collections */}
           <Route path='/collections/vol.1' element={<VolumeOne/>}/>
-          </Switch>
         </Routes>
     </Router>
   );
