@@ -36,39 +36,45 @@ import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
-
-    <Router>
+    <div>
       <ScrollToTop/>
-        <Route path='/' element={<Home/>}/> 
-        <Route path='/trinityla' element={<Home/>}/> 
-        {/* Pages */}
-        <Route path='/shop' element={<Shop/>}/>
-        <Route path='/portfolio' element={<Portfolio/>}/>
-        <Route path='/home' element={<Home/>}/>
-        <Route path='/collections' element={<Collections/>}/>
-        <Route path='/blog' element={<Blog/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-        <Route path='/About' element={<About/>}/>
 
-        {/* Blogs */}
-        <Route path='/blog/genesis' element={<Genesis/>}/>
-        <Route path='/blog/mercury' element={<Mercury/>}/>
-        <Route path='/blog/fullmetal' element={<FullMetal/>}/>
-        <Route path='/blog/theholymountain' element={<HolyMount/>}/>
-        <Route path='/blog/cellsaltsintro' element={<CellSalts/>}/>
-        <Route path='/blog/theantichrist' element={<TheAntiChrist/>}/>
-        <Route path='/blog/holytrinity' element={<HolyTrinity/>}/>
+      <Router>
+        <Routes>
+        
+          <Route path='/' element={<Home/>}/> 
+          <Route path='/trinityla' element={<Home/>}/> 
+          {/* Pages */}
+          <Route path='/shop' element={<Shop/>}/>
+          <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/collections' element={<Collections/>}/>
+          <Route path='/blog' element={<Blog/>}/>
+          <Route path='/Contact' element={<Contact/>}/>
+          <Route path='/About' element={<About/>}/>
+
+          {/* Blogs */}
+          <Route path='/blog/genesis' element={<Genesis/>}/>
+          <Route path='/blog/mercury' element={<Mercury/>}/>
+          <Route path='/blog/fullmetal' element={<FullMetal/>}/>
+          <Route path='/blog/theholymountain' element={<HolyMount/>}/>
+          <Route path='/blog/cellsaltsintro' element={<CellSalts/>}/>
+          <Route path='/blog/theantichrist' element={<TheAntiChrist/>}/>
+          <Route path='/blog/holytrinity' element={<HolyTrinity/>}/>
 
 
-        {/* Shop Items */}
-        <Route path='/shop/heartofgod' element={<Item/>}/>
-        <Route path='/shop/lovelybones' element={<ItemTwo/>}/>
-        <Route path='/shop/trinity' element={<ItemThree/>}/>
-        <Route path='/shop/emfblkr' element={<ItemFour/>}/>
+          {/* Shop Items */}
+          <Route path='/shop/heartofgod' element={<Item/>}/>
+          <Route path='/shop/lovelybones' element={<ItemTwo/>}/>
+          <Route path='/shop/trinity' element={<ItemThree/>}/>
+          <Route path='/shop/emfblkr' element={<ItemFour/>}/>
 
-        {/* Collections */}
-        <Route path='/collections/vol.1' element={<VolumeOne/>}/>
+          {/* Collections */}
+          <Route path='/collections/vol.1' element={<VolumeOne/>}/>
+
+        </Routes>
     </Router>
+    </div>
   );
 }
 
