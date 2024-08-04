@@ -23,6 +23,8 @@ function Collections() {
     
 
     <div className='home-container'>
+            <ScrollToTop/>
+
     <FlourescentNav/>
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0

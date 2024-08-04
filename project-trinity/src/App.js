@@ -36,8 +36,6 @@ import ScrollToTop from './ScrollToTop';
 
 function App() {
   return (
-    <div>
-      <ScrollToTop/>
 
       <Router>
         <Routes>
@@ -74,7 +72,6 @@ function App() {
 
         </Routes>
     </Router>
-    </div>
   );
 }
 

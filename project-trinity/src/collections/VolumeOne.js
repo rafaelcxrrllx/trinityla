@@ -88,6 +88,8 @@ function VolumeOne() {
 
 
     <div className='home-container'>
+            <ScrollToTop/>
+
     <Nav/>
     <motion.div
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0

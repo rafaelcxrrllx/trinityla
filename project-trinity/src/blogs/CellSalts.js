@@ -15,6 +15,8 @@ function CellSalts() {
     return (
 
     <div>
+              <ScrollToTop/>
+
     <Nav/>
         <Link id='item-link' to="/blog">
             <motion.div

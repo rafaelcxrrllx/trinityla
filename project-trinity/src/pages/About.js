@@ -19,6 +19,8 @@ function About() {
 
   return (
     <div> 
+            <ScrollToTop/>
+
     <Nav/>
     
     <motion.div

@@ -20,6 +20,8 @@ function Home() {
 
   return (
     <div>
+            <ScrollToTop/>
+
     
       <Nav/>
       {/* <MasonryLayout/> */}
