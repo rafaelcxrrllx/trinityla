@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import BlogCarousel from '../carousels/BlogCarousel';
 import blogCover from '../assets/desktop-cards/blog-cover.svg';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 // Global Styling
 import '../styling/styles.css'

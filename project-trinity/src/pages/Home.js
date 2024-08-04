@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import SpotifyNow from '../components/SpotifyNow';
 import ScrollingText from '../components/scrollingText';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 
 function Home() {

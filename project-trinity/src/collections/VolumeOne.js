@@ -43,7 +43,7 @@ import notlikeus from '../assets/actOne/notlikeus.jpg';
 import alpaca from '../assets/actOne/alpaca.jpg';
 import snot from '../assets/actOne/snot.jpg';
 import mac from '../assets/actOne/mac.jpg';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 
 

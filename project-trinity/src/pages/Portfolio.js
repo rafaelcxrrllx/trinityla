@@ -15,7 +15,7 @@ import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import logo from '../assets/logo.svg'
 import { Link } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 function Portfolio() {
 

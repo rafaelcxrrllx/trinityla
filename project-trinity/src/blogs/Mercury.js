@@ -9,7 +9,7 @@ import mercury from '../assets/mercury.JPG'
 import mercurytwo from '../assets/mercury-two.jpeg'
 import moses from '../assets/moses.webp'
 import rightArrow from '../assets/icons/arrow-right.svg'
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 function Mercury() {
 

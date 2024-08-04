@@ -14,7 +14,7 @@ import aura from '../assets/aura.jpg';
 import yinyang from '../assets/yinyang.jpg';
 import redblue from '../assets/korea.jpg';
 
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from '../ScrollToTop';
 
 
 function HolyTrinity() {
