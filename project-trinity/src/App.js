@@ -30,7 +30,7 @@ import CellSalts from './blogs/CellSalts';
 import HolyTrinity from './blogs/HolyTrinity';
 
 // Components
-import { BrowserRouter as  Router, Route, Routes, HashRouter } from 'react-router-dom';
+import { BrowserRouter as  Router, Route, Routes, HashRouter, Switch } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 
 
@@ -39,6 +39,7 @@ function App() {
 
       <Router>
         <Routes>
+        <Switch>
         
           <Route path='/' element={<Home/>}/> 
           <Route path='/trinityla' element={<Home/>}/> 
@@ -69,7 +70,7 @@ function App() {
 
           {/* Collections */}
           <Route path='/collections/vol.1' element={<VolumeOne/>}/>
-
+          </Switch>
         </Routes>
     </Router>
   );
