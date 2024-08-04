@@ -37,6 +37,7 @@ function AntiChrist() {
                         Back to Blog
                     </p>
                 </div> */}
+                
             </motion.div>
         </Link>
         <motion.div 
