@@ -30,8 +30,7 @@ import CellSalts from './blogs/CellSalts';
 import HolyTrinity from './blogs/HolyTrinity';
 
 // Components
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ScrollToTop from './ScrollToTop';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 function App() {

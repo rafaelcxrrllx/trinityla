@@ -14,6 +14,7 @@ import VideoPlayer from '../components/VideoPlayer';
 import volOne from '../assets/actOne/volOne.jpg';
 import lavenderDesktop from '../assets/lavenderTwo.mp4';
 import trinity from '../assets/trinity.mp4';
+import ScrollToTop from './ScrollToTop';
 
 function Collections() {
 

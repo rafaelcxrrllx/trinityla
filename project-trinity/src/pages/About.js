@@ -13,6 +13,7 @@ import {motion} from 'framer-motion'
 import logo from '../assets/logo.svg'
 import stars from '../assets/stars.svg'
 import sign from '../assets/signature.svg'
+import ScrollToTop from './ScrollToTop';
 
 
 function About() {

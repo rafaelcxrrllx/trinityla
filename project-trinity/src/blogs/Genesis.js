@@ -7,6 +7,8 @@ import { Link } from 'react-router-dom';
 import backArrow from '../assets/icons/arrow-back.svg'
 import gibran from '../assets/gibranArt.jpeg'
 import rightArrow from '../assets/icons/arrow-right.svg'
+import ScrollToTop from './ScrollToTop';
+
 function Genesis() {
 
 

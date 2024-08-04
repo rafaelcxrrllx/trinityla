@@ -8,6 +8,7 @@ import backArrow from '../assets/icons/arrow-back.svg'
 import cellsalts from '../assets/cellsalts.jpeg'
 import Zodiac from '../components/Zodiac';
 import rightArrow from '../assets/icons/arrow-right.svg'
+import ScrollToTop from './ScrollToTop';
 
 function CellSalts() {
 
