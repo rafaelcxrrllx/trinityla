@@ -41,7 +41,7 @@ function App() {
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/> 
-
+        <Route path='/trinityla' element={<Home/>}/> 
         {/* Pages */}
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
