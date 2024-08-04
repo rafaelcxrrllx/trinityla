@@ -16,6 +16,7 @@ import ScrollingText from '../components/scrollingText';
 
 
 function Home() {
+  // "homepage": "https://rafaelcxrrllx.github.io/trinityla",
 
   return (
     <div>
