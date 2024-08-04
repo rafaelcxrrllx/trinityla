@@ -18,10 +18,18 @@ function ScrollingText() {
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
                
             </div>
             <div class='scroll' id='scroll-two'>
                 
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
+                <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>
                 <div class='scroll-item'>LOVED NOT OWNED</div>

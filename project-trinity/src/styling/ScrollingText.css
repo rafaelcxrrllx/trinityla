@@ -24,10 +24,10 @@
     position: absolute;
     background: linear-gradient(
         90deg,
-        #000,
+        #070F19,
         transparent 10%,
         transparent 90%,
-        #000
+        #070F19
     );
     inset: 0;
     pointer-events: none;
@@ -56,3 +56,10 @@
     white-space: nowrap;
     color: #c5e3fe;
 }
+
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+
+}
+
