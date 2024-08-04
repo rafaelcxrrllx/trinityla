@@ -37,7 +37,7 @@ import ScrollToTop from './ScrollToTop';
 function App() {
   return (
 
-    <Router>
+    <Router basename="/trinityla">
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/> 
