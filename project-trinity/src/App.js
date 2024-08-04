@@ -37,7 +37,7 @@ import ScrollToTop from './ScrollToTop';
 function App() {
   return (
 
-    <HashRouter>
+    <Router>
       <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/> 
@@ -70,7 +70,7 @@ function App() {
         {/* Collections */}
         <Route path='/collections/vol.1' element={<VolumeOne/>}/>
       </Routes>
-    </HashRouter>
+    </Router>
   );
 }
 
