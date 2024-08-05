@@ -492,7 +492,7 @@ function TheHolyMountain() {
                                 Post-morteum thoughts:
                             </h2>
                             <p>
-                                One of the best movies I have seen. I watched it a second time to complete this article. It truly 
+                                One of the best movies I have seen. I watched it a second time to complete this blog entry. It truly 
                                 is a beautiful and frightful depiction of what is going on inside of our bodies, our society, and 
                                 our universe. 
                             </p>
