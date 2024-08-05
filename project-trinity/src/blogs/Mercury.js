@@ -9,15 +9,17 @@ import mercury from '../assets/mercury.JPG'
 import mercurytwo from '../assets/mercury-two.jpeg'
 import moses from '../assets/moses.webp'
 import rightArrow from '../assets/icons/arrow-right.svg'
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 function Mercury() {
 
 
     return (
 
+    
+
     <div>
-              <ScrollToTop/>
+              
 
         <Nav/>
             <Link id='item-link' to="/blog">

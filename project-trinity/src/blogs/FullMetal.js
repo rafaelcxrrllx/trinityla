@@ -14,7 +14,7 @@ import dooroftruth from '../assets/doorone.jpeg'
 import tree from '../assets/treeoftruth.svg'
 import fullmetalAlchemist from '../assets/fullmetalAlchemist.jpeg'
 import rightArrow from '../assets/icons/arrow-right.svg'
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 function FullMetal() {
 
@@ -22,8 +22,7 @@ function FullMetal() {
     return (
 
     <div>
-              <ScrollToTop/>
-
+           
     <Nav/>
         <Link id='item-link' to="/blog">
             <motion.div

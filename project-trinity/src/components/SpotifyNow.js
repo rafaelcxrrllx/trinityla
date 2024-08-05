@@ -173,7 +173,7 @@ const NowPlaying = () => {
      
 
       if (title.length >= 17 && playerState != "OFFLINE") {
-        console.log("Title is: " + title)
+        // console.log("Title is: " + title)
         const newDuration = (title.length);  // Adjust 10 as a base duration
         setDuration(newDuration);
       }
@@ -189,7 +189,7 @@ const NowPlaying = () => {
 
   return (
     // Depending on the value of playerState, the href, album image and icons are updated
-    <a style={{ textDecoration: 'none', color: 'black' }} href={playerState === 'PLAY' || playerState === 'PAUSE' ? nowPlaying.songUrl : ''}>
+    <a style={{ textDecoration: 'none', color: 'black'}} href={playerState === 'PLAY' || playerState === 'PAUSE' ? nowPlaying.songUrl : ''}>
       <div className='nowPlayingCard'>
         {/* Album image and href displayed based on playerState */}
         <div className='nowPlayingImage'>

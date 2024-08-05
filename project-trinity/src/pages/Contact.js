@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function Contact() {
@@ -61,7 +61,7 @@ return (
 
 
     <div>
-              <ScrollToTop/>
+              
 
     <Nav/>
         <motion.div

@@ -16,7 +16,7 @@ import sunofgod from '../assets/sunofgod.jpg'
 import seed from '../assets/seed.JPG'
 import ladder from '../assets/ladder.jpeg'
 import denial from '../assets/denial.jpg'
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function AntiChrist() {
@@ -25,7 +25,7 @@ function AntiChrist() {
     return (
 
     <div>
-              <ScrollToTop/>
+              
 
     <Nav/>
         <Link id='item-link' to="/blog">

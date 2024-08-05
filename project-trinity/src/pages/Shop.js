@@ -35,7 +35,7 @@ import EMFTWO from '../assets/items/emf-two.png'
 
 import stars from '../assets/stars.svg'
 import { Link } from 'react-router-dom';
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function Shop() {
@@ -53,7 +53,7 @@ function Shop() {
   return (
 
     <div className='home-container'>
-            <ScrollToTop/>
+            
 
     <Nav/>
     <motion.div

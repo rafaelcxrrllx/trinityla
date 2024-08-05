@@ -23,7 +23,7 @@ import solarPlexus from '../assets/solarPlexus.jpeg'
 import throatChakra from '../assets/throatChakra.jpg'
 import holymountain from '../assets/holymountain.jpg'
 import rightArrow from '../assets/icons/arrow-right.svg'
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 function TheHolyMountain() {
 
@@ -31,7 +31,7 @@ function TheHolyMountain() {
     return (
 
     <div>
-        <ScrollToTop/>
+        
     <Nav/>
         <Link id='item-link' to="/blog">
             <motion.div

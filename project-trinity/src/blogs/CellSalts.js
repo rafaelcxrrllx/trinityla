@@ -8,7 +8,7 @@ import backArrow from '../assets/icons/arrow-back.svg'
 import cellsalts from '../assets/cellsalts.jpeg'
 import Zodiac from '../components/Zodiac';
 import rightArrow from '../assets/icons/arrow-right.svg'
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 function CellSalts() {
 
@@ -16,7 +16,7 @@ function CellSalts() {
     return (
 
     <div>
-              <ScrollToTop/>
+              
 
     <Nav/>
         <Link id='item-link' to="/blog">

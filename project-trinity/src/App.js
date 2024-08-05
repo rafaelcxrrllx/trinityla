@@ -31,13 +31,23 @@ import HolyTrinity from './blogs/HolyTrinity';
 
 // Components
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
+import { useEffect } from 'react';
+import { useLayoutEffect } from "react";
+import { Link, Outlet, useLocation } from "react-router-dom";
+
 
 
 function App() {
+    
+
   return (
 
-      <Router>
-        <Routes>        
+    <div>
+      
+       <Router>
+        <ScrollToTop/>
+        <Routes>   
           <Route path='/' element={<Home/>}/> 
           <Route path='/trinityla' element={<Home/>}/> 
           {/* Pages */}
@@ -67,8 +77,9 @@ function App() {
 
           {/* Collections */}
           <Route path='/collections/vol.1' element={<VolumeOne/>}/>
-        </Routes>
-    </Router>
+        </Routes>   
+        </Router>     
+    </div>
   );
 }
 

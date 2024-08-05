@@ -14,7 +14,7 @@ import aura from '../assets/aura.jpg';
 import yinyang from '../assets/yinyang.jpg';
 import redblue from '../assets/korea.jpg';
 
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 
 function HolyTrinity() {
@@ -23,7 +23,7 @@ function HolyTrinity() {
     return (
 
     <div>
-              <ScrollToTop/>
+              
 
     <Nav/>
         <Link id='item-link' to="/blog">

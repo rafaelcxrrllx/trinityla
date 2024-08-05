@@ -14,7 +14,7 @@ import VideoPlayer from '../components/VideoPlayer';
 import volOne from '../assets/actOne/volOne.jpg';
 import lavenderDesktop from '../assets/lavenderTwo.mp4';
 import trinity from '../assets/trinity.mp4';
-import ScrollToTop from '../ScrollToTop';
+import ScrollToTop from '../components/ScrollToTop';
 
 function Collections() {
 
@@ -24,7 +24,7 @@ function Collections() {
     
 
     <div className='home-container'>
-            <ScrollToTop/>
+            
 
     <FlourescentNav/>
     <motion.div
