@@ -95,8 +95,8 @@ function Genesis() {
                             <p>
                                 I do not know what the future has waiting for me, but I know that I am manifesting a beautiful reality with me in it. 
                                 I will have everything I dream of, as long as I stay connected with my higher self. A king and his horse. No matter who
-                                or what comes in my path, I know that I am a golden star. No one can take that away from me. I may become heavy and dark
-                                , but my true self will always be there. Waiting for me to call his name and let him in. I am only a vehicle for the soul. 
+                                or what comes in my path, I know that I am a golden star. No one can take that away from me. I may become heavy and dark,
+                                 but my true self will always be there. Waiting for me to call his name and let him in. I am only a vehicle for the soul. 
                                 My light will never deminish and I will never stop growing and working for my higher self. 
                             </p>
                     

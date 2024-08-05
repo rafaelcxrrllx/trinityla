@@ -478,10 +478,10 @@ function TheHolyMountain() {
                             </p>
                             <div className='quote'>
                                 <p>
-                                "The fish thinks about his hunger, not about the fisherman."
+                                “You want to know the secret, but man cannot achieve nothing by himself.“
                                 </p>
                                 <p>
-                                    - The Goat Man
+                                    - The Goat Man (The Holy Mountain)
                                 </p>
                             </div>
                           
@@ -493,7 +493,7 @@ function TheHolyMountain() {
                             </h2>
                             <p>
                                 One of the best movies I have seen. I watched it a second time to complete this article. It truly 
-                                is a beautfil and frightful depiction of what is going on inside of our bodies, our society, and 
+                                is a beautiful and frightful depiction of what is going on inside of our bodies, our society, and 
                                 our universe. 
                             </p>
                            
