@@ -4,11 +4,16 @@
     width: 100%;
     height: 3rem;
     font-family: Playfair Display;
-    position: relative;
+    position: absolute;
     overflow: hidden;
     white-space: nowrap;
     color: #fff;
-    margin-top: 32px;
+    margin-top: 45vh;
+    background-color:  #070F19;
+    box-shadow: 0 0 40px  #c5e3fe, 0 0 30px  #c5e3fe;
+    background: linear-gradient(to bottom right, #070F19,  #070F19);
+
+
 }
 #scroll-container .scroll {
     /* background: #000; */
@@ -17,7 +22,7 @@
     justify-content: space-around;
     width: fit-content;
     white-space: nowrap;
-    animation: loop 30s linear infinite;
+    animation: loop 60s linear infinite;
 }
 
 #scroll-container p {
@@ -37,16 +42,10 @@
     pointer-events: none;
 }
 
-#scroll-container .scroll {
-    position: fixed;
-}
-#scroll-container .scroll#scroll-two {
-    transform: translateX(100%);
-    animation-delay: 15s; 
-}
+
 @keyframes loop {
-    0% {transform: translateX(100%);}
-    100% {transform: translateX(-100%);}
+    0% {transform: translateX(50%);}
+    100% {transform: translateX(-80%);}
 }
 
 .scroll-item {
@@ -54,17 +53,8 @@
     align-items: center;
     gap: 0 0.2rem;
     font-size: .9rem;
-    padding: 0.7rem 1rem;
-    margin: 0rem 1rem;
+    padding-right: 12px;
     border-radius: 0.4rem;
     white-space: nowrap;
     color: #c5e3fe;
 }
-
-@media (min-width: 1025px) {
-    #scroll-container .scroll#scroll-two {
-        transform: translateX(100%);
-        animation-delay: 15s; 
-    }
-
-}  

@@ -52,7 +52,11 @@
 .brand-name {
     margin-top: 22vh;
     width: 98%;
-    transform: translate3d(0px, 0px, 0px);
+}
+
+.distortion-container {
+    /* border-radius: 100%; */
+    width: 100%;
 }
 
 

@@ -13,6 +13,7 @@ import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import SpotifyNow from '../components/SpotifyNow';
 import ScrollingText from '../components/scrollingText';
+import Distortion from '../components/Distortion';
 // import ScrollToTop from '../components/ScrollToTop';
 import LoadingScreen from '../components/LoadingScreen';
 import brandname from '../assets/name.svg'
@@ -44,10 +45,14 @@ function Home() {
           className='spotify-container'>
             <SpotifyNow/>
         </motion.div>
+        <div className='distortion-container'>
+        <ScrollingText/>
+
+         <Distortion/>
+        </div>
         <Carousel/>
         {/* <div id="desktop-flour" className='flourescent'></div>
         <div id="mobile-flour" className='flourescent'></div> */}
-        <ScrollingText/>
       </motion.div>
       <Footer/>
     </div>
