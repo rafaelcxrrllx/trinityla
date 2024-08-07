@@ -36,17 +36,25 @@ function Home() {
       id="home">
       
     
-          <div className='home-container'>
+          <motion.div 
+             initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+             animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+             transition={{ duration: 2, delay: 1.5 }}
+            className='home-container'>
             <img className='brand-name' src={brandname} alt='trinity'/>
             <div className='slogan'>
                 <h1><i>mind </i>body <b>sol</b></h1>
               </div>
-          </div>
+          </motion.div>
              
             
-              <div className='spotify-container'>
+              <motion.div 
+               initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+               animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+               transition={{ duration: 2, delay: 1.5 }}
+                className='spotify-container'>
                 <SpotifyNow/>
-              </div>
+              </motion.div>
     
     <Carousel/>
       
