@@ -61,6 +61,7 @@ function Shop() {
     transition={{ duration: 1 }}>
     
     <div className='items'>
+    
     <Link id='item-link' to="/shop/emfblkr">
           <div className='item'>
             <div className='shop-item-img'>
