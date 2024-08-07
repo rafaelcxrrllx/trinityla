@@ -16,7 +16,7 @@ import ScrollingText from '../components/scrollingText';
 import ScrollToTop from '../components/ScrollToTop';
 import LoadingScreen from '../components/LoadingScreen';
 import brandname from '../assets/name.svg'
-
+import Scene from '../components/Scene';
 function Home() {
   // "homepage": "https://rafaelcxrrllx.github.io/trinityla",
 
@@ -32,16 +32,17 @@ function Home() {
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 2, delay: 1.5 }}
-      className='home-container'
+      
       id="home">
       
     
-          
+          <div className='home-container'>
             <img className='brand-name' src={brandname} alt='trinity'/>
-              
-              <div className='slogan'>
+            <div className='slogan'>
                 <h1><i>mind </i>body <b>sol</b></h1>
               </div>
+          </div>
+             
             
               <div className='spotify-container'>
                 <SpotifyNow/>
@@ -56,7 +57,7 @@ function Home() {
       <div id="mobile-flour" className='flourescent'></div> */}
 
       
-      {/* <ScrollingText/> */}
+      <ScrollingText/>
       </motion.div>
       <Footer/>
     </div>

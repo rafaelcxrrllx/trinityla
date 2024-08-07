@@ -14,11 +14,13 @@ function ScrollingText() {
       <div> 
         <div id='scroll-container'>
             <div class='scroll' id='scroll-one'>
-                <div class='scroll-item'><p>TO MEASURE YOU BY YOUR SMALLEST DEED IS TO RECKON THE POWER OF OCEAN BY THE FRAILTY OF ITS FOAM.</p></div>
+                <div class='scroll-item'><p>"TO MEASURE YOU BY YOUR SMALLEST DEED IS TO RECKON THE POWER OF OCEAN BY THE FRAILTY OF ITS FOAM."</p></div>
                
             </div>
             <div class='scroll' id='scroll-two'>
-            <div class='scroll-item'><p>TO JUDGE YOU BY YOUR FAILURES IS TO CAST BLAME UPON THE SEASONS FOR THEIR INCONSISTENCY.</p></div>
+            <div class='scroll-item'><p>"TO JUDGE YOU BY YOUR FAILURES IS TO CAST BLAME UPON THE SEASONS FOR THEIR INCONSISTENCY."</p></div>
+            <div class='scroll-item'><p>KHALIL GIBRAN</p></div>
+
             </div>
             <div class='fade'></div>
         </div>

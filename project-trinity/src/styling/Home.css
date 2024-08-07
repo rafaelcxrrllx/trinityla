@@ -1,11 +1,12 @@
 
-  
 .trinity-container {
     text-align: center;
     width: 100%;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     
 }
+
+
 
 .spinning-logo {
     animation: spin 7s infinite linear;
@@ -51,6 +52,7 @@
 .brand-name {
     margin-top: 22vh;
     width: 98%;
+    transform: translate3d(0px, 0px, 0px);
 }
 
 
