@@ -8,7 +8,7 @@ import '../styling/Spotify.css';
 import soundBar from '../assets/icons/soundbar.gif'
 import pause from '../assets/icons/pause.svg'
 import eyes from '../assets/trinity-eyes.gif'
-import { motion } from 'framer-motion';
+
 // Setting up the Spotify API and Endpoints
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
 const TOKEN_ENDPOINT = 'https://accounts.spotify.com/api/token';

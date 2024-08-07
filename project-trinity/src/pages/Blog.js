@@ -16,32 +16,20 @@ function Blog() {
 return (
 
     <div> 
-              
-
-    <Nav/>
-    <motion.div
-    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-    transition={{ duration: 1 }}>
-       
-       
-    </motion.div>
-    <BlogCarousel/>
-    <motion.div className="desktop-cover"
-    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-    transition={{ duration: 1 }}>
-        <img src={blogCover} />
-    </motion.div>
+        <Nav/>
+        <BlogCarousel/>
+        <motion.div className="desktop-cover"
+        initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+        animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+        transition={{ duration: 1 }}>
+            <img src={blogCover} />
+        </motion.div>
       
-    <motion.div
-    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-    transition={{ duration: 1 }}>
+        <motion.div
+        initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+        animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+        transition={{ duration: 1 }}>
         <div className='blog-main-container'>
-            
-            
-           
             <p id="introduction">
                 Here Lies The Unspoke Gospel. <br/>A collection of entries with both research and findings that can liberate humanity, and emotional baggage I can no longer carry. 
                  Enjoy. 
@@ -159,10 +147,9 @@ return (
                     </p>
                 </div>
             </Link>       
-            
         </div>
-    </motion.div>
-    <Footer/>
+        </motion.div>
+        <Footer/>
     </div>
   );
 }

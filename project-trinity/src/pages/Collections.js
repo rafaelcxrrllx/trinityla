@@ -10,7 +10,6 @@ import FlourescentNav from '../components/FlourescentNav';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom';
-import VideoPlayer from '../components/VideoPlayer';
 import volOne from '../assets/actOne/volOne.jpg';
 import lavenderDesktop from '../assets/lavenderTwo.mp4';
 import trinity from '../assets/trinity.mp4';

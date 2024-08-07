@@ -61,9 +61,10 @@
     color: #c5e3fe;
 }
 
+@media (min-width: 1025px) {
+    #scroll-container .scroll#scroll-two {
+        transform: translateX(100%);
+        animation-delay: 15s; 
+    }
 
-/* Small screens (phones) */
-@media (max-width: 600px) {
-
-}
-
+}  
