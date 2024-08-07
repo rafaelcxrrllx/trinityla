@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d90ade0.css",
-    "main.js": "/static/js/main.51969a3b.js",
+    "main.css": "/static/css/main.9ddd7ab2.css",
+    "main.js": "/static/js/main.66f26141.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -140,6 +140,7 @@
     "static/media/signature.svg": "/static/media/signature.fc27f62eed4cc51d1fd1ec7b8c383538.svg",
     "static/media/shirt-size.svg": "/static/media/shirt-size.53d80856496c90a18199ce5dc002c66d.svg",
     "static/media/man.svg": "/static/media/man.638bab3fa11d8fbe6aca9e47376e51bd.svg",
+    "static/media/name.svg": "/static/media/name.78e80ea74a648eed2e2eb0fcec2f598a.svg",
     "static/media/oroboros.svg": "/static/media/oroboros.5523d363665c0e383fc1383ce9ca0f0b.svg",
     "static/media/logo.svg": "/static/media/logo.7ec5779cd8cc65053a1de7ce10d5a7b2.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -165,12 +166,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.0d90ade0.css.map": "/static/css/main.0d90ade0.css.map",
-    "main.51969a3b.js.map": "/static/js/main.51969a3b.js.map",
+    "main.9ddd7ab2.css.map": "/static/css/main.9ddd7ab2.css.map",
+    "main.66f26141.js.map": "/static/js/main.66f26141.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d90ade0.css",
-    "static/js/main.51969a3b.js"
+    "static/css/main.9ddd7ab2.css",
+    "static/js/main.66f26141.js"
   ]
 }
