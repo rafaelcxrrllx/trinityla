@@ -10,10 +10,9 @@ import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-import logo from '../assets/logo.svg'
-import stars from '../assets/stars.svg'
+// import logo from '../assets/logo.svg'
+// import stars from '../assets/stars.svg'
 import sign from '../assets/signature.svg'
-import ScrollToTop from '../components/ScrollToTop';
 
 
 function About() {

@@ -5,7 +5,7 @@ import '../styling/styles.css'
 import '../styling/Collections.css'
 
 // Components
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import FlourescentNav from '../components/FlourescentNav';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 import volOne from '../assets/actOne/volOne.jpg';
 import lavenderDesktop from '../assets/lavenderTwo.mp4';
 import trinity from '../assets/trinity.mp4';
-import ScrollToTop from '../components/ScrollToTop';
 
 function Collections() {
 

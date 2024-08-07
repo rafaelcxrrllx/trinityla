@@ -1,12 +1,11 @@
 import '../styling/Blog.css';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import BlogCarousel from '../carousels/BlogCarousel';
 import blogCover from '../assets/desktop-cards/blog-cover.svg';
-import ScrollToTop from '../components/ScrollToTop';
 
 // Global Styling
 import '../styling/styles.css'
@@ -22,7 +21,7 @@ return (
         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 1 }}>
-            <img src={blogCover} />
+            <img src={blogCover}alt='The Unspoke Gospel'/>
         </motion.div>
       
         <motion.div

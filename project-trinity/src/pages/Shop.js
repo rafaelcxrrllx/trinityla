@@ -26,15 +26,15 @@ import GOLDENBACK from '../assets/items/staygolden-back.svg'
 import ENERGYFRONT from '../assets/items/energy-front.svg'
 import ENERGYBACK from '../assets/items/energy-back.svg'
 
-import EMBLEMFRONT from '../assets/items/emblem-front.svg'
-import EMBLEMBACK from '../assets/items/emblem-back.svg'
+// import EMBLEMFRONT from '../assets/items/emblem-front.svg'
+// import EMBLEMBACK from '../assets/items/emblem-back.svg'
 
 import EMFONE from '../assets/items/emf-one.png'
 import EMFTWO from '../assets/items/emf-two.png'
 
 
 import { Link } from 'react-router-dom';
-import ScrollToTop from '../components/ScrollToTop';
+// import ScrollToTop from '../components/ScrollToTop';
 
 
 function Shop() {
@@ -44,7 +44,7 @@ function Shop() {
   const [TRISRC, setTRISrc] = useState(TRINITYFRONT);
   const [GLDSRC, setGLDSrc] = useState(GOLDENFRONT);
   const [ENGSRC, setENGSrc] = useState(ENERGYFRONT);
-  const [EMSRC, setEMSrc] = useState(EMBLEMFRONT);
+  // const [EMSRC, setEMSrc] = useState(EMBLEMFRONT);
   const [EMFSRC, setEMFSrc] = useState(EMFONE);
 
 

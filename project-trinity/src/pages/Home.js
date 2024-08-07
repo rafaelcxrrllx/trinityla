@@ -13,7 +13,7 @@ import Footer from '../components/Footer';
 import { motion } from 'framer-motion';
 import SpotifyNow from '../components/SpotifyNow';
 import ScrollingText from '../components/scrollingText';
-import ScrollToTop from '../components/ScrollToTop';
+// import ScrollToTop from '../components/ScrollToTop';
 import LoadingScreen from '../components/LoadingScreen';
 import brandname from '../assets/name.svg'
 function Home() {

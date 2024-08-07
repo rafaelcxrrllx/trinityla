@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import querystring from 'querystring';
 import { Buffer } from 'buffer';
-import { AiOutlinePauseCircle } from 'react-icons/ai';
 import { BiErrorCircle } from 'react-icons/bi';
 import { HiOutlineStatusOffline } from 'react-icons/hi';
 import '../styling/Spotify.css';
@@ -172,7 +171,7 @@ const NowPlaying = () => {
     const calculateDuration = () => {
      
 
-      if (title.length >= 17 && playerState != "OFFLINE") {
+      if (title.length >= 17 && playerState !== "OFFLINE") {
         // console.log("Title is: " + title)
         const newDuration = (title.length);  // Adjust 10 as a base duration
         setDuration(newDuration);
