@@ -61,6 +61,19 @@ function Shop() {
     transition={{ duration: 1 }}>
     
     <div className='items'>
+
+    <Link id='item-link' to="/shop/trinity">
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={TRISRC}
+          alt="hover"
+          onMouseEnter={() => setTRISrc(TRINITYBACK)}
+          onMouseLeave={() => setTRISrc(TRINITYFRONT)}
+          className="hover-image"/>
+          </div>
+        </div>
+      </Link>
     
     <Link id='item-link' to="/shop/emfblkr">
           <div className='item'>
@@ -87,23 +100,10 @@ function Shop() {
           </div>
         </div>
       </Link>
-        
-      <Link id='item-link' to="/shop/trinity">
-        <div className='item'>
-          <div className='shop-item-img'>
-          <img
-          src={TRISRC}
-          alt="hover"
-          onMouseEnter={() => setTRISrc(TRINITYBACK)}
-          onMouseLeave={() => setTRISrc(TRINITYFRONT)}
-          className="hover-image"/>
-          </div>
-        </div>
-      </Link>
 
       </div>
       
-      <div className='items'>
+      {/* <div className='items'>
 
       <Link id='item-link' to="/shop/heartofgod">
         <div className='item'>
@@ -144,7 +144,7 @@ function Shop() {
       </Link>
         
        
-        </div>
+        </div> */}
 
       {/* <div className='items'>
       
