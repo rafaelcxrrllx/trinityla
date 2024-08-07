@@ -73,9 +73,9 @@ const DistortionEffect = () => {
     animate();
 
     // Clean up on component unmount
-    return () => {
-      mountRef.current.removeChild(renderer.domElement);
-    };
+    // return () => {
+    //   mountRef.current.removeChild(renderer.domElement);
+    // };
   }, []);
 
   return <div ref={mountRef} style={{ width: '50vh', height: '100%' }} />;
