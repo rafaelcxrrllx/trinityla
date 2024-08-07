@@ -49,7 +49,7 @@
 }
 
 .brand-name {
-    margin-top: 32px;
+    margin-top: 22vh;
     width: 98%;
 }
 
@@ -144,6 +144,11 @@
         width: 90%;
         margin-left: 5%;
         margin-bottom: 44px;
+    }
+
+    .brand-name {
+        margin-top: 20vh;
+        width: 98%;
     }
 
 
