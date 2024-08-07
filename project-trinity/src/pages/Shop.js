@@ -60,9 +60,7 @@ function Shop() {
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
     animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
     transition={{ duration: 1 }}>
-    <p className='title'>
-      Shop
-    </p>
+    
     <div className='items'>
     <Link id='item-link' to="/shop/emfblkr">
           <div className='item'>

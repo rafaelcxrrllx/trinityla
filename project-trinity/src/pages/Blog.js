@@ -24,9 +24,7 @@ return (
     animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
     transition={{ duration: 1 }}>
        
-        <p className='title'>
-            Blog 
-        </p>
+       
     </motion.div>
     <BlogCarousel/>
     <motion.div className="desktop-cover"

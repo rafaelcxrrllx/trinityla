@@ -24,52 +24,40 @@ function About() {
 
     <Nav/>
     
-    <motion.div
-      initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-      animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-      transition={{ duration: 1 }}>
-        <p className='title'>
-          About
-        </p> 
-    </motion.div>
+   
     
     <motion.div 
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
       animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
       transition={{ duration: 1 }}
       className='about-main-container'>
-      <br/>
-      <br/>
-      <br/>
-      <div id="about-flour" className='flourescent-about'></div>
+
+      
 
     
-      <div className='about-description-container'>
-
-      <p> <span className='start-letter'>
-                              R
-                            </span>afael Carrillo AKA Trinity was born and raised in South Los Angeles California. 
-        An aspiring entrepreneur in Design and Development with a passion for art and technology. Rafael is an alumni from the University of 
-        California, Irvine with a Bachelor of Science, Specializing in Human Computer Interaction in 2024. 
-        Combining his unique problem solving skills with human-centered design, Rafael reimagines how
-        our world can be designed and delivered for the best human experience. 
-        </p>
-      </div>
-      <div id="about-flour" className='flourescent-about'></div>
-
+      
+      
         
+{/* 
               <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
-    <div >
+    <div>
         <img src={stars} id="stars"  alt="three stars"/>
-        <h2 className="less-spaced">
-         <span className='stay-blue'>Los Angeles</span>
+        <div className='open-effect'>
+        <h2>
+          TRINITY
+          <span>TRINITY</span>
+          <span>TRINITY</span>
+          <span>los angeles</span>
         </h2>
-        <h1 className="spaced">
-          <span className="stay-blue"> ♱TRINITY♱</span>
-         
+      </div>
+       
+    </div> */}
+        
+      <div className='about-description-container'>
+        <h1 className='stay-blue'>
+          Evoking Divinity To Amplify Human Consciousness
         </h1>
-    </div>
-        <div className='about-description-container'>
+        <div>
       
           <p>
           trin·i·ty /ˈtrinədē/ noun
@@ -87,10 +75,6 @@ function About() {
             "As the blood is the life of the flesh, it naturally follows that, as man is a TRINITY (body, or flesh, soul and spirit), the condition, or health of his body determines that of his soul."
           </p>
       </div>
-      <div className='about-description-container'>
-        <h1 className='stay-blue'>
-          Evoking Divinity To Amplify Human Consciousness
-        </h1>
         <p>
         <span className='start-letter'>
                                 I

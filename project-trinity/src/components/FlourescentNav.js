@@ -59,9 +59,17 @@ useEffect(() => {
 
 
   return (
-    <nav className="navbar" id="flourescent">
+    <motion.nav 
+    initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+    animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+    transition={{ duration: 2, delay: 1.5 }}
+      className="navbar" id="flourescent">
       <div className="navbar-emblem">
-        <Link className='landing-page-link' to="/home"> <img  id="emblem" src={logo} alt="emblem of trinity la"/></Link>
+        <Link className='landing-page-link' to="/home"> <motion.img 
+           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+           transition={{ duration: 2, delay: 1.5 }} 
+          id="emblem" src={logo} alt="emblem of trinity la"/></Link>
         <motion.div 
         id="menu"
         initial={{ height: 0, opacity: 0 }}
@@ -87,7 +95,11 @@ useEffect(() => {
         </motion.ul>
       </motion.div>
       </div>
-      <div id="flourescent-menu" className="nav-menu">
+      <motion.div 
+         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+         transition={{ duration: 2, delay: 1.5 }}
+        id="flourescent-menu" className="nav-menu">
         {/* <Link id='landing-page-link' className="hover-underline" to="/portfolio"> Portfolio </Link> */}
         {/* <Link id='landing-page-link' className="hover-underline" to="/portfolio"> Resume </Link> */}
         <Link id='landing-page-link' className="hover-underline" to="/shop"> Shop </Link>
@@ -96,9 +108,12 @@ useEffect(() => {
         <Link id='landing-page-link' className="hover-underline" to="/about"> About </Link>
         <Link id='landing-page-link' className="hover-underline" to="/contact"> Contact </Link>
 
-      </div>
+      </motion.div>
       <div className='menu-container'>
-        <div>
+        <motion.div
+           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+           transition={{ duration: 2, delay: 1.5 }}>
           <div className="hamburger-container" onClick={handleToggleMenu}>
             <motion.ul 
             className="hamburger">
@@ -114,9 +129,9 @@ useEffect(() => {
               
             </motion.ul>
           </div>
-        </div>
+        </motion.div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 

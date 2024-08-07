@@ -4,6 +4,7 @@
     text-align: center;
     width: 100%;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
+    
 }
 
 .spinning-logo {
@@ -11,6 +12,8 @@
     transform-style: preserve-3d;
     padding-top: 50px;
 }
+
+
 
 @keyframes spin {
     from {

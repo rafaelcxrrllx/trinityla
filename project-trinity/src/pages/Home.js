@@ -42,12 +42,15 @@ function Home() {
               <div className='slogan'>
                 <h1><i>mind </i>body <b>sol</b></h1>
               </div>
+            
               <div className='spotify-container'>
                 <SpotifyNow/>
               </div>
       {/* <div className='second-slide'>
         <Carousel/>
       </div> */}
+
+      
   
      
       

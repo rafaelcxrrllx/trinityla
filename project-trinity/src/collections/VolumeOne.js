@@ -97,9 +97,7 @@ function VolumeOne() {
     initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
     animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
     transition={{ duration: 1 }}>
-    <p className='title'>
-      Volume One
-    </p>
+   
 
     <br/>
     <br/>

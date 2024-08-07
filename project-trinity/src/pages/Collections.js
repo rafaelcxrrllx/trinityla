@@ -35,11 +35,14 @@ function Collections() {
       <h1> Collections</h1>
       <p >By 𝖙𝖗𝖎𝖓𝖎𝖙𝖞</p>
     </div>
-    <p className='vidCred'>🎞️ @gnarlyk_</p>
+    {/* <p className='vidCred'>🎞️ @gnarlyk_</p> */}
     <div>
     
    
-      <div
+      <motion.div
+           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
+           transition={{ duration: 2, delay: 1.5 }}
           className="videoCover"  
           dangerouslySetInnerHTML={{
             __html: `<video className="videoCover" autoplay loop muted playsinline>
