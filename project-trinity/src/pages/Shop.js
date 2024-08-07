@@ -41,7 +41,7 @@ function Shop() {
 
   const [HOGSRC, setHogSrc] = useState(HEARTOFGODFRONT);
   const [LBSRC, setLBSrc] = useState(LOVELYBONESFRONT);
-  const [TRISRC, setTRISrc] = useState(TRINITYFRONT);
+  const [TRISRC, setTRISrc] = useState(TRINITYBACK);
   const [GLDSRC, setGLDSrc] = useState(GOLDENFRONT);
   const [ENGSRC, setENGSrc] = useState(ENERGYFRONT);
   // const [EMSRC, setEMSrc] = useState(EMBLEMFRONT);
@@ -68,8 +68,8 @@ function Shop() {
           <img
           src={TRISRC}
           alt="hover"
-          onMouseEnter={() => setTRISrc(TRINITYBACK)}
-          onMouseLeave={() => setTRISrc(TRINITYFRONT)}
+          onMouseEnter={() => setTRISrc(TRINITYFRONT)}
+          onMouseLeave={() => setTRISrc(TRINITYBACK)}
           className="hover-image"/>
           </div>
         </div>
