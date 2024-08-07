@@ -1,57 +1,61 @@
 .carousel {
-    width: 50%;
-    overflow: hidden;
-    position: relative;
-    z-index: 0;
-  }
+  width: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  margin-top: 128px;
   
+}
+
 .carousel-inner {
-  display: flex;
-  text-align: center;
-  transition: transform 0.5s ease-in-out;
-  width: 100%; /* Adjust based on number of images */
+display: flex;
+text-align: center;
+transition: transform 0.5s ease-in-out;
+width: 100%; /* Adjust based on number of images */
 }
 
 .carousel-container {
-  padding-left: 16px;
-  padding-right: 16px;
+padding-left: 16px;
+padding-right: 16px;
+display: flex;
+justify-content: center;
+
 }
 
 .flourescent {
-  margin-left: 32px;
-  margin-right: 32px;
+margin-left: 32px;
+margin-right: 32px;
 }
 
 .carousel-item {
-  min-width: 100%;
-  transition: opacity 1s ease-in-out;
-  opacity: 0;
-  padding-top: 16px;
-  text-align: center;
+min-width: 100%;
+transition: opacity 1s ease-in-out;
+opacity: 0;
+padding-top: 16px;
+text-align: center;
 }
-  
+
 .carousel-item.active {
-  opacity: 1;
+opacity: 1;
 }
 
 @media (max-width: 600px) {
-  .carousel {
-    width: 100%;   
-  }
+.carousel {
+  width: 100%;   
+}
 }  
 
 @media (min-width: 601px) and (max-width: 1024px) {
-  .carousel {
-    width: 100%;
-    float: right;
-    margin-bottom: 32px;
-  }
+.carousel {
+  width: 50%;
+  float: right;
+  margin-bottom: 32px;
+}
 }
 
 @media (min-width: 1025px) {
-  .carousel {
-    width: 100%;
-  }
-
+.carousel {
+  width: 400px;
+}
 
 }

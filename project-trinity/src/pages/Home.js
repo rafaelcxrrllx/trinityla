@@ -46,10 +46,8 @@ function Home() {
               <div className='spotify-container'>
                 <SpotifyNow/>
               </div>
-      {/* <div className='second-slide'>
-        <Carousel/>
-      </div> */}
-
+    
+    <Carousel/>
       
   
      
