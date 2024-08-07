@@ -10,8 +10,8 @@ import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
 
 // Assets
-// import logo from '../assets/logo.svg'
-// import stars from '../assets/stars.svg'
+import logo from '../assets/logo.svg'
+import stars from '../assets/stars.svg'
 import sign from '../assets/signature.svg'
 
 
@@ -25,10 +25,9 @@ function About() {
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 1 }}
         className='about-main-container'>
-        {/* 
+         
             <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
             <div>
-              <img src={stars} id="stars"  alt="three stars"/>
               <div className='open-effect'>
                 <h2>
                   TRINITY
@@ -37,12 +36,11 @@ function About() {
                   <span>los angeles</span>
                 </h2>
               </div>
-            </div> */}
+            </div>
       <div className='about-description-container'>
-        <h1 className='stay-blue'>
-          Evoking Divinity To Amplify Human Consciousness
-        </h1>
+          <br/>
           <div>
+          <img src={stars} id="stars"  alt="three stars"/>
             <p>
               trin·i·ty /ˈtrinədē/ noun
             </p>
@@ -72,7 +70,12 @@ function About() {
           </p>
           <img id="emblem" src={sign} alt="signature of trinity"/>
         </div>
+        <h1 className='stay-blue'>
+          Evoking Divinity To Amplify Human Consciousness
+        </h1>
+      
       </motion.div>  
+      
     <Footer/>
     </div>
   );

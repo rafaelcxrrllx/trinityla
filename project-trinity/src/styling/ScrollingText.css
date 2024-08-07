@@ -58,3 +58,21 @@
     white-space: nowrap;
     color: #c5e3fe;
 }
+
+
+@media (max-width: 600px) {
+    @keyframes loop {
+        0% {transform: translateX(20%);}
+        100% {transform: translateX(-80%);}
+    }
+  
+  }
+
+  @media (min-width: 601px) and (max-width: 1024px) {
+    @keyframes loop {
+        0% {transform: translateX(30%);}
+        100% {transform: translateX(-100%);}
+    }
+  
+}
+

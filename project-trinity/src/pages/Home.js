@@ -17,6 +17,8 @@ import Distortion from '../components/Distortion';
 // import ScrollToTop from '../components/ScrollToTop';
 import LoadingScreen from '../components/LoadingScreen';
 import brandname from '../assets/name.svg'
+import DistortedSvg from '../components/DistortedSvg';
+
 function Home() {
 
   return (
@@ -28,6 +30,7 @@ function Home() {
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 2, delay: 1.5 }}
         id="home">
+        <section>
         <motion.div 
           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
@@ -38,18 +41,17 @@ function Home() {
             <h1><i>mind </i>body <b>sol</b></h1>
           </div>
         </motion.div>
-        <motion.div 
-          initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-          animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-          transition={{ duration: 2, delay: 1.5 }}
-          className='spotify-container'>
-            <SpotifyNow/>
-        </motion.div>
-        <div className='distortion-container'>
-        <ScrollingText/>
-
-         <Distortion/>
+        
+        </section>
+        <div className='spotify-container'>
+          <SpotifyNow/>
         </div>
+       
+          <div className='distortion-container'>
+          <ScrollingText/>
+
+          <Distortion/>
+          </div>
         <Carousel/>
         {/* <div id="desktop-flour" className='flourescent'></div>
         <div id="mobile-flour" className='flourescent'></div> */}

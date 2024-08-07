@@ -50,8 +50,7 @@
 }
 
 .brand-name {
-    margin-top: 22vh;
-    width: 98%;
+    width: 100%;
 }
 
 .distortion-container {
@@ -112,7 +111,6 @@
 
 
     .brand-name {
-        margin-top: 22vh;
         width: 98%;
     }
 
@@ -132,7 +130,6 @@
     }
 
     .brand-name {
-        margin-top: 22vh;
         width: 98%;
     }
     
@@ -153,7 +150,6 @@
     }
 
     .brand-name {
-        margin-top: 20vh;
         width: 98%;
     }
 

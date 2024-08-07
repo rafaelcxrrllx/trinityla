@@ -5,7 +5,7 @@
     position: absolute;
     top: 23vh; left: 50%;
     transform:translate(-50%,-50%);
-    font-size: 15vh; color:transparent;
+    font-size: 17vh; color:transparent;
     text-transform:uppercase;
   }
   .open-effect h2 span:nth-child(1){
@@ -32,8 +32,8 @@
     position:absolute;
     top:50%; left: 0;
     transform:translateY(-50%) scaleY(0);
-    width: 91%; color:#070F19;
-    background: #c5e3fe;
+    width: 91%; color:#c5e3fe;
+    background:  #070F19;;
     font-size: 0.25em; font-weight: 500;
     letter-spacing:0.7em;
     text-align:center;
@@ -104,7 +104,7 @@
 
 .open-effect h2 {
    
-    font-size: 4em; color:transparent;
+    font-size: 6em; color:transparent;
   }
 
 }

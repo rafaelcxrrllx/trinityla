@@ -3,7 +3,16 @@ html, body {
     margin: 0;
     background-color: #070F19;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
+section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
 
 
 body {
