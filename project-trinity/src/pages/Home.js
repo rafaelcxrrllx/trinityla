@@ -15,7 +15,7 @@ import SpotifyNow from '../components/SpotifyNow';
 import ScrollingText from '../components/scrollingText';
 import ScrollToTop from '../components/ScrollToTop';
 import LoadingScreen from '../components/LoadingScreen';
-
+import brandname from '../assets/name.svg'
 
 function Home() {
   // "homepage": "https://rafaelcxrrllx.github.io/trinityla",
@@ -35,29 +35,27 @@ function Home() {
       className='home-container'
       id="home">
       
-      <div id="desktop-row" className='row'>
-          <div className='col'>
-          <Carousel/>
-          </div>
-          <div className='col'>
-              <div className='col-container'>
-              <p className='home-title'>Rafael Carrillo</p>
+    
+          
+            <img className='brand-name' src={brandname} alt='trinity'/>
               
-              <div id="mobile-flour" className='flourescent'></div>
-              <p className='subtitle'><i>UXUI Designer / Full-Stack Developer </i>based out of <b>Los Angeles California.</b></p>
-              
+              <div className='slogan'>
+                <h1><i>mind </i>body <b>sol</b></h1>
               </div>
-          </div>
+              <div className='spotify-container'>
+                <SpotifyNow/>
+              </div>
+      <div className='second-slide'>
+        <Carousel/>
       </div>
-
   
-      <div id="desktop-flour" className='flourescent'></div>
-      <div className='spotify-container'>
-        <SpotifyNow/>
-      </div>
+     
       
+      {/* <div id="desktop-flour" className='flourescent'></div>
+      <div id="mobile-flour" className='flourescent'></div> */}
+
       
-      <ScrollingText/>
+      {/* <ScrollingText/> */}
       </motion.div>
       <Footer/>
     </div>

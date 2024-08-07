@@ -19,6 +19,10 @@
     white-space: nowrap;
     animation: loop 30s linear infinite;
 }
+
+#scroll-container p {
+    word-spacing: 13px;
+}
 .fade {
     width: 100%;
     position: absolute;

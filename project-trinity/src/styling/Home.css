@@ -1,4 +1,5 @@
 
+  
 .trinity-container {
     text-align: center;
     width: 100%;
@@ -29,37 +30,20 @@
     margin-bottom: 7px;
 }
 
-.spinning-logo {
-    animation: spin 7s infinite linear;
-    transform-style: preserve-3d;
-    padding-top: 50px;
+.brand-name {
+    margin-top: 32px;
+    width: 98%;
 }
 
-@keyframes spin {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(360deg);
-    }
+
+.slogan h1{
+    color: #c5e3fe !important;
+    font-weight: 400;
 }
 
-.less-spaced {
-    letter-spacing: 7px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.slogan b {
+    font-weight: 900;
 }
-
-#stars {
-    width: 144px;
-}
-
-.slogan {
-    word-spacing: 14px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-}
-
 
 .flourescent {
     height: 25px;
@@ -67,11 +51,6 @@
     background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
 }
 
-
-
-.row {
-    padding: 32px;
-}
 
 .home {
     padding: 32px
@@ -102,18 +81,22 @@
     padding-top: 0px;
     }
 
+    .main-title {
+        font-size: 18vw;
+        margin: 64px 32px 0px 32px;
+    }
+
+
+    .brand-name {
+        margin-top: 22vh;
+        width: 98%;
+    }
+
+
 }
 
 
 @media (min-width: 601px) and (max-width: 1024px) {
-    .row {
-        display: block;
-    }
-
-    .col {
-        display: block;
-        width: 100%;
-    }
 
 
     #hero {
@@ -124,56 +107,35 @@
         display: none;
     }
 
-    .subtitle {
-        padding-left: 32px;
-        padding-right: 32px;
-        line-height: 1.5;
+    .brand-name {
+        margin-top: 22vh;
+        width: 98%;
     }
+    
   }
   
   
 @media (min-width: 1025px) {
 
-    .row {
-        display: flex;
-    }
-
-    .col {
-        display: block;
-        width: 50%;
-
-    }
-
-    .col-container {
-        padding-right: 64px;
-    }
-
-    #hero {
-        width: 50%;
-        float: right;
-    }
-
     #mobile-flour {
         display: none;
     }
 
-    .subtitle {
-        padding-left: 10px;
-        padding-right: 100px;
-        line-height: 1.5;
-    }
-
+   
     #desktop-flour {
         width: 90%;
         margin-left: 5%;
         margin-bottom: 44px;
     }
 
-    .home-title {
-        padding-left: 10px;
-        padding-right: 100px;
-    }
 
     
 }  
+
+
+
+ 
+
+
+ 
 

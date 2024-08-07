@@ -50,7 +50,8 @@
 
 @media (min-width: 1025px) {
   .carousel {
-    width: 50%;
-    float: right;
+    width: 100%;
   }
+
+
 }
