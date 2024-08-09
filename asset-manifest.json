@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9663eaa3.css",
-    "main.js": "/static/js/main.15996240.js",
+    "main.css": "/static/css/main.a00078c2.css",
+    "main.js": "/static/js/main.1aba7b91.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -111,11 +111,11 @@
     "static/media/christ.jpeg": "/static/media/christ.be5c3c0dbb62af1d1b49.jpeg",
     "static/media/logoSky.jpg": "/static/media/logoSky.c7cd56a5d14af8786986.jpg",
     "static/media/volOne.jpg": "/static/media/volOne.d6692f7e9a35e07736cb.jpg",
+    "static/media/trinity-front.svg": "/static/media/trinity-front.55700c34153c717bc40909814c26a12c.svg",
     "static/media/moon.jpg": "/static/media/moon.09a7dcef1550b83e5db7.jpg",
     "static/media/animalman.jpeg": "/static/media/animalman.6288afb971236f59b707.jpeg",
     "static/media/holytrinity.jpg": "/static/media/holytrinity.7b93d432a872d0d07c67.jpg",
     "static/media/solarPlexus.jpeg": "/static/media/solarPlexus.8752adc881ef1f51c630.jpeg",
-    "static/media/trinity-front.svg": "/static/media/trinity-front.6fe75d480e76b293b43e68a2da95a1d1.svg",
     "static/media/edward.jpeg": "/static/media/edward.3bb00d38caea72f708c2.jpeg",
     "static/media/jesus.jpeg": "/static/media/jesus.6bc84b14131ee7992b49.jpeg",
     "static/media/trinityTwo.jpg": "/static/media/trinityTwo.cb44c606ae99184e2488.jpg",
@@ -124,10 +124,10 @@
     "static/media/yinyang.jpg": "/static/media/yinyang.4e91a989e18fb28a5887.jpg",
     "static/media/cellsalts.jpeg": "/static/media/cellsalts.c1767d180faef1ad98ff.jpeg",
     "static/media/energy-front.svg": "/static/media/energy-front.5176588c846fb09b58402c090f674a5c.svg",
+    "static/media/trinity-back.svg": "/static/media/trinity-back.5eb06817bc2a88994a1798de09b5a1b8.svg",
     "static/media/korea.jpg": "/static/media/korea.20401959174c58d8eaee.jpg",
     "static/media/holymountain.jpg": "/static/media/holymountain.35ed99b4cdf24f3f8663.jpg",
     "static/media/walkonwater.jpg": "/static/media/walkonwater.6ffaee758f59cd9c90f3.jpg",
-    "static/media/trinity-back.svg": "/static/media/trinity-back.088b81213640d604e601c064472b1ce4.svg",
     "static/media/doorone.jpeg": "/static/media/doorone.39be65bedb614a79270f.jpeg",
     "static/media/fullmetal.jpeg": "/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
     "static/media/father.jpg": "/static/media/father.a4618ee25aadc7d78551.jpg",
@@ -164,12 +164,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.9663eaa3.css.map": "/static/css/main.9663eaa3.css.map",
-    "main.15996240.js.map": "/static/js/main.15996240.js.map",
+    "main.a00078c2.css.map": "/static/css/main.a00078c2.css.map",
+    "main.1aba7b91.js.map": "/static/js/main.1aba7b91.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9663eaa3.css",
-    "static/js/main.15996240.js"
+    "static/css/main.a00078c2.css",
+    "static/js/main.1aba7b91.js"
   ]
 }
