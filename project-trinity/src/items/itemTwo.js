@@ -14,7 +14,7 @@ import shirt from '../assets/shirt-size.svg';
 import arrow from '../assets/icons/arrow.svg'
 import backArrow from '../assets/icons/arrow-back.svg'
 import CarouselSlideTwo from '../carousels/CarouselSlideTwo';
-
+import ScrollToTop from '../components/ScrollToTop'
 
 function ItemTwo() {
 
@@ -45,6 +45,7 @@ function ItemTwo() {
   return (
     <div>
     <Nav/>
+    <ScrollToTop/>
     <Link id='item-link' to="/shop">
       <motion.div
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0

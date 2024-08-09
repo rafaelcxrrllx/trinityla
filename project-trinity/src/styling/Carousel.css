@@ -47,7 +47,7 @@ opacity: 1;
 
 @media (min-width: 601px) and (max-width: 1024px) {
 .carousel {
-  width: 50%;
+  width: 400px;
   float: right;
   margin-bottom: 32px;
 }

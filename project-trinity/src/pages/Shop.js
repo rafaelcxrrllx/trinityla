@@ -88,7 +88,7 @@ function Shop() {
           </div>
         </Link>
 
-      <Link id='item-link' to="/shop/lovelybones">
+      {/* <Link id='item-link' to="/shop/lovelybones">
         <div className='item'>
           <div className='shop-item-img'>
           <img
@@ -99,7 +99,7 @@ function Shop() {
           className="hover-image"/>
           </div>
         </div>
-      </Link>
+      </Link> */}
 
       </div>
       

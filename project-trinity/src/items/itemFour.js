@@ -14,7 +14,7 @@ import phone from '../assets/emf-model.png';
 import CarouselEMF from '../carousels/CarouselEMF';
 import arrow from '../assets/icons/arrow.svg'
 import backArrow from '../assets/icons/arrow-back.svg'
-
+import ScrollToTop from '../components/ScrollToTop';
 
 function ItemFour() {
 
@@ -44,6 +44,7 @@ function ItemFour() {
 
   return (
     <div>
+      <ScrollToTop/>
     <Nav/>
     <Link id='item-link' to="/shop">
       <motion.div

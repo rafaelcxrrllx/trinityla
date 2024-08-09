@@ -14,7 +14,7 @@ import shirt from '../assets/shirt-size.svg';
 import CarouselSlide from '../carousels/CarouselSlide';
 import arrow from '../assets/icons/arrow.svg'
 import backArrow from '../assets/icons/arrow-back.svg'
-
+import ScrollToTop from '../components/ScrollToTop';
 
 function ItemOne() {
 
@@ -44,6 +44,7 @@ function ItemOne() {
 
   return (
     <div>
+      <ScrollToTop/>
     <Nav/>
     <Link id='item-link' to="/shop">
       <motion.div

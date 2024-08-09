@@ -6,7 +6,7 @@ import emailjs from 'emailjs-com';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import ScrollToTop from '../components/ScrollToTop';
-
+import Carousel from '../carousels/Carousel';
 
 function Contact() {
 
@@ -61,9 +61,7 @@ return (
 
 
     <div>
-              
-
-    <Nav/>
+        <Nav/>
         <motion.div
         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1

@@ -69,11 +69,13 @@
     
     .blog-container {
         padding: 10px 50px 10px 10px;
-        margin: 0px 0px 0px 0px;
+        margin: 0px 20vh 0px 0px;
     }
 
     .blog-img-container img{
         display: none;
     }
+
+
 
 }  

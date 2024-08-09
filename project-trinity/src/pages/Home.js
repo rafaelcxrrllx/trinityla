@@ -5,7 +5,6 @@ import '../styling/styles.css'
 import '../styling/Home.css'
 
 // Components
-import Carousel from '../carousels/Carousel';
 import Nav from '../components/Nav';
 
 // Assets
@@ -52,7 +51,6 @@ function Home() {
 
           <Distortion/>
           </div>
-        <Carousel/>
         {/* <div id="desktop-flour" className='flourescent'></div>
         <div id="mobile-flour" className='flourescent'></div> */}
       </motion.div>

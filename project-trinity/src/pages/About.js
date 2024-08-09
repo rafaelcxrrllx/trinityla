@@ -8,7 +8,7 @@ import '../styling/About.css'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import {motion} from 'framer-motion'
-
+import Carousel from '../carousels/Carousel';
 // Assets
 import logo from '../assets/logo.svg'
 import stars from '../assets/stars.svg'
@@ -25,8 +25,10 @@ function About() {
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 1 }}
         className='about-main-container'>
+           
          
             <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
+            <Carousel/>
             <div>
               <div className='open-effect'>
                 <h2>
@@ -38,7 +40,10 @@ function About() {
               </div>
             </div>
       <div className='about-description-container'>
-          <br/>
+      <h1 className='stay-blue'>
+          Evoking Divinity To Amplify Human Consciousness
+        </h1>
+         
           <div>
           <img src={stars} id="stars"  alt="three stars"/>
             <p>
@@ -70,9 +75,7 @@ function About() {
           </p>
           <img id="emblem" src={sign} alt="signature of trinity"/>
         </div>
-        <h1 className='stay-blue'>
-          Evoking Divinity To Amplify Human Consciousness
-        </h1>
+       
       
       </motion.div>  
       
