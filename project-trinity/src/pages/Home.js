@@ -3,7 +3,7 @@ import '../styling/styles.css'
 
 // Local Styling
 import '../styling/Home.css'
-
+import '../styling/Glitch.css'
 // Components
 import Nav from '../components/Nav';
 
@@ -17,8 +17,11 @@ import Distortion from '../components/Distortion';
 import LoadingScreen from '../components/LoadingScreen';
 import brandname from '../assets/name.svg'
 import DistortedSvg from '../components/DistortedSvg';
+import GradientText from '../components/GradientText';
+import Clouds from '../components/Clouds'
 
 function Home() {
+  const text = 'trinity';
 
   return (
     <div>
@@ -29,30 +32,45 @@ function Home() {
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 2, delay: 1.5 }}
         id="home">
-        <section>
+        <section className='landing-page'>
         <motion.div 
           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
           transition={{ duration: 2, delay: 1.5 }}
-          className='home-container'>
-          <img className='brand-name' src={brandname} alt='trinity'/>
+          className='clouds'>
+          {/* <img className='brand-name' src={brandname} alt='trinity'/> */}
+          <div className="text-container">
+      {text.split('').map((letter, index) => (
+        <GradientText key={index} letter={letter} />
+      ))}
+    </div>
+    
+          {/* <Glitch/> */}
           <div className='slogan'>
-            <h1><i>mind </i>body <b>sol</b></h1>
+              <h2 class="hero glitch layers" data-text="三位一体"><span>三位一体</span></h2>
+          <h1><i>mind </i>body <b>sol</b></h1>
           </div>
+
+         
         </motion.div>
         
         </section>
+        <section className='second-page'>
+        <div className='mountains'>
         <div className='spotify-container'>
           <SpotifyNow/>
         </div>
+        </div>
+        </section>
        
           <div className='distortion-container'>
           <ScrollingText/>
 
           <Distortion/>
           </div>
-        {/* <div id="desktop-flour" className='flourescent'></div>
-        <div id="mobile-flour" className='flourescent'></div> */}
+      <section className='blue-container'>
+        <h1>9.28.24</h1>
+      </section>
       </motion.div>
       <Footer/>
     </div>

@@ -1,0 +1,74 @@
+
+.letter {
+  font-size: 30vh;
+  margin: 0 5px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.letter::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
+  opacity: var(--gradient-opacity, 0);
+  transition: opacity 1s ease-out;
+  z-index: -1;
+  color: #070F19;
+}
+
+.letter:hover {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color:#C5E3FE;
+  color:  #070F19; 
+}
+
+
+@font-face {
+  font-family: Ancient Medium;
+  src: url('../fonts/Ancient Medium.ttf');
+}
+
+.letter {
+  font-family: Ancient Medium;
+  color: #C5E3FE;
+}
+
+
+
+/* Small screens (phones) */
+@media (max-width: 600px) {
+  .letter {
+    font-size: 150px;
+  }
+  
+
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .letter {
+    font-size: 27vh;
+  }
+  }
+  
+  
+@media (min-width: 1025px) {
+
+  .letter {
+    font-size: 48vh;
+  }
+    
+}  
+
+
+
+ 
+
+
+ 
+

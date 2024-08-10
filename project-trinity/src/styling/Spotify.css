@@ -1,50 +1,59 @@
+@font-face {
+    font-family: Ancient Medium;
+    src: url('../fonts/Ancient Medium.ttf');
+  }
+
+
 .nowPlayingCard {
     flex-shrink: 0;
     border-radius: 22px;
-    border: 2px solid #c5e3fe;
-    box-shadow: 5px 5px 0 #c5e3fe;
+    border: 2px solid  #fff;
+    box-shadow: 5px 5px 0  #fff;
     align-items: center;
-    width: 300px;
-    height: 80px;
-    display: flex;
+    padding: 24px;
+    width: 50vh;
+    height: min-content;
+    display: inline-block;
     justify-content: space-between;
     transition: all 0.5s ease;
-    font-family: Playfair Display;
-    color: #c5e3fe;
-    margin-top: 32px;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 20%;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
+
 .nowPlayingCard:hover {
-    box-shadow: 10px 10px 0 #c5e3fe;
-    transform: translateX(0px) translateY(-10px);
+    box-shadow: 10px 10px 0  #fff;
+    transform: translateX(0px) translateY(-10px); 
     transition: all 0.5s ease;
 }
   
 .nowPlayingCard a {
-    color: #c5e3fe;
+    color: #fff;
     text-decoration: none;
-    font-family: Playfair Display;
 }
 
 .nowPlayingCard a:hover {
-    color: #c5e3fe;
+    color:  #fff;
     text-decoration: underline;
 }
 
 .nowPlayingImage img {
-    border-radius: 8px;
-    border: 1px solid #c5e3fe;
-    box-shadow: 3px 3px 0  #c5e3fe;
-    transition: all 0.5s ease;
-    width: 60px;
-    height: 60px;
+   border-style: solid;
+   border-color: #fff;
+    width: 40vh;
+    height: 40vh;
     flex-shrink: 0;
     margin: 10px;
+    border-radius: 8px;
+    
 }
 
 .eyes-offline {
     border-radius: 8px;
-    border: 1px solid #c5e3fe;
+    border: 1px solid #fff;
     box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease;
     width: 60px;
@@ -59,27 +68,32 @@
     display: flex;
     flex-direction: column;
     width: 54%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     width: 54%;
-    height: 100%;
+    margin: 24px;
+    
 }
 
 .nowPlayingTitle, .playlistName {
     flex-shrink: 0;
-    color: #c5e3fe;
-    white-space: nowrap;
-    text-align: left;
-    font-size: 20px;
+    color: #fff;
+    white-space: wrap;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 48px;
     width: 100%;
+    font-family: Ancient Medium !important;
+    margin-bottom: 12px;
+    letter-spacing: 3px;
+
 }
 
 .nowPlayingTitle, .playlistName::after {
   content: "";
   display: inline-block;
   width: 100%; 
-  animation: scroll-right 10s linear infinite; 
+  /* animation: scroll-right 10s linear infinite;  */
   animation-delay: 3s;
 }
 
@@ -105,29 +119,34 @@
 
 
 .nowPlayingArtist, .playlistHeader {
-    text-align: left;
+    text-align: center;
     flex-shrink: 0;
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
+    font-family: Playfair Display;
+    font-size: 32px;
 }
 
 .nowPlayingTime {
-    text-align: left;
-    color: #c5e3fe;
+    text-align: center;
+    color: #fff;
+    font-family: Playfair Display;
+    font-size: 24px;
 }
 
 .nowPlayingState {
     text-align: center;
-    width: 20%;
-    padding: 10px;
-    color: #c5e3fe;
+    width: 100%;
+    padding-top: 10px;
+    color:  #fff;
+}
+.soundbar {
+    width: 25% !important;
+    margin-left: -48px;
 }
 
-.soundbar{
-    /* filter: invert(100%); */
-    width: 100%;
-}
+
 
 .nowPlayingState img {
     width: 100%;
@@ -142,3 +161,69 @@
     text-align: center;
     justify-content: center;
 }
+ 
+ 
+ @media (max-width: 600px) {
+    .nowPlayingCard {
+        width: 44vh;
+        height: min-content;
+        border: 4px solid  #fff;
+        font-size: 32px;
+        display: block;
+
+    }
+
+    .nowPlayingImage img {
+        border-radius: 8px;
+        width: 40vh;
+        height: 40vh;
+        flex-shrink: 0;
+        margin-bottom: 0px;
+    }
+    
+    .eyes-offline {
+        border-radius: 8px;
+        border: 1px solid #fff;
+        box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+        transition: all 0.5s ease;
+        width: 180px;
+        height: 180px;
+        flex-shrink: 0;
+        margin: 10px;
+        margin-left: 24px;
+    }
+
+    .nowPlayingTitle, .playlistName {
+    flex-shrink: 0;
+    color: #fff;
+    white-space: wrap;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 48px;
+    width: 100%;
+    font-family: Ancient Medium !important;
+    margin-bottom: 12px;
+
+}
+
+#nowPlayingDetails {
+    justify-content: center;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    margin: 24px;
+}
+     
+ }  
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 

@@ -1,9 +1,16 @@
+@font-face {
+    font-family: Ancient Medium;
+    src: url('../fonts/Ancient Medium.ttf');
+  }
+
+  
 html, body {
     height: 100%;
     margin: 0;
     background-color: #070F19;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    
 }
 
 section {
@@ -11,7 +18,6 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2rem;
   }
 
 

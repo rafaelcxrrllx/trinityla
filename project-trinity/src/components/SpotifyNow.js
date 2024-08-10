@@ -196,7 +196,8 @@ const NowPlaying = () => {
           <img alt="blinking eyes" src={eyes}/> 
       : <a></a>}
         </div>
-        <div id='nowPlayingDetails'>
+       
+        {/* <div id='nowPlayingDetails'> */}
           
           {/* Song Title displayed based on playerState */}
           <div style={{ animationDuration: `${duration}s`}} className={`nowPlayingTitle ${title.length > 15 ? 'marquee-content' : ' '}`}>
@@ -208,12 +209,11 @@ const NowPlaying = () => {
           </div>
           {/* Song Timer displayed based on playerState */}
           <div className='nowPlayingTime'>{pad(minutesPlayed)}:{pad(secondsPlayed)} / {pad(minutesTotal)}:{pad(secondsTotal)}</div>
-        </div>
         {/* Icon displayed based on playerState */}
         <div className='nowPlayingState'>
           {playerState === 'PLAY' ? <img alt='soundbar' className='soundbar' src={soundBar} title='Now Listening' /> : playerState === 'PAUSE' ? <img class='pause' alt="Paused" src={pause} title='Now Listening' /> : playerState === 'OFFLINE' ? <HiOutlineStatusOffline size={40} /> : <BiErrorCircle size={40} />}
         </div>
-      </div>
+        </div>
     </a>
   );
 };

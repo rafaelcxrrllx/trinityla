@@ -1,9 +1,21 @@
 
+
 .trinity-container {
     text-align: center;
     width: 100%;
     box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
     
+}
+
+
+.landing-page {
+    font-size: 2rem;
+    padding-top: 20vh;
+
+}
+
+.second-page {
+   background-color: #c5e3fe;
 }
 
 
@@ -59,6 +71,7 @@
 }
 
 
+
 .slogan h1{
     color: #c5e3fe !important;
     font-weight: 400;
@@ -92,6 +105,15 @@
     padding-top: 32px; 
 }
 
+.blue-container {
+    background-color:  #c5e3fe;
+}
+
+.blue-container h1 {
+    color: #070F19;
+    font-family: Ancient Medium;
+    font-size: 30vh;
+}
 
 
 
@@ -116,6 +138,12 @@
         width: 98%;
     }
 
+    .blue-container h1 {
+        color: #070F19;
+        font-family: Ancient Medium;
+        font-size: 15vh;
+    }
+
 
 }
 
@@ -133,6 +161,12 @@
 
     .brand-name {
         width: 98%;
+    }
+
+    .blue-container h1 {
+        color: #070F19;
+        font-family: Ancient Medium;
+        font-size: 20vh;
     }
     
   }
@@ -153,6 +187,12 @@
 
     .brand-name {
         width: 98%;
+    }
+
+    .landing-page {
+        font-size: 2rem;
+        padding-top: 0vh;
+    
     }
 
 

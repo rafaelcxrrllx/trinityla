@@ -1,8 +1,8 @@
 .item {
-    background-color: #c5e3fe;
+    /* background-color: #c5e3fe; */
     max-width: max-content;
     text-align: center;
-    margin: 12px 12px 12px 12px;
+    margin: 64px;
 }
 
 .item img {
@@ -32,6 +32,7 @@
         padding: 100px 50px 100px 50px;
         box-shadow: 0px 1px 1px 0px rgba(126, 126, 126, 0.10);
         flex-wrap: wrap;
+        margin: 0px;
     }
 
     .item img {
@@ -51,7 +52,9 @@
     }
 
     .item {
-        text-align: left;
+        max-width: max-content;
+        text-align: center;
+        margin: 0px;
     }
 
     .item img {
@@ -72,7 +75,8 @@
     }
 
     .item {
-        text-align: left;
+        max-width: max-content;
+        text-align: center;
     }
 
     .item img {
