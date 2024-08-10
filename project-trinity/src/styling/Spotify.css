@@ -20,6 +20,8 @@
     overflow: hidden;
     margin-top: 20%;
     font-weight: 600;
+    background-color: #070F19;
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -124,14 +126,14 @@
     white-space: nowrap;
     width: 100%;
     font-family: Playfair Display;
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .nowPlayingTime {
     text-align: center;
     color: #fff;
     font-family: Playfair Display;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .nowPlayingState {
