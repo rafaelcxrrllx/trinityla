@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd112773.css",
-    "main.js": "/static/js/main.5ad72262.js",
+    "main.css": "/static/css/main.859c1be8.css",
+    "main.js": "/static/js/main.db5a97d6.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -109,7 +109,6 @@
     "static/media/logo.jpg": "/static/media/logo.6039cb0ded4c7cc6811a.jpg",
     "static/media/fullmetalAlchemist.jpeg": "/static/media/fullmetalAlchemist.935500264edc376b5378.jpeg",
     "static/media/thirdEye.jpg": "/static/media/thirdEye.7c202b436a020744b20f.jpg",
-    "static/media/clouds.webp": "/static/media/clouds.c89748a4642e33c20c36.webp",
     "static/media/christ.jpeg": "/static/media/christ.be5c3c0dbb62af1d1b49.jpeg",
     "static/media/logoSky.jpg": "/static/media/logoSky.c7cd56a5d14af8786986.jpg",
     "static/media/volOne.jpg": "/static/media/volOne.d6692f7e9a35e07736cb.jpg",
@@ -167,12 +166,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.dd112773.css.map": "/static/css/main.dd112773.css.map",
-    "main.5ad72262.js.map": "/static/js/main.5ad72262.js.map",
+    "main.859c1be8.css.map": "/static/css/main.859c1be8.css.map",
+    "main.db5a97d6.js.map": "/static/js/main.db5a97d6.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd112773.css",
-    "static/js/main.5ad72262.js"
+    "static/css/main.859c1be8.css",
+    "static/js/main.db5a97d6.js"
   ]
 }
