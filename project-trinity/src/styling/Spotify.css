@@ -165,18 +165,23 @@
  
  @media (max-width: 600px) {
     .nowPlayingCard {
-        width: 44vh;
+        width: 40vh;
         height: min-content;
         border: 4px solid  #fff;
-        font-size: 32px;
+        font-size: 28px;
         display: block;
 
     }
 
+    .soundbar {
+        width: 25% !important;
+        margin-left: -24px;
+    }
+
     .nowPlayingImage img {
         border-radius: 8px;
-        width: 40vh;
-        height: 40vh;
+        width: 36vh;
+        height: 36vh;
         flex-shrink: 0;
         margin-bottom: 0px;
     }
@@ -199,7 +204,7 @@
     white-space: wrap;
     text-align: center;
     text-transform: lowercase;
-    font-size: 48px;
+    font-size: 32px;
     width: 100%;
     font-family: Ancient Medium !important;
     margin-bottom: 12px;
