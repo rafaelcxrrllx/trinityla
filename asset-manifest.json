@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a00078c2.css",
-    "main.js": "/static/js/main.1aba7b91.js",
+    "main.css": "/static/css/main.a2a1bf98.css",
+    "main.js": "/static/js/main.451f187b.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -63,6 +63,7 @@
     "static/media/goatMan.jpg": "/static/media/goatMan.e020dd34a8492f862bf7.jpg",
     "static/media/ZMLK.jpg": "/static/media/ZMLK.7f1868dda474d3fbf11a.jpg",
     "static/media/beemer.jpg": "/static/media/beemer.6eac6820d535976a3e30.jpg",
+    "static/media/clouds.svg": "/static/media/clouds.dd6683c8cd0de1a0e04e.svg",
     "static/media/justice.png": "/static/media/justice.0cf5a7ff1cbd4df81790.png",
     "static/media/tower.jpg": "/static/media/tower.e8d5387a6e06b54c5ff8.jpg",
     "static/media/throatChakra.jpg": "/static/media/throatChakra.fc44eeea1d625dadc69a.jpg",
@@ -108,6 +109,7 @@
     "static/media/logo.jpg": "/static/media/logo.6039cb0ded4c7cc6811a.jpg",
     "static/media/fullmetalAlchemist.jpeg": "/static/media/fullmetalAlchemist.935500264edc376b5378.jpeg",
     "static/media/thirdEye.jpg": "/static/media/thirdEye.7c202b436a020744b20f.jpg",
+    "static/media/clouds.webp": "/static/media/clouds.c89748a4642e33c20c36.webp",
     "static/media/christ.jpeg": "/static/media/christ.be5c3c0dbb62af1d1b49.jpeg",
     "static/media/logoSky.jpg": "/static/media/logoSky.c7cd56a5d14af8786986.jpg",
     "static/media/volOne.jpg": "/static/media/volOne.d6692f7e9a35e07736cb.jpg",
@@ -130,6 +132,7 @@
     "static/media/walkonwater.jpg": "/static/media/walkonwater.6ffaee758f59cd9c90f3.jpg",
     "static/media/doorone.jpeg": "/static/media/doorone.39be65bedb614a79270f.jpeg",
     "static/media/fullmetal.jpeg": "/static/media/fullmetal.2531da9f8e8b103bf9f4.jpeg",
+    "static/media/Ancient Medium.ttf": "/static/media/Ancient Medium.a59ed847ec519bfb87a7.ttf",
     "static/media/father.jpg": "/static/media/father.a4618ee25aadc7d78551.jpg",
     "static/media/holyparents.jpg": "/static/media/holyparents.a77b04c44a44526ce9c7.jpg",
     "static/media/aura.jpg": "/static/media/aura.e9104fc598c1213666f4.jpg",
@@ -164,12 +167,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.a00078c2.css.map": "/static/css/main.a00078c2.css.map",
-    "main.1aba7b91.js.map": "/static/js/main.1aba7b91.js.map",
+    "main.a2a1bf98.css.map": "/static/css/main.a2a1bf98.css.map",
+    "main.451f187b.js.map": "/static/js/main.451f187b.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a00078c2.css",
-    "static/js/main.1aba7b91.js"
+    "static/css/main.a2a1bf98.css",
+    "static/js/main.451f187b.js"
   ]
 }
