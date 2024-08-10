@@ -63,7 +63,7 @@
 @media (max-width: 600px) {
     @keyframes loop {
         0% {transform: translateX(20%);}
-        100% {transform: translateX(-80%);}
+        100% {transform: translateX(-100%);}
     }
   
   }

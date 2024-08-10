@@ -23,8 +23,9 @@ import Clouds from '../components/Clouds'
 
 function Home() {
   const text = 'trinity';
-  const date = '9.28.24'
-
+  const date = '9.28.24';
+  const question = 'what if you take that chance?';
+  const thyself = 'and come to know thyself?';
   return (
     <div>
       <LoadingScreen/>
@@ -42,7 +43,7 @@ function Home() {
           className='clouds'>
           {/* <img className='brand-name' src={brandname} alt='trinity'/> */}
           <div className="text-container">
-      {text.split('').map((letter, index) => (
+      {text.split(' ').map((letter, index) => (
         <GradientText key={index} letter={letter} />
       ))}
     </div>
@@ -57,26 +58,44 @@ function Home() {
         </motion.div>
         
         </section>
-        <section className='second-page'>
-        <div className='mountains'>
-        <div className='spotify-container'>
-          <SpotifyNow/>
-        </div>
-        </div>
+        <section className='blue-container'>
+          <div className='clouds'>
+          <h1 id='question'>
+          what if you take that <span className='rainbow'>chance?</span>
+          </h1>
+          </div>
         </section>
+       
        
           <div className='distortion-container'>
           <ScrollingText/>
 
           <Distortion/>
           </div>
+    
       <section className='blue-container'>
-        <h1><div className="text-container">
-      {date.split('').map((letter, index) => (
-        <GradientText key={index} letter={letter} />
-      ))}
-    </div></h1>
-      </section>
+        <div className='clouds'>
+          <h1 id='question'>
+            and come to know  <span className='rainbow'>thyself</span>
+          </h1>
+          </div>
+        </section>
+
+        <section id="black" className='blue-container'>
+          <div className='clouds'>
+            <h1 id='question'>
+            <span id="no-border" className='rainbow'>9.28.24</span>
+            </h1>
+          </div>
+        </section>
+       
+      <section className='second-page'>
+        <div className='mountains'>
+        <div className='spotify-container'>
+          <SpotifyNow/>
+        </div>
+        </div>
+        </section>
       </motion.div>
       <Footer/>
     </div>
