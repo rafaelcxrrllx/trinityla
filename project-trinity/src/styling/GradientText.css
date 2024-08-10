@@ -43,7 +43,7 @@
 /* Small screens (phones) */
 @media (max-width: 600px) {
   .letter {
-    font-size: 150px;
+    font-size: 15vh;
   }
   
 
@@ -52,7 +52,7 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .letter {
-    font-size: 27vh;
+    font-size: 24vh;
   }
   }
   

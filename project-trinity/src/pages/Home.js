@@ -22,6 +22,7 @@ import Clouds from '../components/Clouds'
 
 function Home() {
   const text = 'trinity';
+  const date = '9.28.24'
 
   return (
     <div>
@@ -69,7 +70,11 @@ function Home() {
           <Distortion/>
           </div>
       <section className='blue-container'>
-        <h1>9.28.24</h1>
+        <h1><div className="text-container">
+      {date.split('').map((letter, index) => (
+        <GradientText key={index} letter={letter} />
+      ))}
+    </div></h1>
       </section>
       </motion.div>
       <Footer/>
