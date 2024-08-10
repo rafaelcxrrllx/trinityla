@@ -4,6 +4,7 @@ nav {
   z-index: 2;
 }
 
+
 #flourescent {
   mix-blend-mode: difference;
   background-color: rgb(132, 92, 188);
@@ -22,6 +23,7 @@ body.menu-open {
   align-items: center;
   justify-content: space-between;
   background-color: #070F19;
+  mix-blend-mode: difference;
   padding: 12px 32px 12px 32px;
   position: -webkit-sticky; /* For Safari */
   top: 0;

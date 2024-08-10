@@ -1,10 +1,11 @@
 
 .letter {
-  font-size: 30vh;
+  font-size: 33vh;
   margin: 0 5px;
   position: relative;
   cursor: pointer;
   z-index: 1;
+  margin: 0px;
 }
 
 .letter::before {
@@ -58,7 +59,7 @@
 
 @media (min-width: 601px) and (max-width: 1024px) {
   .letter {
-    font-size: 24vh;
+    font-size: 28vh;
   }
   }
   
@@ -66,7 +67,7 @@
 @media (min-width: 1025px) {
 
   .letter {
-    font-size: 48vh;
+    font-size: 50vh;
   }
     
 }  

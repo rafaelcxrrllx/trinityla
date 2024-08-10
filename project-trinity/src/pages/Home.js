@@ -3,6 +3,7 @@ import '../styling/styles.css'
 
 // Local Styling
 import '../styling/Home.css'
+import '../styling/Nav.css'
 import '../styling/Glitch.css'
 // Components
 import Nav from '../components/Nav';
@@ -33,7 +34,7 @@ function Home() {
         animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
         transition={{ duration: 2, delay: 1.5 }}
         id="home">
-        <section className='landing-page'>
+        <section id='section1' className='landing-page'>
         <motion.div 
           initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
           animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
