@@ -140,7 +140,7 @@
 
 #black {
     background-color: #070F19;
-    height: 60vh;
+    height: 70vh;
 }
 
 #black h1 {
@@ -213,6 +213,13 @@
         font-family: Ancient Medium;
         font-size: 20vh;
     }
+
+      
+    #question {
+        margin-top: 24vh;
+    }
+    
+    
     
   }
   
@@ -238,6 +245,10 @@
         font-size: 1.5rem;
         padding-top: 0vh;
     
+    }
+
+    #question {
+        margin-top: 20vh;
     }
 
 

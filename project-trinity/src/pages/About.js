@@ -26,7 +26,7 @@ function About() {
         transition={{ duration: 1 }}
         className='about-main-container'>
            
-         
+ 
             <img class="spinning-logo" id="emblem" src={logo} alt="emblem of trinity la"/>
             <Carousel/>
             <div>

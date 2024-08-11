@@ -76,7 +76,7 @@ function Home() {
       <section className='blue-container'>
         <div className='clouds'>
           <h1 id='question'>
-            and come to know  <span className='rainbow'>thyself</span>
+            and come to know  <span className='rainbow'>thyself?</span>
           </h1>
           </div>
         </section>
