@@ -33,17 +33,18 @@ function About() {
             <div>
               <div className='open-effect'>
                 <h2>
-                  TRINITY
-                  <span>TRINITY</span>
-                  <span>TRINITY</span>
+                  trinity
+                  <span>trinity</span>
+                  <span>trinity</span>
                   <span>los angeles</span>
                 </h2>
               </div>
             </div>
-      <div className='about-description-container'>
-      <h1 className='stay-blue'>
+            <h1 className='stay-blue'>
           Evoking Divinity To Amplify Human Consciousness
         </h1>
+      <div className='about-description-container'>
+     
          
           <div>
           <img src={stars} id="stars"  alt="three stars"/>

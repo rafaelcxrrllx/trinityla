@@ -54,11 +54,15 @@
     text-align: left;
     margin-top: 64px;
     line-height: 2;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .about-main-container {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 24px;
+
 }
 
 .flourescent-about {
@@ -76,14 +80,19 @@
 /* Small screens (phones) */
 @media (max-width: 600px) {
 .about-container {
-    display: block;
-    text-align: center;
-    margin: 10px 10px 10px 10px;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 50px;
+    line-height: 2;
+    margin-bottom: 24px;
 }
 
+
+
+
 .about-main-container {
-  margin-left: 0%;
-  margin-right: 0%;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 
