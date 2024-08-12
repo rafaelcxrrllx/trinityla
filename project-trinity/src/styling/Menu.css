@@ -19,11 +19,12 @@
   height: 100vh;
   margin-left: -32px;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-direction: row-reverse;
-  align-content: flex-start;
-  align-items: center;
+  align-content: start;
+  align-items: left;
   flex-wrap: wrap;
+  
 }
 
 .hamburger-menu {
@@ -41,7 +42,8 @@
   transition: 0.4s;
   display: flex;
   font-size: 32px;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 32px;
 }
 
 

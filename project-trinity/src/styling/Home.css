@@ -223,7 +223,7 @@
 
       
     #question {
-        margin-top: 4vh;
+        margin-top: 15vh;
     }
     
     
@@ -255,8 +255,11 @@
     }
 
     #question {
-        margin-top: 17vh;
+        margin-top: 13vh;
+        line-height: .8;
+
     }
+
 
 
     

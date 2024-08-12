@@ -110,7 +110,7 @@ function Home() {
         <div className='clouds'>
        
           <h1 id='question'>
-            follow the  <span className='rainbow'>white rabbit...</span>
+            follow <br/>the  <span className='rainbow'>white rabbit...</span>
           </h1>
           </div>
         </section>
