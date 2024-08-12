@@ -141,7 +141,7 @@ function Home() {
           </div>
         </section>
       <section className='second-page'>
-        <div className='mountains'>
+        <div className='clouds'>
         <div className='spotify-container'>
           <SpotifyNow/>
         </div>

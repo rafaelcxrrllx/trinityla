@@ -20,8 +20,7 @@
     overflow: hidden;
     margin-top: 20%;
     font-weight: 600;
-    background-color: #070F19;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(197, 227, 254, 0.1);
 }
 
 
@@ -131,7 +130,7 @@
 
 .nowPlayingTime {
     text-align: center;
-    color: #bababa;
+    color: #ffffff;
     font-family: Playfair Display;
     font-size: 20px;
 }
