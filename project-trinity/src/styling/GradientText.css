@@ -6,6 +6,7 @@
   cursor: pointer;
   z-index: 1;
   margin: 0px;
+  transition: color 1s ease; /* Transition for color property */
 }
 
 .letter::before {
@@ -23,6 +24,7 @@
   margin-top: 30px;
   margin-bottom: -10px;
   margin: -24px;
+
 }
 
 #question .letter{

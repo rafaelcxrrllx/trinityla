@@ -21,7 +21,7 @@ function Collections() {
 
     
 
-    <div className='home-container'>
+    <div className='dove'>
             
 
     <FlourescentNav/>

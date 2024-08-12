@@ -60,7 +60,7 @@ function Contact() {
 return (
 
 
-    <div>
+    <div className='dove'>
         <Nav/>
         <motion.div
         initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0

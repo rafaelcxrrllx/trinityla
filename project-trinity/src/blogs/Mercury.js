@@ -18,7 +18,7 @@ function Mercury() {
 
     
 
-    <div>
+        <div className='dove'>
               
 
         <Nav/>

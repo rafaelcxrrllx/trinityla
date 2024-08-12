@@ -89,7 +89,7 @@ function VolumeOne() {
   return (
 
 
-    <div className='home-container'>
+    <div className='dove'>
             
 
     <Nav/>

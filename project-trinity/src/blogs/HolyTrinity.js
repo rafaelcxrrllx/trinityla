@@ -22,7 +22,7 @@ function HolyTrinity() {
 
     return (
 
-    <div>
+        <div className='dove'>
               
 
     <Nav/>

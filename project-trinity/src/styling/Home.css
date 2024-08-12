@@ -132,7 +132,13 @@
 
 .rainbow:hover {
     color: #f3e5ab;
-  
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#070F19;
+
+}
+
+.rainbow.visible {
+    color: #f3e5ab;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color:#070F19;
 

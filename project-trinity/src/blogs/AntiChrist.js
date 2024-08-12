@@ -24,7 +24,7 @@ function AntiChrist() {
 
     return (
 
-    <div>
+        <div className='dove'>
               
 
     <Nav/>

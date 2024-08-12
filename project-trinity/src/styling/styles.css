@@ -3,6 +3,7 @@
     src: url('../fonts/Ancient Medium.ttf');
   }
 
+
   
 html, body {
     height: 100%;
@@ -78,3 +79,17 @@ a:visited {
     text-decoration: none;
     display: inline-block;
 }
+
+/* Base style for the section */
+.section {
+    opacity: 0; /* Hidden by default */
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+  }
+  
+  /* Effect when the section is in view */
+  .section.visible {
+    opacity: 1; /* Visible when scrolled into view */
+  }
+
+  
+

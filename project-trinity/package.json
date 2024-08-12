@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/three": "^0.167.1",
+    "ani-cursor": "^0.0.5",
     "buffer": "^6.0.3",
     "emailjs-com": "^3.2.0",
     "framer-motion": "^11.2.2",

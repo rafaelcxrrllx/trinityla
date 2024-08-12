@@ -14,7 +14,7 @@ function Blog() {
 
 return (
 
-    <div> 
+    <div className='dove'>
         <Nav/>
         <BlogCarousel/>
         <motion.div className="desktop-cover"

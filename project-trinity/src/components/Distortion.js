@@ -26,6 +26,9 @@ const DistortionEffect = () => {
     // Function to handle window resize
     const handleResize = () => {
         const width = mountRef.current.clientWidth;
+        if (width == null ) {
+          width = 600;
+        }
         const height = mountRef.current.clientHeight;
   
         // Define breakpoints
@@ -74,7 +77,11 @@ const DistortionEffect = () => {
 
     // Clean up on component unmount
     // return () => {
-    //   mountRef.current.removeChild(renderer.domElement);
+    //   if (mountRef.current) {
+      
+    //       mountRef.current.removeChild(rendererRef.current);
+       
+    //   }   
     // };
   }, []);
 

@@ -1,6 +1,7 @@
 // Styling
 import './styling/App.css';
 
+
 // Pages
 import Home from './pages/Home';
 import Shop from './pages/Shop';
@@ -31,11 +32,37 @@ import HolyTrinity from './blogs/HolyTrinity';
 // Components
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
+import React, { useEffect } from 'react';
+import { convertAniBinaryToCSS } from "ani-cursor";
 
 
+async function applyCursor(selector, aniUrl) {
+  const response = await fetch(aniUrl);
+  const data = new Uint8Array(await response.arrayBuffer());
+
+  const style = document.createElement("style");
+  style.innerText = convertAniBinaryToCSS(selector, data);
+
+  document.head.appendChild(style);
+}
 
 function App() {
+
+  useEffect(() => {
+    applyCursor(".dove", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+    applyCursor("a", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+    applyCursor("Link", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+    applyCursor(".letter", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+    applyCursor("button", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+    applyCursor(".menu", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
+
     
+
+
+
+  }, []);
+
+
   return (
 
     <div>

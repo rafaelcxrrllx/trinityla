@@ -43,7 +43,7 @@ function ItemTwo() {
   };
 
   return (
-    <div>
+    <div className='dove'>
     <Nav/>
     <ScrollToTop/>
     <Link id='item-link' to="/shop">

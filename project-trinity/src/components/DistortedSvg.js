@@ -61,8 +61,11 @@ const DistortedSvg = ({ svgUrl }) => {
     });
 
     return () => {
-      containerRef.current.removeChild(renderer.domElement);
-    };
+      if (containerRef.current && rendererRef.current) {
+        if (containerRef.current.contains(rendererRef.current)) {
+          containerRef.current.removeChild(rendererRef.current);
+        }
+      }    };
   }, [svgUrl]);
 
   return <div ref={containerRef} style={{ width: '100%', height: '100%' }} />;

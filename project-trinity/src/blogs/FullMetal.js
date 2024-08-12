@@ -21,7 +21,7 @@ function FullMetal() {
 
     return (
 
-    <div>
+        <div className='dove'>
            
     <Nav/>
         <Link id='item-link' to="/blog">
