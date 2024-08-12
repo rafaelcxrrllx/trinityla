@@ -19,8 +19,15 @@ import LoadingScreen from '../components/LoadingScreen';
 import React, { useEffect, useRef, useState } from 'react';
 import GradientText from '../components/GradientText';
 import Clouds from '../components/Clouds'
+import { Link } from 'react-router-dom';
+import TRINITYFRONT from '../assets/items/trinity-front.svg'
+import TRINITYBACK from '../assets/items/trinity-back.svg'
+
 
 function Home() {
+
+  const [TRISRC, setTRISrc] = useState(TRINITYBACK);
+
 
 
   const [isVisible, setIsVisible] = useState(false);
@@ -85,7 +92,7 @@ function Home() {
               ref={sectionRef}
               className={`section ${isVisible ? 'visible' : ''}`}>
               <h1 id='question'>
-              what if you take that <span className='rainbow'>chance?</span>
+              wake up, <span className='rainbow'>Neo...</span>
               </h1>
               </div>
        
@@ -103,10 +110,28 @@ function Home() {
         <div className='clouds'>
        
           <h1 id='question'>
-            trust the <span className='rainbow'>UNIVERSE</span>
+            follow the  <span className='rainbow'>white rabbit...</span>
           </h1>
           </div>
         </section>
+
+        <section className='clouds'>
+       
+        <Link id='item-link' to="/shop/trinity">
+       
+        <div className='item'>
+          <div className='shop-item-img'>
+          <img
+          src={TRISRC}
+          alt="hover"
+          onMouseEnter={() => setTRISrc(TRINITYFRONT)}
+          onMouseLeave={() => setTRISrc(TRINITYBACK)}
+          className="hover-image"/>
+          </div>
+        </div>
+      </Link>
+      
+      </section>
 
         <section id="black" className='blue-container'>
           <div className='clouds'>
@@ -115,7 +140,6 @@ function Home() {
             </h1>
           </div>
         </section>
-       
       <section className='second-page'>
         <div className='mountains'>
         <div className='spotify-container'>

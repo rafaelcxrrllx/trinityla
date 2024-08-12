@@ -20,7 +20,8 @@
 
 #question {
     font-weight: 500;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    line-height: 1.2;
 }
 
 
@@ -188,7 +189,7 @@
     } 
     
     #question {
-        margin-top: 24vh;
+        margin-top: 20vh;
     }
     
     
@@ -222,7 +223,7 @@
 
       
     #question {
-        margin-top: 24vh;
+        margin-top: 4vh;
     }
     
     
@@ -254,7 +255,7 @@
     }
 
     #question {
-        margin-top: 20vh;
+        margin-top: 17vh;
     }
 
 
