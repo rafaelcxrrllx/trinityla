@@ -17,7 +17,7 @@ const Menu = () => {
   };
 
   return (
-    <div>
+    <div className='dove'>
       <div className="hamburger-container" onClick={handleToggleMenu}>
         <motion.ul  
           className="hamburger">

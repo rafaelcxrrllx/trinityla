@@ -84,6 +84,7 @@
     font-family: Ancient Medium !important;
     margin-bottom: 12px;
     letter-spacing: 3px;
+    font-weight: 500;
 
 }
 
@@ -126,6 +127,7 @@
     width: 100%;
     font-family: Playfair Display;
     font-size: 24px;
+    
 }
 
 .nowPlayingTime {
@@ -202,6 +204,7 @@
     margin-bottom: 12px;
     line-height: 1;
     margin-top: 24px;
+    font-weight: 500;
 
 
 }

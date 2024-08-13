@@ -55,7 +55,6 @@ function App() {
     applyCursor(".letter", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
     applyCursor("button", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
     applyCursor(".menu", "https://archive.org/cors/tucows_169750_Dove_Flying/dove.ani");
-
     
 
 
