@@ -6,7 +6,7 @@ import '../styling/Home.css'
 import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import GradientText from './GradientText';
-
+import cross from '../assets/cross.gif'
 function Landing() {
 
 

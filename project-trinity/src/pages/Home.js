@@ -27,7 +27,6 @@ import Landing from '../components/Landing';
 import LandingShirt from '../components/LandingShirt';
 import ReleaseDate from '../components/ReleaseDate';
 
-
 function Home() {
 
   const [TRISRC, setTRISrc] = useState(TRINITYBACK);
@@ -114,7 +113,9 @@ function Home() {
             animate={isVisible ? { y: 0, opacity:  1 }: {y: '7vw', opacity: 0} } // Animate opacity to 1
             transition={{ duration: 1 }}>
         follow <br/>the <span className='rainbow'>white rabbit.</span>
+        
         </motion.h1>
+       
         </div>
  
     </div>

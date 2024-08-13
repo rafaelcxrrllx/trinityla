@@ -14,6 +14,15 @@
 
 }
 
+.cross {
+    position: relative;
+    top: 24px;
+    align-self: center;
+    right: 0;
+    width: auto;
+    z-index: 0;
+}
+
 .second-page {
    background-color: #c5e3fe;
 }
