@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cd520da.css",
-    "main.js": "/static/js/main.31635bb1.js",
+    "main.css": "/static/css/main.c13fd4ad.css",
+    "main.js": "/static/js/main.fc3ddc97.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -153,6 +153,7 @@
     "static/media/scorpio.svg": "/static/media/scorpio.d5871e88ec5383fac48d51309bcbf621.svg",
     "static/media/capricorn.svg": "/static/media/capricorn.f3c2032d86559d9c20160b4c0b108710.svg",
     "static/media/taurus.svg": "/static/media/taurus.e17ddc73a254987b5552fb0956a0bed0.svg",
+    "static/media/pause.svg": "/static/media/pause.bf9be2d295092a6728aa4d5d8680f04c.svg",
     "static/media/leo.svg": "/static/media/leo.342b5e2d0be880ebc1a50f6ca3493bb6.svg",
     "index.html": "/index.html",
     "static/media/libra.svg": "/static/media/libra.80a3392bb8f636b3de4f72e6b1513ffe.svg",
@@ -160,17 +161,16 @@
     "static/media/pisces.svg": "/static/media/pisces.fbdc451d509e1cd3883942e117408094.svg",
     "static/media/aries.svg": "/static/media/aries.2269b11890d30d3a036a8841b46b61ad.svg",
     "static/media/aquarius.svg": "/static/media/aquarius.b5bc173e5c117dc0e5a469fd61e1085e.svg",
-    "static/media/pause.svg": "/static/media/pause.f3917a32fd056b60b3a19805254c2d20.svg",
     "static/media/sagittarius.svg": "/static/media/sagittarius.64943268334273de20d19e0669c530a5.svg",
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.7cd520da.css.map": "/static/css/main.7cd520da.css.map",
-    "main.31635bb1.js.map": "/static/js/main.31635bb1.js.map",
+    "main.c13fd4ad.css.map": "/static/css/main.c13fd4ad.css.map",
+    "main.fc3ddc97.js.map": "/static/js/main.fc3ddc97.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cd520da.css",
-    "static/js/main.31635bb1.js"
+    "static/css/main.c13fd4ad.css",
+    "static/js/main.fc3ddc97.js"
   ]
 }
