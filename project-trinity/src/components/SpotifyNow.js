@@ -7,6 +7,7 @@ import '../styling/Spotify.css';
 import soundBar from '../assets/icons/soundbar.gif'
 import pause from '../assets/icons/pause.svg'
 import eyes from '../assets/trinity-eyes.gif'
+import { motion } from 'framer-motion';
 
 // Setting up the Spotify API and Endpoints
 const NOW_PLAYING_ENDPOINT = 'https://api.spotify.com/v1/me/player/currently-playing';
@@ -186,8 +187,40 @@ const NowPlaying = () => {
     calculateDuration();
   });
 
+
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
+
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 } // Adjust the threshold as needed
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
+    };
+  }, []);
+
+
   return (
-    // Depending on the value of playerState, the href, album image and icons are updated
+    <div
+    ref={sectionRef}
+    className={`section ${isVisible ? 'visible' : ''}`}>
+    <motion.div
+       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+       animate={isVisible ? { y: 0, opacity:  1 }: {y: '7vw', opacity: 0} } // Animate opacity to 1
+       transition={{ duration: 1 }}>
+
     <a style={{ textDecoration: 'none', color: 'black'}} href={playerState === 'PLAY' || playerState === 'PAUSE' ? nowPlaying.songUrl : ''}>
       <div className='nowPlayingCard'>
         {/* Album image and href displayed based on playerState */}
@@ -215,6 +248,8 @@ const NowPlaying = () => {
         </div>
         </div>
     </a>
+    </motion.div>
+    </div>
   );
 };
 

@@ -22,16 +22,23 @@ const CarouselSlideThree = () => {
 
   };
 
+
+
+
+
+
+
   return (
-    <div className="carouselslide-container">
-      <Slider {...settings}>
-        <div>
-          <img src={TRINITYFRONT} alt="Image 1" />
-        </div>
-        <div>
-          <img src={TRINITYBACK} alt="Image 2" />
-        </div>
-      </Slider>
+   
+      <div className="carouselslide-container">
+        <Slider {...settings}>
+          <div>
+            <img src={TRINITYFRONT} alt="Image 1" />
+          </div>
+          <div>
+            <img src={TRINITYBACK} alt="Image 2" />
+          </div>
+        </Slider>
     </div>
   );
 };

@@ -18,7 +18,7 @@
    background-color: #c5e3fe;
 }
 
-#question {
+.question {
     font-weight: 500;
     margin-top: 5vh;
     line-height: 1.2;
@@ -113,6 +113,8 @@
 
 .blue-container {
     background-color:  #c5e3fe;
+    display: flex;
+    justify-content: space-between;
 }
 
 .blue-container h1 {
@@ -135,6 +137,7 @@
     color: #f3e5ab;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color:#070F19;
+    
 
 }
 
@@ -152,6 +155,10 @@
 
 #black h1 {
     color:  #c5e3fe;
+}
+
+#landing-item {
+    margin-top: 14vh;
 }
 
 
@@ -188,9 +195,18 @@
         height: 75vh;
     } 
     
-    #question {
+    .question {
         margin-top: 20vh;
     }
+
+    #Neo {
+        margin-top: 32vh;
+    }
+
+    #rabbit {
+        margin-top: 24vh;
+    }
+
     
     
 
@@ -221,10 +237,16 @@
         font-size: 20vh;
     }
 
-      
-    #question {
-        margin-top: 15vh;
+    #Neo {
+        margin-top: 40%;
     }
+
+    #rabbit {
+        margin-top: 16vh;
+    }
+
+
+
     
     
     
@@ -254,12 +276,19 @@
     
     }
 
-    #question {
+    .question {
         margin-top: 13vh;
         line-height: .8;
 
     }
 
+    #Neo {
+        margin-top: 28vh;
+    }
+
+    #rabbit {
+        margin-top: 11vh;
+    }
 
 
     

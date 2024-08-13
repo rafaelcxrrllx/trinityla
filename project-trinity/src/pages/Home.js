@@ -22,6 +22,10 @@ import Clouds from '../components/Clouds'
 import { Link } from 'react-router-dom';
 import TRINITYFRONT from '../assets/items/trinity-front.svg'
 import TRINITYBACK from '../assets/items/trinity-back.svg'
+import Section from '../components/Section';
+import Landing from '../components/Landing';
+import LandingShirt from '../components/LandingShirt';
+import ReleaseDate from '../components/ReleaseDate';
 
 
 function Home() {
@@ -32,6 +36,8 @@ function Home() {
 
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+  const sectio2Ref = useRef(null);
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -53,10 +59,28 @@ function Home() {
     };
   }, []);
 
-  const text = 'trinity';
-  const date = '9.28.24';
-  const question = 'what if you take that chance?';
-  const thyself = 'and come to know thyself?';
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 } // Adjust the threshold as needed
+    );
+
+    if (sectio2Ref.current) {
+      observer.observe(sectio2Ref.current);
+    }
+
+
+    return () => {
+      if (sectio2Ref.current) {
+        observer.unobserve(sectio2Ref.current);
+      }
+    };
+  }, []);
+
+
+
   return (
     <div className='dove'>
       <LoadingScreen/>
@@ -67,37 +91,9 @@ function Home() {
         transition={{ duration: 2, delay: 1.5 }}
         id="home">
        
-          <section id='section1' className='landing-page'>
-            <motion.div 
-              initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-              animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
-              transition={{ duration: 2, delay: 1.5 }}
-              className='clouds'>
-              {/* <img className='brand-name' src={brandname} alt='trinity'/> */}
-              <div className="text-container">
-                {text.split(' ').map((letter, index) => (
-                  <GradientText key={index} letter={letter} />
-                ))}
-              </div>
-              <div className='slogan'>
-                  <h2 class="hero glitch layers" data-text="三位一体"><span>三位一体</span></h2>
-              <h1><i>mind </i>body <b>sol</b></h1>
-              </div>
-            </motion.div>
-          </section>
+        <Landing/>
 
-        <section className='blue-container'>
-          <div className='clouds'>
-            <div
-              ref={sectionRef}
-              className={`section ${isVisible ? 'visible' : ''}`}>
-              <h1 id='question'>
-              wake up, <span className='rainbow'>Neo...</span>
-              </h1>
-              </div>
-       
-          </div>
-        </section>
+            <Section/>
        
        
           <div className='distortion-container'>
@@ -106,40 +102,27 @@ function Home() {
           <Distortion/>
           </div>
     
-      <section className='blue-container'>
-        <div className='clouds'>
-       
-          <h1 id='question'>
-            follow <br/>the  <span className='rainbow'>white rabbit...</span>
-          </h1>
-          </div>
-        </section>
-
-        <section className='clouds'>
-       
-        <Link id='item-link' to="/shop/trinity">
-       
-        <div className='item'>
-          <div className='shop-item-img'>
-          <img
-          src={TRISRC}
-          alt="hover"
-          onMouseEnter={() => setTRISrc(TRINITYFRONT)}
-          onMouseLeave={() => setTRISrc(TRINITYBACK)}
-          className="hover-image"/>
-          </div>
+          <section className='blue-container'>
+    <div className='clouds'>
+      <div
+        ref={sectionRef}
+        className={`section ${isVisible ? 'visible' : ''}`}>
+        <motion.h1 
+            className='question' 
+            id="rabbit"
+            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+            animate={isVisible ? { y: 0, opacity:  1 }: {y: '7vw', opacity: 0} } // Animate opacity to 1
+            transition={{ duration: 1 }}>
+        follow <br/>the <span className='rainbow'>white rabbit.</span>
+        </motion.h1>
         </div>
-      </Link>
-      
-      </section>
+ 
+    </div>
+  </section>
 
-        <section id="black" className='blue-container'>
-          <div className='clouds'>
-            <h1 id='question'>
-            <span id="no-border" className='rainbow'>9.28.24</span>
-            </h1>
-          </div>
-        </section>
+    <LandingShirt/>
+
+       <ReleaseDate/>
       <section className='second-page'>
         <div className='clouds'>
         <div className='spotify-container'>

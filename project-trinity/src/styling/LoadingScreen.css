@@ -14,7 +14,7 @@ body {
     align-items: center;
     opacity: 1; /* Initially hidden */
     transition: opacity 2s ease-out;
-    z-index: 0;
+    z-index: 10;
     overflow-x: hidden;
     overflow-y: hidden;
 
@@ -50,6 +50,7 @@ body {
 
 .fade-out {
     animation: fadeOutAnimation ease 1s forwards; /* Fade out animation */
+    z-index: 0;
 }
 
 @media screen and (max-width:768px) {

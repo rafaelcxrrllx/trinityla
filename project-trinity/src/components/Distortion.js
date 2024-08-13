@@ -1,9 +1,11 @@
 // src/DistortionEffect.js
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import * as THREE from 'three';
 
 const DistortionEffect = () => {
   const mountRef = useRef(null);
+
+
 
   useEffect(() => {
     // Set up the scene, camera, and renderer
@@ -25,10 +27,10 @@ const DistortionEffect = () => {
 
     // Function to handle window resize
     const handleResize = () => {
-        const width = mountRef.current.clientWidth;
-        if (width == null ) {
-          width = 600;
-        }
+      let width = 0;
+      if (mountRef.current) {
+        width = mountRef.current.clientWidth;
+      }       
         const height = mountRef.current.clientHeight;
   
         // Define breakpoints
@@ -85,7 +87,12 @@ const DistortionEffect = () => {
     // };
   }, []);
 
-  return <div ref={mountRef} style={{ width: '50vh', height: '100%' }} />;
+
+
+
+  return <div 
+    ref={mountRef} 
+    style={{ width: '50vh', height: '100%' }} />;
 };
 
 export default DistortionEffect;

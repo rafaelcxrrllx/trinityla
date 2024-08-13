@@ -102,9 +102,6 @@ function VolumeOne() {
     <br/>
     <br/>
     <MasonryLayout items={items} />
-
-      
-      
       </motion.div>
     <Footer/>
     </div>
