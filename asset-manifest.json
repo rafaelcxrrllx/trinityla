@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c13fd4ad.css",
-    "main.js": "/static/js/main.fc3ddc97.js",
+    "main.css": "/static/css/main.9cfbeb7d.css",
+    "main.js": "/static/js/main.11e17ad1.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
@@ -45,6 +45,7 @@
     "static/media/staygolden-back.svg": "/static/media/staygolden-back.582d02848995efccc6a65e62c68581cd.svg",
     "static/media/theFool.jpg": "/static/media/theFool.8e281ab3381713a3c9bc.jpg",
     "static/media/aries-card-desktop.svg": "/static/media/aries-card-desktop.9470d5b49f97a32c10d763b618e7a21b.svg",
+    "static/media/cross.gif": "/static/media/cross.0520bd30d962e9749098.gif",
     "static/media/taurus-card-desktop.svg": "/static/media/taurus-card-desktop.f7271b7dbab356fc3d978ada6093832f.svg",
     "static/media/christRelease.jpg": "/static/media/christRelease.4b001578f87534365ed5.jpg",
     "static/media/womanNChimp.jpg": "/static/media/womanNChimp.c30e501448d78b61adfa.jpg",
@@ -165,12 +166,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.c13fd4ad.css.map": "/static/css/main.c13fd4ad.css.map",
-    "main.fc3ddc97.js.map": "/static/js/main.fc3ddc97.js.map",
+    "main.9cfbeb7d.css.map": "/static/css/main.9cfbeb7d.css.map",
+    "main.11e17ad1.js.map": "/static/js/main.11e17ad1.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c13fd4ad.css",
-    "static/js/main.fc3ddc97.js"
+    "static/css/main.9cfbeb7d.css",
+    "static/js/main.11e17ad1.js"
   ]
 }
