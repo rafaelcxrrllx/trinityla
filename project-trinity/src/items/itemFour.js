@@ -46,6 +46,7 @@ function ItemFour() {
     <div className='dove'>
       <ScrollToTop/>
     <Nav/>
+    <div className='clouds'>
     <Link id='item-link' to="/shop">
       <motion.div
       initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
@@ -227,6 +228,7 @@ function ItemFour() {
         </div>
       </div>
     </motion.div>
+    </div>
     <Footer/>      
     </div>
   );
