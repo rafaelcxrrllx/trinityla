@@ -91,35 +91,26 @@ function Home() {
         id="home">
        
         <Landing/>
-
-            <Section/>
-       
-       
-          <div className='distortion-container'>
-          <ScrollingText/>
-
-          <Distortion/>
-          </div>
+        <ScrollingText/>
+        <Section/>
+        <Distortion/>
     
-          <section className='blue-container'>
-    <div className='clouds'>
-      <div
-        ref={sectionRef}
-        className={`section ${isVisible ? 'visible' : ''}`}>
-        <motion.h1 
-            className='question' 
-            id="rabbit"
-            initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
-            animate={isVisible ? { y: 0, opacity:  1 }: {y: '7vw', opacity: 0} } // Animate opacity to 1
-            transition={{ duration: 1 }}>
-        follow <br/>the <span className='rainbow'>white rabbit.</span>
-        
-        </motion.h1>
-       
+        <section className='blue-container'>
+          <div className='clouds'>
+            <div
+              ref={sectionRef}
+              className={`section ${isVisible ? 'visible' : ''}`}>
+              <motion.h1 
+                  className='question' 
+                  id="rabbit"
+                  initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
+                  animate={isVisible ? { y: 0, opacity:  1 }: {y: '7vw', opacity: 0} } // Animate opacity to 1
+                  transition={{ duration: 1 }}>
+                    follow <br/>the <span className='rainbow'>white rabbit.</span>
+              </motion.h1>
+            </div>
         </div>
- 
-    </div>
-  </section>
+    </section>
 
     <LandingShirt/>
 

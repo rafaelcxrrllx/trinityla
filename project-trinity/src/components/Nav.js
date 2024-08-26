@@ -59,8 +59,10 @@ useEffect(() => {
 
 
   return (
-    <nav 
-      
+    <motion.nav 
+      initial={{opacity: 0 }} // Initial opacity set to 0
+      animate={{ opacity:  1 }} // Animate opacity to 1
+      transition={{ duration: 2, delay: 1.5 }}
       className="navbar">
       <div className="navbar-emblem">
         <Link className='landing-page-link' to="/home"> <motion.img  
@@ -128,7 +130,7 @@ useEffect(() => {
           </div>
         </motion.div>
       </div>
-    </nav>
+    </motion.nav>
   );
 }
 

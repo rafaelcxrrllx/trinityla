@@ -7,8 +7,8 @@
 .nowPlayingCard {
     flex-shrink: 0;
     border-radius: 22px;
-    /* border: 2px solid  #070F19;
-    box-shadow: 5px 5px 0  #070F19; */
+    /* border: 2px solid   #C5E3FE ;
+    box-shadow: 5px 5px 0   #C5E3FE ; */
     align-items: center;
     /* padding: 24px; */
     width: 50vh;
@@ -16,35 +16,34 @@
     display: inline-block;
     justify-content: space-between;
     transition: all 0.5s ease;
-    color: #070F19;
+    color: #c5e3fe;
     overflow: hidden;
     white-space: wrap;
     margin-top: 20vh;
     font-weight: 600;
-    background-color: rgba(197, 227, 254, 0.1);
 }
 
 
 
   
 .nowPlayingCard a {
-    color: #070F19;
+    color:  #C5E3FE ;
     text-decoration: none;
 }
 
 .nowPlayingCard a:hover {
-    color:  #070F19;
+    color:   #C5E3FE ;
     text-decoration: underline;
 }
 
 .nowPlayingCard img:hover {
-     border: 2px solid  #070F19;
-    box-shadow: 5px 5px 0  #070F19;
+     border: 2px solid   #C5E3FE ;
+    box-shadow: 5px 5px 0   #C5E3FE ;
 }
 
 .nowPlayingImage img {
    border-style: solid;
-   border-color: #070F19;
+   border-color:  #C5E3FE ;
     width: 40vh;
     height: 40vh;
     flex-shrink: 0;
@@ -57,7 +56,7 @@
 
 .eyes-offline {
     border-radius: 8px;
-    border: 1px solid  #070F19;
+    border: 1px solid   #C5E3FE ;
     box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
     transition: all 0.5s ease;
     width: 60px;
@@ -84,7 +83,7 @@
 
 .nowPlayingTitle, .playlistName {
     flex-shrink: 0;
-    color:  #070F19;
+    color:   #C5E3FE ;
     white-space: wrap;
     text-align: center;
     text-transform: lowercase;
@@ -143,7 +142,7 @@
 
 .nowPlayingTime {
     text-align: center;
-    color:  #070F19;
+    color:   #C5E3FE ;
     font-family: Playfair Display;
     font-size: 16px;
 }
@@ -152,7 +151,7 @@
     text-align: center;
     width: 100%;
     padding-top: 10px;
-    color:   #070F19;
+    color:    #C5E3FE ;
 }
 .soundbar {
     width: 25% !important;
@@ -194,7 +193,7 @@
     
     .eyes-offline {
         border-radius: 8px;
-        border: 1px solid #070F19;
+        border: 1px solid  #C5E3FE ;
         box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
         transition: all 0.5s ease;
         width: 180px;
@@ -206,7 +205,7 @@
 
     .nowPlayingTitle, .playlistName {
     flex-shrink: 0;
-    color: #070F19;
+    color:  #C5E3FE ;
     white-space: wrap;
     text-align: center;
     text-transform: lowercase;

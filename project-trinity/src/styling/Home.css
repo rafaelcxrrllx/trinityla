@@ -9,7 +9,7 @@
 
 
 .landing-page {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-top: 20vh;
 
 }
@@ -23,9 +23,6 @@
     z-index: 0;
 }
 
-.second-page {
-   background-color: #c5e3fe;
-}
 
 .question {
     font-weight: 500;
@@ -102,34 +99,25 @@
     background: linear-gradient(90deg, #5D95A4 0%, #C97838 100%);
 }
 
-
 .home {
     padding: 32px
 }
 
-.home-title {
-    font-size: 32px;
-    padding-top: 32px;
-}
-
-.subtitle {
-    font-size: 26px;
-}
 
 .container {
     padding-top: 32px; 
 }
 
 .blue-container {
-    background-color:  #c5e3fe;
+    /* background-color:  #c5e3fe; */
     display: flex;
     justify-content: space-between;
 }
 
 .blue-container h1 {
-    color: #070F19;
+    color: #c5e3fe;
     font-family: Ancient Medium;
-    font-size: 30vh;
+    font-size: 20vh;
     line-height: .9;
 }
 
@@ -193,9 +181,9 @@
     }
 
     .blue-container h1 {
-        color: #070F19;
+        color: #c5e3fe;
         font-family: Ancient Medium;
-        font-size: 15vh;
+        font-size: 10vh;
     }
 
 
@@ -241,9 +229,9 @@
     }
 
     .blue-container h1 {
-        color: #070F19;
+        color: #c5e3fe;
         font-family: Ancient Medium;
-        font-size: 20vh;
+        font-size: 10vh;
     }
 
     #Neo {
@@ -276,7 +264,7 @@
     }
 
     .brand-name {
-        width: 98%;
+        width: 50%;
     }
 
     .landing-page {
