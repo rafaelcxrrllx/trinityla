@@ -53,7 +53,7 @@ function Landing() {
               </div>
               <div className='slogan'>
                   <h2 class="hero glitch layers" data-text="三位一体"><span>三位一体</span></h2>
-              <h1><i>mind </i>body <b>sol</b></h1>
+              {/* <h1><i>mind </i>body <b>sol</b></h1> */}
               </div>
             </motion.div>
           </section>

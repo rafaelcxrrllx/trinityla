@@ -7,6 +7,7 @@
   z-index: 1;
   margin: 0px;
   transition: color 1s ease; /* Transition for color property */
+
 }
 
 .letter::before {

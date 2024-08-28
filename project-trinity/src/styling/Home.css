@@ -10,7 +10,7 @@
 
 .landing-page {
     font-size: 1.5rem;
-    padding-top: 20vh;
+    margin-top: 15vh;
 
 }
 
@@ -81,7 +81,6 @@
     /* border-radius: 100%; */
     width: 100%;
 }
-
 
 
 .slogan h1{
@@ -182,17 +181,18 @@
     .blue-container h1 {
         color: #c5e3fe;
         font-family: Ancient Medium;
-        font-size: 10vh;
+        font-size: 7vh;
     }
 
 
     .landing-page {
         font-size: 1.5rem;
         height: 75vh;
+        margin-top: 20vh;
     } 
     
     .question {
-        margin-top: 20vh;
+        margin-top: 25vh;
     }
 
     #Neo {
@@ -267,9 +267,7 @@
     }
 
     .landing-page {
-        font-size: 1.5rem;
-        padding-top: 0vh;
-    
+        font-size: 1.5rem;    
     }
 
     .question {

@@ -26,6 +26,7 @@ import Section from '../components/Section';
 import Landing from '../components/Landing';
 import LandingShirt from '../components/LandingShirt';
 import ReleaseDate from '../components/ReleaseDate';
+import Introduction from '../components/introduction';
 
 function Home() {
 
@@ -91,11 +92,12 @@ function Home() {
         id="home">
        
         <Landing/>
-        <ScrollingText/>
+        <Introduction/>
+        {/* <ScrollingText/>
         <Section/>
-        <Distortion/>
+        <Distortion/> */}
     
-        <section className='blue-container'>
+        {/* <section className='blue-container'>
           <div className='clouds'>
             <div
               ref={sectionRef}
@@ -110,12 +112,12 @@ function Home() {
               </motion.h1>
             </div>
         </div>
-    </section>
+    </section> */}
 
-    <LandingShirt/>
+    {/* <LandingShirt/> */}
 
-       <ReleaseDate/>
-      <section className='second-page'>
+       {/* <ReleaseDate/> */}
+      <section className='blue-container'>
         <div className='clouds'>
         <div className='spotify-container'>
           <SpotifyNow/>

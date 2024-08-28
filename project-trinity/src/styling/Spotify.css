@@ -36,7 +36,7 @@
     text-decoration: underline;
 }
 
-.nowPlayingCard img:hover {
+.nowPlayingImage img:hover {
      border: 2px solid   #C5E3FE ;
     box-shadow: 5px 5px 0   #C5E3FE ;
 }
