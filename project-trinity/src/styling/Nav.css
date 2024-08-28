@@ -25,7 +25,7 @@ body.menu-open {
   background-color: #070F19;
   /* mix-blend-mode: difference; */
   padding: 12px 32px 12px 32px;
-  position: -webkit-sticky; /* For Safari */
+  /* position: -webkit-sticky;  */
   top: 0;
   align-items: flex-start;  
 }
