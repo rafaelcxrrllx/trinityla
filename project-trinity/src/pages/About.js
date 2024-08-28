@@ -64,14 +64,14 @@ function About() {
               "As the blood is the life of the flesh, it naturally follows that, as man is a TRINITY (body, or flesh, soul and spirit), the condition, or health of his body determines that of his soul."
             </p>
           </div>
-          <p>
+          {/* <p>
             <span className='start-letter'>
             I 
             </span> 
             am here to spread the gospel truth. 
             The real story that astrology tells, that story concerns the understanding, purification, mastery and perfection of the human body and nothing else. 
             The scriptures are allegories, parables and fables based on the human body, "fearfully and wonderfully made". 
-          </p>
+          </p> */}
           <p>
             Loved Not Owned,
           </p>
