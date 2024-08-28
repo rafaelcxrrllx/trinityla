@@ -49,12 +49,13 @@ function Introduction() {
           className='bodyshot'>
 
           <div className='left-container'>
+            <div className='image-container'>
             <motion.img  
               initial={{ y: '1vw', opacity: 0 }} // Initial opacity set to 0
               animate={{ y: 0, opacity:  1 }} // Animate opacity to 1
               transition={{ duration: 2, delay: 1.5 }}
               id="bodyshot" src={bodyshot} alt="image of author"/>
-            
+            </div>
             <motion.h1 id="trinityla">
               Trinity <span className='rainbow'>LA</span>
             </motion.h1>

@@ -107,9 +107,12 @@
         margin-left: 24px;
         margin-right: 24px;
         text-align: center;
+        margin-top: 24px;
+      
     }
     .left-container {
-        width: 100%;
+        width: 80%;
+        display: block;
         margin-left: 0px;
         text-align: left;
     }
@@ -117,22 +120,25 @@
     .right-container {
         width: 100%;
         text-align: left;
+        
     }
 
     .section #bodyshot {
-        width: auto;
-        height: 400px;
+        width: 100%;
+        margin-left: 12px;
        
     }
 
+
     #trinityla {
        
-        font-size: 84px;
+        font-size: 64px;
         font-weight: 500;
         color: #c5e3fe;
-        margin-top: -80px;
+        margin-top: -60px;
         position: relative;
         z-index: 1;
+        margin-left: 12px;
     }
 
     #neo, #evoking-divinity {
@@ -143,18 +149,38 @@
         margin-top: -50px;
         position: relative;
         z-index: 1;
+        margin-right: 24px;
+        margin-left: 16px;
     }
 
     #evoking-divinity {
         margin-top: 24px;
         position: relative;
-        font-size: 48px;
-        margin-left: 0px;
+        font-size: 32px;
     }
 
     #christ-satan {
         display: none;
 
+    }
+
+    #mission {
+        font-family: Ancient Medium;
+        font-size: 16px;
+        font-weight: 500;
+        color: #9C9C9C;
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        line-height: 1.5;
+        margin-top: -24px;
+        margin-right: 24px;
+        margin-left: 16px;
+    }
+
+    .image-container {
+        width: 100%;
+        text-align: center;
     }
 
 
