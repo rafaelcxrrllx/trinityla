@@ -42,7 +42,7 @@
     background-color: #212121;
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     padding-bottom: 4%;
     padding-top: 2%;
 }
