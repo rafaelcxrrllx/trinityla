@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c0d0256.css",
-    "main.js": "/static/js/main.667eaea2.js",
+    "main.css": "/static/css/main.a8873d70.css",
+    "main.js": "/static/js/main.4ee65e64.js",
     "static/js/453.b29e5ee2.chunk.js": "/static/js/453.b29e5ee2.chunk.js",
     "static/media/trinity.mp4": "/static/media/trinity.93fc53cae79fe1f9bba0.mp4",
+    "static/media/holytrinityfront-prototype.svg": "/static/media/holytrinityfront-prototype.974a8c081ee8401e9611cd33e75d7a65.svg",
     "static/media/seed.JPG": "/static/media/seed.bdffd269cfe828924817.JPG",
     "static/media/blog-cover.svg": "/static/media/blog-cover.5cdf5d49654bb9e87fa35322bc2bf12f.svg",
+    "static/media/holytrinityback-prototype.svg": "/static/media/holytrinityback-prototype.8a04e7b82f8d5f736984dd06353766a3.svg",
     "static/media/heartofgod-back.svg": "/static/media/heartofgod-back.10608b3821bfa33a30440a8cc4c17047.svg",
     "static/media/shirt1-back.svg": "/static/media/shirt1-back.291461cd8e1bc61121422c3b489f286b.svg",
     "static/media/Ressurection.jpg": "/static/media/Ressurection.0fa44262d9ad17970fa9.jpg",
@@ -74,11 +76,15 @@
     "static/media/rainbowTwo.jpg": "/static/media/rainbowTwo.b6325223b082ea1ebe7e.jpg",
     "static/media/alchemy.jpg": "/static/media/alchemy.b65957339caaad57363b.jpg",
     "static/media/e46.jpg": "/static/media/e46.4c80fba3c9e11f827f65.jpg",
+    "static/media/emfblkr.jpg": "/static/media/emfblkr.67c109adc779dc52bb1b.jpg",
     "static/media/trinityGreen.jpg": "/static/media/trinityGreen.a749366033144295d42d.jpg",
+    "static/media/holytrinityback.svg": "/static/media/holytrinityback.22da143cb16b48c016ab22ed60bdfb33.svg",
+    "static/media/holytrinityback-pink.svg": "/static/media/holytrinityback-pink.684df3d1ccfe0d6f56bf309d00073d86.svg",
     "static/media/emf-one.png": "/static/media/emf-one.6373a10f338f8dcc5078.png",
     "static/media/mary.jpg": "/static/media/mary.60b5957fd6276e9eaec1.jpg",
     "static/media/divinefeminine.jpg": "/static/media/divinefeminine.2a163726fa69223213ea.jpg",
     "static/media/insideTower.jpg": "/static/media/insideTower.ec39987f02e9aa173804.jpg",
+    "static/media/holytrinityfront.svg": "/static/media/holytrinityfront.8422c992364529d84d4964b4023ed02f.svg",
     "static/media/moses.webp": "/static/media/moses.794ffa609e4cb6354986.webp",
     "static/media/jupiter.jpg": "/static/media/jupiter.31af318acb5828a65a4f.jpg",
     "static/media/emf-many.png": "/static/media/emf-many.9d884ae63903d5fcf8c5.png",
@@ -118,6 +124,7 @@
     "static/media/trinity-front.svg": "/static/media/trinity-front.55700c34153c717bc40909814c26a12c.svg",
     "static/media/moon.jpg": "/static/media/moon.09a7dcef1550b83e5db7.jpg",
     "static/media/animalman.jpeg": "/static/media/animalman.6288afb971236f59b707.jpeg",
+    "static/media/holytrinityfront-pink.svg": "/static/media/holytrinityfront-pink.a7c6cc16312f312911ca558663471669.svg",
     "static/media/holytrinity.jpg": "/static/media/holytrinity.7b93d432a872d0d07c67.jpg",
     "static/media/solarPlexus.jpeg": "/static/media/solarPlexus.8752adc881ef1f51c630.jpeg",
     "static/media/edward.jpeg": "/static/media/edward.3bb00d38caea72f708c2.jpeg",
@@ -167,12 +174,12 @@
     "static/media/arrow-back.svg": "/static/media/arrow-back.cb2785ec6b6a46d1e200e59a446ee910.svg",
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d4605e414299831bea9b5770a5da6f1.svg",
     "static/media/arrow.svg": "/static/media/arrow.5d4605e414299831bea9b5770a5da6f1.svg",
-    "main.2c0d0256.css.map": "/static/css/main.2c0d0256.css.map",
-    "main.667eaea2.js.map": "/static/js/main.667eaea2.js.map",
+    "main.a8873d70.css.map": "/static/css/main.a8873d70.css.map",
+    "main.4ee65e64.js.map": "/static/js/main.4ee65e64.js.map",
     "453.b29e5ee2.chunk.js.map": "/static/js/453.b29e5ee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c0d0256.css",
-    "static/js/main.667eaea2.js"
+    "static/css/main.a8873d70.css",
+    "static/js/main.4ee65e64.js"
   ]
 }
