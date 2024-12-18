@@ -74,12 +74,12 @@ function ItemThree() {
               TRINITY TEE
             </p>
             <p>
-              $45
+              $33
             </p>
         </div>
         <div className='item-description'>
           <p>
-            WHITE
+            LIGHT BLUE /V LIGHT PINK
           </p>
         </div>
         <div id="size" className='item-description'>

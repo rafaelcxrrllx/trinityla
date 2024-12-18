@@ -17,8 +17,8 @@ import HEARTOFGODBACK from '../assets/items/heartofgod-back.svg'
 import LOVELYBONESFRONT from '../assets/items/lovelybones-front.svg'
 import LOVELYBONESBACK from '../assets/items/lovelybones-back.svg'
 
-import TRINITYFRONT from '../assets/items/trinity-front.svg'
-import TRINITYBACK from '../assets/items/trinity-back.svg'
+import TRINITYFRONT from '../assets/items/holytrinityfront.svg'
+import TRINITYBACK from '../assets/items/holytrinityback.svg'
 
 import GOLDENFRONT from '../assets/items/staygolden-front.svg'
 import GOLDENBACK from '../assets/items/staygolden-back.svg'
@@ -29,7 +29,7 @@ import ENERGYBACK from '../assets/items/energy-back.svg'
 // import EMBLEMFRONT from '../assets/items/emblem-front.svg'
 // import EMBLEMBACK from '../assets/items/emblem-back.svg'
 
-import EMFONE from '../assets/items/emf-one.png'
+import EMFONE from '../assets/items/emfblkr.jpg'
 import EMFTWO from '../assets/items/emf-two.png'
 
 
