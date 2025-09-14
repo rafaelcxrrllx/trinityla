@@ -23,7 +23,7 @@ function Footer() {
           </div>
           <div>
               <p>
-              © 2024 TRINITY
+              © 2025 TRINITY
               </p>
           </div>
       </div>
